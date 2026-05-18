@@ -1,0 +1,9 @@
+{
+  "name": "Domácí IT pomoc",
+  "short_name": "IT pomoc",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fbf7ef",
+  "theme_color": "#c45f32",
+  "lang": "cs"
+}

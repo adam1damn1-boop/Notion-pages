@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "npx serve .",
+    "check": "echo \"Static site: open index.html or deploy the folder.\""
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

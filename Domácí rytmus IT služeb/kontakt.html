@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="cs" data-page="contact">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kontakt | Domácí IT pomoc</title>
+  <meta name="description" content="Domluvte první bezplatnou návštěvu a diagnostiku.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Fraunces:opsz,wght@9..144,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script defer src="./js/i18n.js"></script>
+  <script defer src="./js/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Přejít na obsah</a>
+<header class="site-header">
+  <a class="brand" href="./index.html">⌂Domácí IT pomoc</a>
+  <nav class="main-nav"><a href="./index.html">Služby</a><a href="./kontakt.html" aria-current="page">Kontakt</a></nav>
+  <label class="lang-switch">Jazyk <select data-lang-select><option value="cs">Česky</option></select></label>
+</header>
+<main id="main">
+  <section class="contact-hero">
+    <div class="reveal">
+      <p class="eyebrow">První návštěva zdarma</p>
+      <h1>Společně najdeme nejjednodušší řešení přímo u vás doma.</h1>
+      <p>Zavolejte nebo napište kdykoli — první návštěva i diagnostika jsou vždy zdarma a bez závazků.</p>
+      <div class="contact-actions">
+        <a class="button" href="mailto:technik@example.com?subject=Dom%C3%A1c%C3%AD%20IT%20pomoc">Napsat e-mail</a>
+        <a class="button ghost" href="tel:+420000000000">Zavolat</a>
+      </div>
+      <p class="small-note">Nahraďte ukázkový e-mail a telefon vlastními kontakty. Formulář níže používá pouze e-mailový odkaz, takže nepotřebuje server.</p>
+    </div>
+    <figure class="contact-card reveal">
+      <img src="./img/hero--hover.png" alt="Technik připravený vyrazit na návštěvu" loading="eager">
+      <figcaption>Diagnostika zdarma · platíte jen za práci a díly.</figcaption>
+    </figure>
+  </section>
+  <section class="contact-panel reveal">
+    <h2>Rychlá zpráva</h2>
+    <form action="mailto:technik@example.com" method="post" enctype="text/plain">
+      <label>Jméno <input name="jmeno" autocomplete="name" required></label>
+      <label>Kontakt <input name="kontakt" autocomplete="email" required></label>
+      <label>Co potřebujete vyřešit? <textarea name="zprava" rows="5" required></textarea></label>
+      <button class="button" type="submit">Odeslat přes e-mail</button>
+    </form>
+  </section>
+</main>
+<footer class="site-footer">© Domácí IT pomoc<a href="./index.html">Služby</a></footer>
+</body>
+</html>
