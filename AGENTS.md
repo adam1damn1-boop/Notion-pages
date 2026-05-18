@@ -14,11 +14,11 @@ Use direct delivery to `main` for this project:
 
 ### Definitions
 
-GH_USER = login user
-GH_PAT = authorization token
-repo owner = adam1damn1-boop
-repo name  = Notion-pages
-branch     = main
+GH_USER = login user;  
+GH_PAT = authorization token;  
+repo owner = adam1damn1-boop;  
+repo name  = Notion-pages;  
+branch     = main.  
 
 ### Security requirements
 
