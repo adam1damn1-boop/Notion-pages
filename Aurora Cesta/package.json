@@ -1,0 +1,10 @@
+{
+  "name": "krok-do-budoucnosti",
+  "version": "1.0.0",
+  "description": "Aurora Cesta — výjezdový počítačový mistr (statický web).",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Žádný build krok není potřeba — statické soubory.'"
+  }
+}

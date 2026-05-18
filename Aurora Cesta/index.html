@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="cs" data-theme="aurora">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title data-i18n="meta.title">Krok do budoucnosti — výjezdový počítačový mistr</title>
+  <meta name="description" data-i18n-attr="content" data-i18n="meta.description" content="Výjezdový počítačový mistr u vás doma: údržba, bezpečnost, výuka i design. Výjezd a první diagnostika zdarma." />
+  <meta name="theme-color" content="#0b1326" />
+  <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='28'>🌅</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Přejít na obsah</a>
+
+  <header class="site-header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Krok do budoucnosti">
+        <span class="brand__mark" aria-hidden="true">↗</span>
+        <span class="brand__name" data-i18n="brand.name">Krok do budoucnosti</span>
+      </a>
+      <nav class="primary-nav" aria-label="Hlavní menu">
+        <a href="#care" data-i18n="nav.care">Péče</a>
+        <a href="#security" data-i18n="nav.security">Bezpečnost</a>
+        <a href="#learning" data-i18n="nav.learning">Učení</a>
+        <a href="#design" data-i18n="nav.design">Design</a>
+        <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+      </nav>
+      <div class="header__actions">
+        <div class="lang-switcher" role="group" aria-label="Jazyk">
+          <button type="button" class="lang-switcher__btn is-active" data-lang="cs" aria-pressed="true">CS</button>
+        </div>
+        <a href="#contact" class="btn btn--primary btn--sm hide-sm" data-i18n="cta.book">Domluvit</a>
+        <button class="nav-toggle" type="button" aria-label="Otevřít menu" aria-expanded="false" aria-controls="primary-nav-mobile">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <nav class="primary-nav primary-nav--mobile" id="primary-nav-mobile" aria-label="Mobilní menu">
+      <a href="#care" data-i18n="nav.care">Péče</a>
+      <a href="#security" data-i18n="nav.security">Bezpečnost</a>
+      <a href="#learning" data-i18n="nav.learning">Učení</a>
+      <a href="#design" data-i18n="nav.design">Design</a>
+      <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__aurora" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Výjezdový počítačový mistr</p>
+          <h1 id="hero-title" class="hero__title" data-i18n="hero.title">Krok do budoucnosti — s počítačovým mistrem, který přijede k vám domů.</h1>
+          <p class="hero__lead" data-i18n="hero.lead">Údržba, bezpečnost, výuka a design. První výjezd i diagnostika jsou zdarma a k ničemu vás nezavazují.</p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary" data-i18n="hero.cta1">Domluvit návštěvu</a>
+            <a href="#services" class="btn btn--ghost" data-i18n="hero.cta2">Prozkoumat služby</a>
+          </div>
+          <ul class="hero__badges" aria-label="Výhody">
+            <li><span aria-hidden="true">✓</span><span data-i18n="hero.badge1">Výjezd zdarma</span></li>
+            <li><span aria-hidden="true">✓</span><span data-i18n="hero.badge2">Diagnostika zdarma</span></li>
+            <li><span aria-hidden="true">✓</span><span data-i18n="hero.badge3">Bez nátlaku</span></li>
+          </ul>
+        </div>
+        <figure class="hero__figure hover-img" data-main="./img/hero--main.png" data-hover="./img/hero--hover.png">
+          <img src="./img/hero--main.png" alt="master" width="370" height="790" loading="eager" decoding="async" />
+          <figcaption class="hero__caption" data-i18n="hero.caption">Přijíždím k vám domů po celém okolí.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="care" aria-labelledby="care-title">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="eyebrow" data-i18n="care.eyebrow">01 — Péče o počítač</p>
+          <h2 id="care-title" data-i18n="care.title">Aby technika dýchala</h2>
+          <p class="section__lead" data-i18n="care.lead">Malé kroky, díky kterým váš stroj poslouchá jako první den.</p>
+        </header>
+        <div class="cards cards--4" id="services">
+          <article class="card reveal" data-section="1.1" id="cleaning">
+            <figure class="card__media hover-img" data-main="./img/cleaning--main.png" data-hover="./img/cleaning--hover.png">
+              <img src="./img/cleaning--main.png" alt="cleaning" loading="lazy" decoding="async" />
+            </figure>
+            <div class="card__body">
+              <p class="card__code">1.1</p>
+              <h3 class="card__title" data-i18n="cards.cleaning.title">Čištění počítače</h3>
+              <p class="card__text" data-i18n="content.cleaning"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="1.2" id="upgrade">
+            <figure class="card__media hover-img" data-main="./img/upgrade--main.png" data-hover="./img/upgrade--hover.png">
+              <img src="./img/upgrade--main.png" alt="upgrade" loading="lazy" decoding="async" />
+            </figure>
+            <div class="card__body">
+              <p class="card__code">1.2</p>
+              <h3 class="card__title" data-i18n="cards.upgrade.title">Modernizace</h3>
+              <p class="card__text" data-i18n="content.upgrade"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="1.3" id="software">
+            <figure class="card__media hover-img" data-main="./img/software--main.png" data-hover="./img/software--hover.png">
+              <img src="./img/software--main.png" alt="software" loading="lazy" decoding="async" />
+            </figure>
+            <div class="card__body">
+              <p class="card__code">1.3</p>
+              <h3 class="card__title" data-i18n="cards.software.title">Nastavení softwaru</h3>
+              <p class="card__text" data-i18n="content.software"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="1.4" id="repair">
+            <figure class="card__media hover-img" data-main="./img/repair--main.png" data-hover="./img/repair--hover.png">
+              <img src="./img/repair--main.png" alt="repair" loading="lazy" decoding="async" />
+            </figure>
+            <div class="card__body">
+              <p class="card__code">1.4</p>
+              <h3 class="card__title" data-i18n="cards.repair.title">Opravy a recyklace</h3>
+              <p class="card__text" data-i18n="content.repair"></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="security" aria-labelledby="security-title">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="eyebrow" data-i18n="security.eyebrow">02 — Bezpečnost</p>
+          <h2 id="security-title" data-i18n="security.title">Klid pro vás i váš domov</h2>
+          <p class="section__lead" data-i18n="security.lead">Kamery, alarmy a chytré spotřebiče. Propojím to tak, aby vás technika hlídala — ne stresovala.</p>
+        </header>
+        <div class="cards cards--3">
+          <article class="card reveal" data-section="2.1" id="webcam">
+            <figure class="card__media hover-img" data-main="./img/webcam--main.png" data-hover="./img/webcam--hover.png">
+              <img src="./img/webcam--main.png" alt="webcam" loading="lazy" decoding="async" />
+            </figure>
+            <div class="card__body">
+              <p class="card__code">2.1</p>
+              <h3 class="card__title" data-i18n="cards.webcam.title">Webkamery</h3>
+              <p class="card__text" data-i18n="content.webcam"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="2.2" id="alarm">
+            <figure class="card__media hover-img" data-main="./img/alarm--main.png" data-hover="./img/alarm--hover.png">
+              <img src="./img/alarm--main.png" alt="alarm" loading="lazy" decoding="async" />
+            </figure>
+            <div class="card__body">
+              <p class="card__code">2.2</p>
+              <h3 class="card__title" data-i18n="cards.alarm.title">Domácí alarm</h3>
+              <p class="card__text" data-i18n="content.alarm"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="2.3" id="appliances">
+            <figure class="card__media hover-img" data-main="./img/appliances--main.png" data-hover="./img/appliances--hover.png">
+              <img src="./img/appliances--main.png" alt="appliances" loading="lazy" decoding="async" />
+            </figure>
+            <div class="card__body">
+              <p class="card__code">2.3</p>
+              <h3 class="card__title" data-i18n="cards.appliances.title">Chytrá domácnost</h3>
+              <p class="card__text" data-i18n="content.appliances"></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="learning" aria-labelledby="learning-title">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="eyebrow" data-i18n="learning.eyebrow">03 — Učení</p>
+          <h2 id="learning-title" data-i18n="learning.title">Pro dospělé i děti</h2>
+          <p class="section__lead" data-i18n="learning.lead">Tempo si určujete vy. Z výuky uděláme dobrodružství — bez nátlaku a poučování.</p>
+        </header>
+
+        <div class="subgroup reveal">
+          <p class="subgroup__label" data-i18n="learning.adults">Dospělí</p>
+        </div>
+        <div class="cards cards--1">
+          <article class="card card--wide reveal" data-section="3.1" id="literacy">
+            <figure class="card__media hover-img" data-main="./img/literacy--main.png" data-hover="./img/literacy--hover.png">
+              <img src="./img/literacy--main.png" alt="literacy" loading="lazy" decoding="async" />
+            </figure>
+            <div class="card__body">
+              <p class="card__code">3.1</p>
+              <h3 class="card__title" data-i18n="cards.literacy.title">Počítačová gramotnost</h3>
+              <p class="card__text" data-i18n="content.literacy"></p>
+            </div>
+          </article>
+        </div>
+
+        <div class="subgroup reveal">
+          <p class="subgroup__label" data-i18n="learning.kids">Děti</p>
+        </div>
+        <div class="cards cards--3">
+          <article class="card reveal" data-section="3.2" id="tutor">
+            <figure class="card__media hover-img" data-main="./img/tutor--main.png" data-hover="./img/tutor--hover.png">
+              <img src="./img/tutor--main.png" alt="tutor" loading="lazy" decoding="async" />
+            </figure>
+            <div class="card__body">
+              <p class="card__code">3.2</p>
+              <h3 class="card__title" data-i18n="cards.tutor.title">Doučování informatiky</h3>
+              <p class="card__text" data-i18n="content.tutor"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="3.3" id="chess">
+            <figure class="card__media hover-img" data-main="./img/chess--main.png" data-hover="./img/chess--hover.png">
+              <img src="./img/chess--main.png" alt="chess" loading="lazy" decoding="async" />
+            </figure>
+            <div class="card__body">
+              <p class="card__code">3.3</p>
+              <h3 class="card__title" data-i18n="cards.chess.title">Šachy</h3>
+              <p class="card__text" data-i18n="content.chess"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="3.4" id="development">
+            <figure class="card__media hover-img" data-main="./img/development--main.png" data-hover="./img/development--hover.png">
+              <img src="./img/development--main.png" alt="development" loading="lazy" decoding="async" />
+            </figure>
+            <div class="card__body">
+              <p class="card__code">3.4</p>
+              <h3 class="card__title" data-i18n="cards.development.title">Vyspělé technologie</h3>
+              <p class="card__text" data-i18n="content.development"></p>
+            </div>
+          </article>
+        </div>
+
+        <aside class="callout reveal" role="note">
+          <span class="callout__icon" aria-hidden="true">⭐</span>
+          <p data-i18n="learning.callout">Tajemství úspěchu ve škole: aby vaše děti obstály mezi vrstevníky, měly by už dnes začít chápat umělou inteligenci. Ve škole se to neučí — kdo umí AI používat chytře, bude o krok napřed.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="design" aria-labelledby="design-title">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="eyebrow" data-i18n="design.eyebrow">04 — Design</p>
+          <h2 id="design-title" data-i18n="design.title">Vizuální tvář vašeho nápadu</h2>
+          <p class="section__lead" data-i18n="design.lead">Letáky, plakáty, webové stránky i malé aplikace — srozumitelně, s lidským přístupem.</p>
+        </header>
+        <div class="cards cards--1">
+          <article class="card card--wide reveal" data-section="4" id="design-card">
+            <figure class="card__media hover-img" data-main="./img/design--main.png" data-hover="./img/design--hover.png">
+              <img src="./img/design--main.png" alt="design" loading="lazy" decoding="async" />
+            </figure>
+            <div class="card__body">
+              <p class="card__code">4</p>
+              <h3 class="card__title" data-i18n="cards.design.title">Design na míru</h3>
+              <p class="card__text" data-i18n="content.design"></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="contact__content reveal">
+          <p class="eyebrow" data-i18n="contact.eyebrow">05 — Kontakt</p>
+          <h2 id="contact-title" data-i18n="contact.title">Pojďme udělat ten krok společně</h2>
+          <p class="contact__lead" data-i18n="content.contact"></p>
+          <ul class="contact__list">
+            <li><a class="contact__link" href="mailto:savik@krok-do-budoucnosti.cz"><span class="contact__icon" aria-hidden="true">✉️</span><span><strong data-i18n="contact.email_label">E-mail</strong>
+mailto:savik@krok-do-budoucnosti.cz</span></a></li>
+            <li><a class="contact__link" href="tel:+420777123456"><span class="contact__icon" aria-hidden="true">📞</span><span><strong data-i18n="contact.phone_label">Telefon</strong>
++420 777 123 456</span></a></li>
+            <li><a class="contact__link" href="https://wa.me/420777123456" target="_blank" rel="noopener"><span class="contact__icon" aria-hidden="true">💬</span><span><strong>WhatsApp</strong>
++420 777 123 456</span></a></li>
+            <li><a class="contact__link" href="https://t.me/krokdobudoucnosti" target="_blank" rel="noopener"><span class="contact__icon" aria-hidden="true">✈️</span><span><strong>Telegram</strong>
+@krokdobudoucnosti</span></a></li>
+          </ul>
+          <form class="contact__form" action="https://formsubmit.co/savik@krok-do-budoucnosti.cz" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="Nová poptávka — Krok do budoucnosti" />
+            <input type="hidden" name="_captcha" value="false" />
+            <label><span data-i18n="form.name">Jméno</span><input type="text" name="name" required autocomplete="name" /></label>
+            <label><span data-i18n="form.contact">Telefon nebo e-mail</span><input type="text" name="contact" required autocomplete="email" /></label>
+            <label class="contact__form-full"><span data-i18n="form.message">Co řešíte?</span><textarea name="message" rows="4" required></textarea></label>
+            <button type="submit" class="btn btn--primary contact__form-full" data-i18n="form.submit">Odeslat poptávku</button>
+            <p class="contact__form-note contact__form-full" data-i18n="form.note">Odesláním souhlasíte se zpracováním osobních údajů výhradně pro účely odpovědi.</p>
+          </form>
+        </div>
+        <figure class="contact__figure hover-img reveal" data-main="./img/hero--main.png" data-hover="./img/hero--hover.png">
+          <img src="./img/hero--main.png" alt="master" width="370" height="790" loading="lazy" decoding="async" />
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__brand">↗ <span data-i18n="brand.name">Krok do budoucnosti</span></p>
+      <p class="site-footer__tagline" data-i18n="footer.tagline">Výjezdový počítačový mistr · Česko</p>
+      <p class="site-footer__copy">© <span id="year"></span> <span data-i18n="footer.copyright">Krok do budoucnosti. Všechna práva vyhrazena.</span></p>
+    </div>
+  </footer>
+
+  <a href="#contact" class="floating-cta" aria-label="Domluvit návštěvu" data-i18n="cta.floating">Domluvit návštěvu</a>
+
+  <script src="./scripts/i18n.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
