@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title data-i18n="meta.title">Domácí scénáře</title>
+<meta name="description" data-i18n="meta.desc" data-i18n-attr="content" content="Výjezdový počítačový mistr pro celou rodinu. Diagnostika zdarma.">
+<meta name="theme-color" content="#143b4a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23143b4a'/%3E%3Ctext x='50%25' y='58%25' text-anchor='middle' font-family='Georgia,serif' font-weight='700' font-size='30' fill='%23f6f1e7'%3EDS%3C/text%3E%3C/svg%3E">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+<a class="skip" href="#sluzby">Přeskočit na obsah</a>
+
+<header class="site-header" data-reveal="fade">
+  <div class="container nav">
+    <a class="brand" href="#top" aria-label="Domácí scénáře">
+      <span class="brand-mark">DS</span>
+      <span>Domácí scénáře</span>
+    </a>
+    <nav class="primary-nav" id="primary-nav" aria-label="Hlavní">
+      <a href="#pece" data-i18n="nav.care">Péče o PC</a>
+      <a href="#bezpecnost" data-i18n="nav.security">Bezpečnost</a>
+      <a href="#vzdelavani" data-i18n="nav.learning">Vzdělávání</a>
+      <a href="#design" data-i18n="nav.design">Design</a>
+      <a href="#kontakt" data-i18n="nav.contact">Kontakt</a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Jazyk">
+      <button type="button" data-lang="cs" class="is-active">CS</button>
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="ru">RU</button>
+    </div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy" data-reveal="up">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Výjezdový mistr · u vás doma</p>
+        <h1 data-i18n="content.main">Počítačové starosti?</h1>
+        <p class="hero-sub" data-i18n="hero.sub">První návštěva i diagnostika jsou vždy zdarma.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#kontakt" data-i18n="hero.cta1">Zavolat mistra</a>
+          <a class="btn btn-ghost" href="#sluzby" data-i18n="hero.cta2">Prohlédnout služby</a>
+        </div>
+        <ul class="badges">
+          <li data-i18n="hero.badge1">Diagnostika zdarma</li>
+          <li data-i18n="hero.badge2">Přijedu do 24 hodin</li>
+          <li data-i18n="hero.badge3">Bez závazků</li>
+        </ul>
+      </div>
+      <figure class="hero-figure" data-reveal="up">
+        <div class="figure-frame"><img class="swap" src="./img/hero--main.png" data-main="./img/hero--main.png" data-hover="./img/hero--hover.png" alt="master" loading="eager"></div>
+        <figcaption data-i18n="hero.caption">Váš osobní průvodce po počítačovém světě</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="sluzby" class="section">
+    <div class="container">
+      <header id="pece" class="sec-head" data-reveal="up">
+        <span class="sec-num">01</span>
+        <h2 data-i18n="sec.care.title">Péče o počítač</h2>
+        <p data-i18n="sec.care.lead">Aby technika sloužila vám, ne naopak.</p>
+      </header>
+      <div class="cards">
+        <article class="card" data-reveal="up">
+          <a href="#kontakt" class="card-media"><img class="swap" src="./img/cleaning--main.png" data-main="./img/cleaning--main.png" data-hover="./img/cleaning--hover.png" alt="cleaning" loading="lazy"></a>
+          <div class="card-body"><span class="card-tag">1.1</span><h3 data-i18n="card.cleaning.title">Čištění a chlazení</h3><p data-i18n="content.cleaning"></p></div>
+        </article>
+        <article class="card" data-reveal="up">
+          <a href="#kontakt" class="card-media"><img class="swap" src="./img/upgrade--main.png" data-main="./img/upgrade--main.png" data-hover="./img/upgrade--hover.png" alt="upgrade" loading="lazy"></a>
+          <div class="card-body"><span class="card-tag">1.2</span><h3 data-i18n="card.upgrade.title">Modernizace komponent</h3><p data-i18n="content.upgrade"></p></div>
+        </article>
+        <article class="card" data-reveal="up">
+          <a href="#kontakt" class="card-media"><img class="swap" src="./img/software--main.png" data-main="./img/software--main.png" data-hover="./img/software--hover.png" alt="software" loading="lazy"></a>
+          <div class="card-body"><span class="card-tag">1.3</span><h3 data-i18n="card.software.title">Software a Windows</h3><p data-i18n="content.software"></p></div>
+        </article>
+        <article class="card" data-reveal="up">
+          <a href="#kontakt" class="card-media"><img class="swap" src="./img/repair--main.png" data-main="./img/repair--main.png" data-hover="./img/repair--hover.png" alt="repair" loading="lazy"></a>
+          <div class="card-body"><span class="card-tag">1.4</span><h3 data-i18n="card.repair.title">Oprava a likvidace</h3><p data-i18n="content.repair"></p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="bezpecnost" class="section alt">
+    <div class="container">
+      <header class="sec-head" data-reveal="up">
+        <span class="sec-num">02</span>
+        <h2 data-i18n="sec.security.title">Bezpečnost a chytrá domácnost</h2>
+        <p data-i18n="sec.security.lead">Klidný spánek, ať jste kdekoli.</p>
+      </header>
+      <div class="cards cards-3">
+        <article class="card" data-reveal="up">
+          <a href="#kontakt" class="card-media"><img class="swap" src="./img/webcam--main.png" data-main="./img/webcam--main.png" data-hover="./img/webcam--hover.png" alt="webcam" loading="lazy"></a>
+          <div class="card-body"><span class="card-tag">2.1</span><h3 data-i18n="card.webcam.title">Webové kamery</h3><p data-i18n="content.webcam"></p></div>
+        </article>
+        <article class="card" data-reveal="up">
+          <a href="#kontakt" class="card-media"><img class="swap" src="./img/alarm--main.png" data-main="./img/alarm--main.png" data-hover="./img/alarm--hover.png" alt="alarm" loading="lazy"></a>
+          <div class="card-body"><span class="card-tag">2.2</span><h3 data-i18n="card.alarm.title">Domácí alarm</h3><p data-i18n="content.alarm"></p></div>
+        </article>
+        <article class="card" data-reveal="up">
+          <a href="#kontakt" class="card-media"><img class="swap" src="./img/appliances--main.png" data-main="./img/appliances--main.png" data-hover="./img/appliances--hover.png" alt="appliances" loading="lazy"></a>
+          <div class="card-body"><span class="card-tag">2.3</span><h3 data-i18n="card.appliances.title">Chytrá domácnost</h3><p data-i18n="content.appliances"></p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="vzdelavani" class="section">
+    <div class="container">
+      <header class="sec-head" data-reveal="up">
+        <span class="sec-num">03</span>
+        <h2 data-i18n="sec.learning.title">Vzdělávání pro děti i dospělé</h2>
+        <p data-i18n="sec.learning.lead">Pomalu, srozumitelně a s ohledem na váš čas.</p>
+      </header>
+      <div class="cards">
+        <article class="card" data-reveal="up">
+          <a href="#kontakt" class="card-media"><img class="swap" src="./img/literacy--main.png" data-main="./img/literacy--main.png" data-hover="./img/literacy--hover.png" alt="literacy" loading="lazy"></a>
+          <div class="card-body"><span class="card-tag">3.1 · pro dospělé</span><h3 data-i18n="card.literacy.title">Počítačová gramotnost</h3><p data-i18n="content.literacy"></p></div>
+        </article>
+        <article class="card" data-reveal="up">
+          <a href="#kontakt" class="card-media"><img class="swap" src="./img/tutor--main.png" data-main="./img/tutor--main.png" data-hover="./img/tutor--hover.png" alt="tutor" loading="lazy"></a>
+          <div class="card-body"><span class="card-tag">3.2 · pro děti</span><h3 data-i18n="card.tutor.title">Doučování informatiky</h3><p data-i18n="content.tutor"></p></div>
+        </article>
+        <article class="card" data-reveal="up">
+          <a href="#kontakt" class="card-media"><img class="swap" src="./img/chess--main.png" data-main="./img/chess--main.png" data-hover="./img/chess--hover.png" alt="chess" loading="lazy"></a>
+          <div class="card-body"><span class="card-tag">3.3</span><h3 data-i18n="card.chess.title">Šachy a logika</h3><p data-i18n="content.chess"></p></div>
+        </article>
+        <article class="card" data-reveal="up">
+          <a href="#kontakt" class="card-media"><img class="swap" src="./img/development--main.png" data-main="./img/development--main.png" data-hover="./img/development--hover.png" alt="development" loading="lazy"></a>
+          <div class="card-body"><span class="card-tag">3.4</span><h3 data-i18n="card.development.title">AI pro chytré děti</h3><p data-i18n="content.development"></p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="design" class="section alt">
+    <div class="container">
+      <header class="sec-head" data-reveal="up">
+        <span class="sec-num">04</span>
+        <h2 data-i18n="sec.design.title">Design a vývoj na míru</h2>
+        <p data-i18n="sec.design.lead">Letáky, weby, katalogy i celé aplikace.</p>
+      </header>
+      <div class="cards cards-feature">
+        <article class="card card-wide" data-reveal="up">
+          <a href="#kontakt" class="card-media"><img class="swap" src="./img/design--main.png" data-main="./img/design--main.png" data-hover="./img/design--hover.png" alt="design" loading="lazy"></a>
+          <div class="card-body"><span class="card-tag">4</span><h3 data-i18n="card.design.title">Stylový design a aplikace</h3><p data-i18n="content.design"></p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt" class="contact">
+    <div class="container contact-grid">
+      <div class="contact-copy" data-reveal="up">
+        <header class="sec-head sec-head-light">
+          <span class="sec-num">05</span>
+          <h2 data-i18n="sec.contact.title">Napište nebo zavolejte</h2>
+          <p data-i18n="content.contact"></p>
+        </header>
+        <ul class="contact-list">
+          <li>📞<a href="tel:+420777123456" data-i18n="contact.phone">+420 777 123 456</a></li>
+          <li>✉️<a href="mailto:mistr@domaci-scenare.cz" data-i18n="contact.email">mistr@domaci-scenare.cz</a></li>
+          <li>💬<a href="https://wa.me/420777123456" target="_blank" rel="noopener" data-i18n="contact.whatsapp">WhatsApp</a></li>
+          <li>✈️<a href="https://t.me/domaci_scenare" target="_blank" rel="noopener" data-i18n="contact.telegram">Telegram</a></li>
+        </ul>
+        <form class="contact-form" action="https://formspree.io/f/your-form-id" method="post" novalidate>
+          <label>Jak vám mám říkat?<input name="name" autocomplete="name" required></label>
+          <label>Telefon nebo e-mail<input name="contact" required></label>
+          <label>S čím vám můžu pomoci?<textarea name="message" rows="4" required></textarea></label>
+          <button type="submit" class="btn btn-primary" data-i18n="form.send">Odeslat poptávku</button>
+          <p class="form-note" data-i18n="form.note">Odpovídám zpravidla do několika hodin.</p>
+        </form>
+      </div>
+      <figure class="contact-figure" data-reveal="up">
+        <div class="figure-frame light"><img class="swap" src="./img/hero--main.png" data-main="./img/hero--main.png" data-hover="./img/hero--hover.png" alt="master" loading="lazy"></div>
+      </figure>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container foot">
+    <p data-i18n="footer.rights">© Domácí scénáře · Výjezdový IT mistr</p>
+    <a href="#top" data-i18n="footer.totop">Nahoru ↑</a>
+  </div>
+</footer>
+
+<script src="scripts.js" defer></script>
+</body>
+</html>

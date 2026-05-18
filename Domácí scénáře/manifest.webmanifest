@@ -1,0 +1,9 @@
+{
+  "name": "Domácí scénáře",
+  "short_name": "DS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f1e7",
+  "theme_color": "#143b4a",
+  "icons": []
+}

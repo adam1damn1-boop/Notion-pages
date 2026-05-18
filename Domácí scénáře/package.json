@@ -1,0 +1,10 @@
+{
+  "name": "domaci-scenare",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Domácí scénáře — výjezdový IT mistr. Statický web pro Vercel.",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static site — nic kompilovat netřeba.'"
+  }
+}
