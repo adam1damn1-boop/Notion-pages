@@ -1,0 +1,11 @@
+{
+  "name": "Výhoda — výjezdní počítačový mistr",
+  "short_name": "Výhoda",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fbf8f1",
+  "theme_color": "#0f2540",
+  "icons": [
+    { "src": "./img/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

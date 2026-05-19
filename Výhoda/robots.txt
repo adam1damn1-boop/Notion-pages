@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vyhoda.cz/sitemap.xml

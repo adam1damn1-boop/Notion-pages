@@ -1,0 +1,10 @@
+{
+  "name": "vyhoda",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vyhoda — static landing for an on-site computer master in Prague.",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo No build step needed — static site."
+  }
+}
