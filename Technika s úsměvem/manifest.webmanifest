@@ -1,0 +1,9 @@
+{
+  "name": "Technika s úsměvem",
+  "short_name": "PC pomoc",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fffaf0",
+  "theme_color": "#fbf2df",
+  "lang": "cs"
+}

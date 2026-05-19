@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="cs" data-theme="warm">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technika s úsměvem — počítačové služby u vás doma</title>
+  <meta name="description" content="Výjezdový mistr počítačových služeb: čištění, modernizace, nastavení Windows, kamery, chytrá domácnost, výuka a design.">
+  <meta name="theme-color" content="#fbf2df">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#services">Přejít na služby</a>
+
+  <header class="site-header" data-reveal>
+    <a class="brand" href="#top" aria-label="Technika s úsměvem">
+      🙂
+      Technika s úsměvem
+    </a>
+
+    <nav class="nav" aria-label="Hlavní navigace">
+      <a href="#services">Služby</a>
+      <a href="#process">Jak pracuji</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+
+    <div class="language" aria-label="Výběr jazyka">
+      <label for="languageSelect">Jazyk</label>
+      <select id="languageSelect" aria-label="Vybrat jazyk">
+        <option value="cs" selected>CS</option>
+      </select>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero__copy" data-reveal>
+        <p class="eyebrow" data-i18n="hero.kicker">Počítačová pomoc doma i online</p>
+        <h1 id="heroTitle" data-i18n="hero.title">Technika má sloužit vám, ne brát vám klid.</h1>
+        <p class="hero__lead" data-i18n="hero.lead">Přijedu, vysvětlím jednoduchou řečí a pomohu s počítačem, bezpečností, výukou i malým designovým projektem. Výjezd a první diagnostika jsou zdarma.</p>
+
+        <div class="hero__actions">
+          <a class="button button--primary" href="#contact" data-i18n="hero.ctaPrimary">Domluvit pomoc</a>
+          <a class="button button--ghost" href="#services" data-i18n="hero.ctaSecondary">Prohlédnout služby</a>
+        </div>
+
+        <ul class="trust-list" aria-label="Výhody">
+          <li data-i18n="hero.benefits.0">Bezplatný výjezd</li>
+          <li data-i18n="hero.benefits.1">Srozumitelné vysvětlení</li>
+          <li data-i18n="hero.benefits.2">Statické ceny po domluvě</li>
+        </ul>
+      </div>
+
+      <div class="hero__visual" data-reveal>
+        <div class="hero-card">
+          <img src="./img/hero--main.png" data-hover="./img/hero--hover.png" alt="Přátelský počítačový mistr" width="370" height="790" loading="eager">
+        </div>
+        <div class="floating-note floating-note--top">diagnostika zdarma</div>
+        <div class="floating-note floating-note--bottom">klidně a lidsky</div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="services" aria-labelledby="servicesTitle">
+      <div class="section__head" data-reveal>
+        <p class="eyebrow" data-i18n="services.kicker">12 oblastí pomoci</p>
+        <h2 id="servicesTitle" data-i18n="services.title">Od hučícího notebooku po chytrou domácnost</h2>
+        <p data-i18n="services.lead">Vyberte si, co vás trápí. Každá karta má jemnou změnu obrázku při najetí, aby web působil živě, ale zůstal lehký.</p>
+      </div>
+
+      <div class="service-groups" id="serviceGroups" aria-live="polite"></div>
+    </section>
+
+    <section class="process" id="process" aria-labelledby="processTitle">
+      <div class="section__head" data-reveal>
+        <p class="eyebrow" data-i18n="process.kicker">Jednoduchý postup</p>
+        <h2 id="processTitle" data-i18n="process.title">Bez technického stresu</h2>
+      </div>
+
+      <ol class="steps" data-reveal>
+        <li>
+          01
+          <strong data-i18n="process.steps.0.title">Ozvete se</strong>
+          <p data-i18n="process.steps.0.text">Krátce popíšete problém nebo nápad.</p>
+        </li>
+        <li>
+          02
+          <strong data-i18n="process.steps.1.title">Přijedu a zjistím stav</strong>
+          <p data-i18n="process.steps.1.text">První výjezd a diagnostika jsou zdarma.</p>
+        </li>
+        <li>
+          03
+          <strong data-i18n="process.steps.2.title">Navrhnu řešení</strong>
+          <p data-i18n="process.steps.2.text">Dostanete jasné vysvětlení bez složitých slov.</p>
+        </li>
+        <li>
+          04
+          <strong data-i18n="process.steps.3.title">Technika zase slouží</strong>
+          <p data-i18n="process.steps.3.text">Platíte jen za domluvenou práci a případné díly.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contactTitle">
+      <div class="contact__copy" data-reveal>
+        <p class="eyebrow" data-i18n="contact.kicker">Kontakt</p>
+        <h2 id="contactTitle" data-i18n="contact.title">Napište nebo zavolejte a v klidu probereme, co vaše technika nebo projekt potřebuje.</h2>
+        <p data-i18n="contact.note">Kontaktní údaje jsou připravené jako snadno vyměnitelné odkazy. Před publikací nahraďte ukázkový e-mail a telefon skutečnými údaji.</p>
+      </div>
+
+      <div class="contact__panel" data-reveal>
+        <a class="contact-link" href="mailto:kontakt@example.cz?subject=Popt%C3%A1vka%20po%C4%8D%C3%ADta%C4%8Dov%C3%A9%20pomoci">
+          ✉️
+          <strong>E-mail</strong>
+          <em>mailto:kontakt@example.cz</em>
+        </a>
+        <a class="contact-link" href="tel:+420000000000">
+          📞
+          <strong>Telefon</strong>
+          <em>+420 000 000 000</em>
+        </a>
+        <a class="contact-link" href="https://wa.me/420000000000" rel="noopener">
+          💬
+          <strong>WhatsApp</strong>
+          <em>rychlá zpráva</em>
+        </a>
+
+        <form class="mini-form" action="mailto:kontakt@example.cz" method="post" enctype="text/plain">
+          <label>
+            Vaše zpráva
+            <textarea name="zprava" rows="4" placeholder="Dobrý den, potřebuji pomoci s..."></textarea>
+          </label>
+          <button class="button button--primary" type="submit">Odeslat přes e-mail</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>©  Technika s úsměvem</p>
+    <a href="#top">Nahoru ↑</a>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
