@@ -1,0 +1,9 @@
+{
+  "name": "Dům bez shonu",
+  "short_name": "Dům bez shonu",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f8f3eb",
+  "theme_color": "#2c4a47",
+  "description": "Výjezdový mistr počítačových služeb v Praze a okolí."
+}

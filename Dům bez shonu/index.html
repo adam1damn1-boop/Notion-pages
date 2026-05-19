@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#2c4a47" />
+  <title>Dům bez shonu — domácí počítačová pomoc s klidem</title>
+  <meta name="description" content="Výjezdový počítačový mistr v Praze a okolí. Pomůžu doma s počítačem, kamerami, alarmem, chytrou domácností i s výukou. První diagnostika je zdarma." />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='86'%3E%F0%9F%8F%A0%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip"></a>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Dům bez shonu">
+      <span class="brand__mark" aria-hidden="true">🏠</span>
+      <span data-i18n="brand.name"></span>
+    </a>
+    <nav class="nav" aria-label="Hlavní">
+      <a href="#care" data-i18n="nav.care"></a>
+      <a href="#security" data-i18n="nav.security"></a>
+      <a href="#learning" data-i18n="nav.learning"></a>
+      <a href="#design" data-i18n="nav.design"></a>
+      <a href="#contact" data-i18n="nav.contact"></a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Jazyk">
+      <button type="button" data-lang="cs" class="is-active">CS</button>
+      <button type="button" data-lang="en" title="Coming soon">EN</button>
+    </div>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <nav id="mobile-nav" class="mobile-nav" hidden aria-label="Mobilní">
+    <a href="#care" data-i18n="nav.care"></a>
+    <a href="#security" data-i18n="nav.security"></a>
+    <a href="#learning" data-i18n="nav.learning"></a>
+    <a href="#design" data-i18n="nav.design"></a>
+    <a href="#contact" data-i18n="nav.contact"></a>
+  </nav>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero__text">
+        <p class="eyebrow" data-i18n="hero.eyebrow"></p>
+        <h1 data-i18n="hero.title"></h1>
+        <p class="lead" data-i18n="hero.lead"></p>
+        <p class="hero__main" data-i18n="sections.main"></p>
+        <div class="hero__cta">
+          <a href="#contact" class="btn btn--primary" data-i18n="hero.ctaPrimary"></a>
+          <a href="#care" class="btn btn--ghost" data-i18n="hero.ctaSecondary"></a>
+        </div>
+        <ul class="hero__badges">
+          <li>🚗 <span data-i18n="hero.badge1"></span></li>
+          <li>🔍 <span data-i18n="hero.badge2"></span></li>
+          <li>💬 <span data-i18n="hero.badge3"></span></li>
+        </ul>
+      </div>
+      <figure class="hero__image swap" data-slug="hero">
+        <img class="img--main" src="./img/hero--main.png" alt="" loading="eager" />
+        <img class="img--hover" src="./img/hero--hover.png" alt="" loading="eager" />
+      </figure>
+    </section>
+
+    <section id="care" class="group" data-reveal>
+      <header class="group__head">
+        <p class="group__index">01</p>
+        <h2 data-i18n="care.title"></h2>
+        <p class="group__lead" data-i18n="care.subtitle"></p>
+      </header>
+      <div class="cards cards--four">
+        <article class="card" data-reveal data-section="1.1">
+          <figure class="card__image swap" data-slug="cleaning">
+            <img class="img--main" src="./img/cleaning--main.png" alt="" loading="lazy" />
+            <img class="img--hover" src="./img/cleaning--hover.png" alt="" loading="lazy" />
+          </figure>
+          <div class="card__body">
+            <span class="card__code">1.1</span>
+            <h3 data-i18n="services.cleaning.title"></h3>
+            <p data-i18n="services.cleaning.text"></p>
+          </div>
+        </article>
+        <article class="card" data-reveal data-section="1.2">
+          <figure class="card__image swap" data-slug="upgrade">
+            <img class="img--main" src="./img/upgrade--main.png" alt="" loading="lazy" />
+            <img class="img--hover" src="./img/upgrade--hover.png" alt="" loading="lazy" />
+          </figure>
+          <div class="card__body">
+            <span class="card__code">1.2</span>
+            <h3 data-i18n="services.upgrade.title"></h3>
+            <p data-i18n="services.upgrade.text"></p>
+          </div>
+        </article>
+        <article class="card" data-reveal data-section="1.3">
+          <figure class="card__image swap" data-slug="software">
+            <img class="img--main" src="./img/software--main.png" alt="" loading="lazy" />
+            <img class="img--hover" src="./img/software--hover.png" alt="" loading="lazy" />
+          </figure>
+          <div class="card__body">
+            <span class="card__code">1.3</span>
+            <h3 data-i18n="services.software.title"></h3>
+            <p data-i18n="services.software.text"></p>
+          </div>
+        </article>
+        <article class="card" data-reveal data-section="1.4">
+          <figure class="card__image swap" data-slug="repair">
+            <img class="img--main" src="./img/repair--main.png" alt="" loading="lazy" />
+            <img class="img--hover" src="./img/repair--hover.png" alt="" loading="lazy" />
+          </figure>
+          <div class="card__body">
+            <span class="card__code">1.4</span>
+            <h3 data-i18n="services.repair.title"></h3>
+            <p data-i18n="services.repair.text"></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="security" class="group group--alt" data-reveal>
+      <header class="group__head">
+        <p class="group__index">02</p>
+        <h2 data-i18n="security.title"></h2>
+        <p class="group__lead" data-i18n="security.subtitle"></p>
+      </header>
+      <div class="cards cards--three">
+        <article class="card" data-reveal data-section="2.1">
+          <figure class="card__image swap" data-slug="webcam">
+            <img class="img--main" src="./img/webcam--main.png" alt="" loading="lazy" />
+            <img class="img--hover" src="./img/webcam--hover.png" alt="" loading="lazy" />
+          </figure>
+          <div class="card__body">
+            <span class="card__code">2.1</span>
+            <h3 data-i18n="services.webcam.title"></h3>
+            <p data-i18n="services.webcam.text"></p>
+          </div>
+        </article>
+        <article class="card" data-reveal data-section="2.2">
+          <figure class="card__image swap" data-slug="alarm">
+            <img class="img--main" src="./img/alarm--main.png" alt="" loading="lazy" />
+            <img class="img--hover" src="./img/alarm--hover.png" alt="" loading="lazy" />
+          </figure>
+          <div class="card__body">
+            <span class="card__code">2.2</span>
+            <h3 data-i18n="services.alarm.title"></h3>
+            <p data-i18n="services.alarm.text"></p>
+          </div>
+        </article>
+        <article class="card" data-reveal data-section="2.3">
+          <figure class="card__image swap" data-slug="appliances">
+            <img class="img--main" src="./img/appliances--main.png" alt="" loading="lazy" />
+            <img class="img--hover" src="./img/appliances--hover.png" alt="" loading="lazy" />
+          </figure>
+          <div class="card__body">
+            <span class="card__code">2.3</span>
+            <h3 data-i18n="services.appliances.title"></h3>
+            <p data-i18n="services.appliances.text"></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="learning" class="group" data-reveal>
+      <header class="group__head">
+        <p class="group__index">03</p>
+        <h2 data-i18n="learning.title"></h2>
+        <p class="group__lead" data-i18n="learning.subtitle"></p>
+      </header>
+      <div class="subgroup">
+        <h3 class="subgroup__title" data-i18n="learning.adults"></h3>
+        <div class="cards cards--one">
+          <article class="card card--wide" data-reveal data-section="3.1">
+            <figure class="card__image swap" data-slug="literacy">
+              <img class="img--main" src="./img/literacy--main.png" alt="" loading="lazy" />
+              <img class="img--hover" src="./img/literacy--hover.png" alt="" loading="lazy" />
+            </figure>
+            <div class="card__body">
+              3.1
+              <h4 data-i18n="services.literacy.title"></h4>
+              <p data-i18n="services.literacy.text"></p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="subgroup">
+        <h3 class="subgroup__title" data-i18n="learning.children"></h3>
+        <div class="cards cards--three">
+          <article class="card" data-reveal data-section="3.2">
+            <figure class="card__image swap" data-slug="tutor">
+              <img class="img--main" src="./img/tutor--main.png" alt="" loading="lazy" />
+              <img class="img--hover" src="./img/tutor--hover.png" alt="" loading="lazy" />
+            </figure>
+            <div class="card__body">
+              3.2
+              <h4 data-i18n="services.tutor.title"></h4>
+              <p data-i18n="services.tutor.text"></p>
+            </div>
+          </article>
+          <article class="card" data-reveal data-section="3.3">
+            <figure class="card__image swap" data-slug="chess">
+              <img class="img--main" src="./img/chess--main.png" alt="" loading="lazy" />
+              <img class="img--hover" src="./img/chess--hover.png" alt="" loading="lazy" />
+            </figure>
+            <div class="card__body">
+              3.3
+              <h4 data-i18n="services.chess.title"></h4>
+              <p data-i18n="services.chess.text"></p>
+            </div>
+          </article>
+          <article class="card" data-reveal data-section="3.4">
+            <figure class="card__image swap" data-slug="development">
+              <img class="img--main" src="./img/development--main.png" alt="" loading="lazy" />
+              <img class="img--hover" src="./img/development--hover.png" alt="" loading="lazy" />
+            </figure>
+            <div class="card__body">
+              3.4
+              <h4 data-i18n="services.development.title"></h4>
+              <p data-i18n="services.development.text"></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="design" class="group group--design" data-reveal>
+      <header class="group__head">
+        <p class="group__index">04</p>
+        <h2 data-i18n="design.title"></h2>
+        <p class="group__lead" data-i18n="design.subtitle"></p>
+      </header>
+      <div class="cards cards--one">
+        <article class="card card--wide" data-reveal data-section="4">
+          <figure class="card__image swap" data-slug="design">
+            <img class="img--main" src="./img/design--main.png" alt="" loading="lazy" />
+            <img class="img--hover" src="./img/design--hover.png" alt="" loading="lazy" />
+          </figure>
+          <div class="card__body">
+            <span class="card__code">4</span>
+            <h3 data-i18n="services.design.title"></h3>
+            <p data-i18n="services.design.text"></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" data-reveal>
+      <div class="contact__inner">
+        <p class="eyebrow" data-i18n="contact.eyebrow"></p>
+        <h2 data-i18n="contact.title"></h2>
+        <p class="lead" data-i18n="sections.contact"></p>
+        <ul class="contact__list">
+          <li><a href="tel:+420777123456">📞+420 777 123 456</a></li>
+          <li><a href="mailto:mistr@dum-bez-shonu.cz">✉️mistr@dum-bez-shonu.cz</a></li>
+          <li><a href="https://wa.me/420777123456" target="_blank" rel="noopener">💬WhatsApp</a></li>
+          <li><a href="https://t.me/dumbezshonu" target="_blank" rel="noopener">✈️Telegram</a></li>
+        </ul>
+        <form class="contact__form" action="https://formsubmit.co/mistr@dum-bez-shonu.cz" method="post">
+          <input type="hidden" name="_subject" value="Poptávka z webu Dům bez shonu" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <label><span data-i18n="form.name"></span><input type="text" name="jmeno" required autocomplete="name" /></label>
+          <label><span data-i18n="form.contact"></span><input type="text" name="kontakt" required autocomplete="tel email" /></label>
+          <label><span data-i18n="form.message"></span><textarea name="zprava" rows="4" required></textarea></label>
+          <button type="submit" class="btn btn--primary" data-i18n="form.submit"></button>
+          <p class="form__note" data-i18n="form.note"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__name" data-i18n="brand.name"></p>
+      <p class="footer__tagline" data-i18n="sections.main"></p>
+      <p class="footer__copy">©  Dům bez shonu</p>
+    </div>
+  </footer>
+
+  <script src="./i18n.js"></script>
+  <script src="./scripts.js"></script>
+</body>
+</html>

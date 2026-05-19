@@ -1,0 +1,10 @@
+{
+  "name": "dum-bez-shonu",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Statický web pro výjezdového počítačového mistra.",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  }
+}
