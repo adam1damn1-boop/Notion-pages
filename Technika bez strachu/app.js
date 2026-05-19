@@ -181,6 +181,8 @@ const state = {
   filter: "all"
 };
 
+document.documentElement.classList.add("js");
+
 const get = (path, dictionary = i18n[state.lang]) => {
   return path.split(".").reduce((value, key) => value?.[key], dictionary);
 };
