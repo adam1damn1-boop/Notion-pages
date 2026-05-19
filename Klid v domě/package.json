@@ -1,1 +1,10 @@
-{"name":"klid-v-dome","version":"1.0.0","private":true}
+{
+  "name": "klid-v-dome",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Klid v domě — statický web výjezdového mistra počítačových služeb. Žádný build krok není potřeba.",
+  "scripts": {
+    "start": "npx --yes serve .",
+    "deploy": "npx --yes vercel --prod"
+  }
+}

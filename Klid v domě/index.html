@@ -11,16 +11,277 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="./styles.css">
   <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='6' fill='%231f6b6b'/><text x='50%25' y='62%25' text-anchor='middle' fill='white' font-family='Georgia' font-size='15' font-weight='700'>K</text></svg>">
 </head>
 <body id="top">
   <a class="skip-link" href="#main" data-i18n="aria.skip">Přejít na obsah</a>
-  <header class="site-header"><div class="container header-inner"><a class="brand" href="#top" aria-label="Klid v domě">⌂ Klid v domě</a>
-    <nav class="primary-nav" aria-label="Hlavní navigace">
-      <a href="#care" data-i18n="nav.care">Péče</a><a href="#security" data-i18n="nav.security">Bezpečnost</a><a href="#learning" data-i18n="nav.learning">Výuka</a><a href="#design" data-i18n="nav.design">Design</a><a href="#contact" data-i18n="nav.contact">Kontakt</a>
-    </nav><div class="header-actions"><label class="lang-switch">Jazyk<select id="lang-select" aria-label="Jazyk"><option value="cs">CS</option></select></label><a class="btn btn-primary header-cta" href="#contact" data-i18n="cta.header">Domluvit se</a></div></div></header>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Klid v domě">
+        ⌂
+        Klid v domě
+      </a>
+      <nav class="primary-nav" aria-label="Hlavní navigace">
+        <a href="#care" data-i18n="nav.care">Péče</a>
+        <a href="#security" data-i18n="nav.security">Bezpečnost</a>
+        <a href="#learning" data-i18n="nav.learning">Výuka</a>
+        <a href="#design" data-i18n="nav.design">Design</a>
+        <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+      </nav>
+      <div class="header-actions">
+        <label class="lang-switch">
+          Jazyk
+          <select id="lang-select" aria-label="Jazyk">
+            <option value="cs">CS</option>
+          </select>
+        </label>
+        <a class="btn btn-primary header-cta" href="#contact" data-i18n="cta.header">Domluvit se</a>
+      </div>
+    </div>
+  </header>
+
   <main id="main">
-    <section class="hero"><div class="container hero-grid"><div class="hero-text reveal"><p class="eyebrow" data-i18n="hero.eyebrow">Výjezdový mistr · Praha a okolí</p><h1 data-i18n="hero.title">Klid v domě začíná u spolehlivé techniky.</h1><p class="lead" data-i18n="hero.lead">Přijedu k vám, v klidu se podívám a poctivě poradím. Platíte jen za skutečnou práci a součástky.</p><div class="hero-actions"><a class="btn btn-primary" href="#contact" data-i18n="cta.write">Napsat zprávu</a><a class="btn btn-ghost" href="#care" data-i18n="cta.services">Co umím</a></div></div><figure class="hero-figure reveal"><div class="img-wrap hero-img"><img class="swap-img main-img" src="./img/hero--main.png" alt="Mistr počítačových služeb" width="370" height="790"><img class="swap-img hover-img" src="./img/hero--hover.png" alt="" aria-hidden="true" width="370" height="790"></div></figure></div></section>
-    <section class="section" id="contact"><div class="container contact-grid"><div class="contact-intro reveal"><p class="eyebrow" data-i18n="sec.contact.eyebrow">Kontakt</p><h2 data-i18n="sec.contact.title">Klid v domě je jen jeden telefonát daleko</h2></div><div class="contact-card reveal"><ul class="contact-list"><li><a href="tel:+420777123456"><span class="icon">📞</span><span><strong data-i18n="contact.callLabel">Zavolat</strong><span class="value">+420 777 123 456</span></span></a></li><li><a href="mailto:klid@vdome.cz?subject=Pomoc%20s%20po%C4%8D%C3%ADta%C4%8Dem"><span class="icon">✉️</span><span><strong data-i18n="contact.mailLabel">Napsat e-mail</strong><span class="value">klid@vdome.cz</span></span></a></li></ul></div></div></section>
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Výjezdový mistr · Praha a okolí</p>
+          <h1 data-i18n="hero.title">Klid v domě začíná u spolehlivé techniky.</h1>
+          <p class="lead" data-i18n="hero.lead">Přijedu k vám, v klidu se podívám a poctivě poradím. Platíte jen za skutečnou práci a součástky.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact" data-i18n="cta.write">Napsat zprávu</a>
+            <a class="btn btn-ghost" href="#care" data-i18n="cta.services">Co umím</a>
+          </div>
+          <p class="hero-quote" data-i18n="hero.quote">„Výjezd a první diagnostika — zdarma. Platíte pouze za provedenou práci a součástky.“</p>
+        </div>
+        <figure class="hero-figure reveal">
+          <div class="img-wrap hero-img">
+            <img class="swap-img main-img" src="./img/hero--main.png" alt="Mistr počítačových služeb" width="370" height="790" loading="eager">
+            <img class="swap-img hover-img" src="./img/hero--hover.png" alt="" aria-hidden="true" width="370" height="790" loading="lazy">
+          </div>
+          <figcaption class="hero-caption" data-i18n="hero.caption">Diplomovaný IT specialista u vás doma</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="care">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="sec.care.eyebrow">01 — Péče o počítač</p>
+          <h2 data-i18n="sec.care.title">Vaše technika potřebuje pravidelnou péči</h2>
+          <p data-i18n="sec.care.lead">Prach, teplo a roky používání zpomalí každý počítač. Vrátíme mu rychlost i tichý chod.</p>
+        </header>
+        <div class="cards">
+          <article class="card reveal" data-section="1.1">
+            <div class="img-wrap">
+              <img class="swap-img main-img" src="./img/cleaning--main.png" alt="Vyčištění počítače" width="310" height="310" loading="lazy">
+              <img class="swap-img hover-img" src="./img/cleaning--hover.png" alt="" aria-hidden="true" loading="lazy">
+            </div>
+            <h3 data-i18n="card.cleaning.title">Vyčištění počítače</h3>
+            <p data-i18n="card.cleaning.text"></p>
+            První prohlídka zdarma
+          </article>
+          <article class="card reveal" data-section="1.2">
+            <div class="img-wrap">
+              <img class="swap-img main-img" src="./img/upgrade--main.png" alt="Modernizace techniky" width="320" height="340" loading="lazy">
+              <img class="swap-img hover-img" src="./img/upgrade--hover.png" alt="" aria-hidden="true" loading="lazy">
+            </div>
+            <h3 data-i18n="card.upgrade.title">Modernizace techniky</h3>
+            <p data-i18n="card.upgrade.text"></p>
+            První prohlídka zdarma
+          </article>
+          <article class="card reveal" data-section="1.3">
+            <div class="img-wrap">
+              <img class="swap-img main-img" src="./img/software--main.png" alt="Nastavení softwaru" width="350" height="300" loading="lazy">
+              <img class="swap-img hover-img" src="./img/software--hover.png" alt="" aria-hidden="true" loading="lazy">
+            </div>
+            <h3 data-i18n="card.software.title">Nastavení softwaru</h3>
+            <p data-i18n="card.software.text"></p>
+            První prohlídka zdarma
+          </article>
+          <article class="card reveal" data-section="1.4">
+            <div class="img-wrap">
+              <img class="swap-img main-img" src="./img/repair--main.png" alt="Oprava a recyklace" width="300" height="286" loading="lazy">
+              <img class="swap-img hover-img" src="./img/repair--hover.png" alt="" aria-hidden="true" loading="lazy">
+            </div>
+            <h3 data-i18n="card.repair.title">Oprava a recyklace</h3>
+            <p data-i18n="card.repair.text"></p>
+            První prohlídka zdarma
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="break reveal">
+        <div class="img-wrap break-img">
+          <img class="swap-img main-img" src="./img/hero--hover.png" alt="" aria-hidden="true" loading="lazy">
+          <img class="swap-img hover-img" src="./img/hero--main.png" alt="" aria-hidden="true" loading="lazy">
+        </div>
+        <div class="break-text">
+          <p class="eyebrow accent" data-i18n="break.eyebrow">Proč já</p>
+          <h2 data-i18n="break.title">Diplomovaný IT specialista u vás doma</h2>
+          <p data-i18n="break.text">Vysokoškolské vzdělání v IT, roky praxe a klidný přístup. Mluvím česky, vysvětluji bez žargonu a přijedu tam, kde mě potřebujete.</p>
+          <ul class="break-list">
+            <li data-i18n="break.item1">Výjezd a první diagnostika zdarma</li>
+            <li data-i18n="break.item2">Platíte jen za skutečnou práci a součástky</li>
+            <li data-i18n="break.item3">Trpělivé vysvětlení, klidný přístup</li>
+          </ul>
+          <a class="btn btn-cream" href="#contact" data-i18n="cta.contact">Domluvit termín</a>
+        </div>
+      </section>
+    </div>
+
+    <section class="section alt" id="security">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="sec.security.eyebrow">02 — Bezpečnost</p>
+          <h2 data-i18n="sec.security.title">Domov pod dohledem, vy v klidu</h2>
+          <p data-i18n="sec.security.lead">Kamery, alarmy a chytrá domácnost — propojím je do jednoho mobilu, abyste se mohli věnovat svým věcem.</p>
+        </header>
+        <div class="cards">
+          <article class="card reveal" data-section="2.1">
+            <div class="img-wrap">
+              <img class="swap-img main-img" src="./img/webcam--main.png" alt="Webové kamery" width="220" height="290" loading="lazy">
+              <img class="swap-img hover-img" src="./img/webcam--hover.png" alt="" aria-hidden="true" loading="lazy">
+            </div>
+            <h3 data-i18n="card.webcam.title">Webové kamery</h3>
+            <p data-i18n="card.webcam.text"></p>
+            Výjezd zdarma
+          </article>
+          <article class="card reveal" data-section="2.2">
+            <div class="img-wrap">
+              <img class="swap-img main-img" src="./img/alarm--main.png" alt="Domácí alarm" width="360" height="280" loading="lazy">
+              <img class="swap-img hover-img" src="./img/alarm--hover.png" alt="" aria-hidden="true" loading="lazy">
+            </div>
+            <h3 data-i18n="card.alarm.title">Domácí alarm</h3>
+            <p data-i18n="card.alarm.text"></p>
+            Výjezd zdarma
+          </article>
+          <article class="card reveal" data-section="2.3">
+            <div class="img-wrap">
+              <img class="swap-img main-img" src="./img/appliances--main.png" alt="Chytrá domácnost" width="290" height="290" loading="lazy">
+              <img class="swap-img hover-img" src="./img/appliances--hover.png" alt="" aria-hidden="true" loading="lazy">
+            </div>
+            <h3 data-i18n="card.appliances.title">Chytrá domácnost</h3>
+            <p data-i18n="card.appliances.text"></p>
+            Výjezd zdarma
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="learning">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="sec.learning.eyebrow">03 — Výuka</p>
+          <h2 data-i18n="sec.learning.title">Klid u učení pro celou rodinu</h2>
+          <p data-i18n="sec.learning.lead">Pro dospělé i děti — trpělivě, srozumitelně a u vás u kuchyňského stolu.</p>
+        </header>
+
+        <h3 class="sub-eyebrow reveal" data-i18n="sub.adults">Pro dospělé</h3>
+        <div class="cards cards-1">
+          <article class="card reveal wide" data-section="3.1">
+            <div class="img-wrap">
+              <img class="swap-img main-img" src="./img/literacy--main.png" alt="Počítačová gramotnost" width="320" height="290" loading="lazy">
+              <img class="swap-img hover-img" src="./img/literacy--hover.png" alt="" aria-hidden="true" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 data-i18n="card.literacy.title">Počítačová gramotnost</h3>
+              <p data-i18n="card.literacy.text"></p>
+              První hodina zdarma
+            </div>
+          </article>
+        </div>
+
+        <h3 class="sub-eyebrow reveal" data-i18n="sub.kids">Pro děti</h3>
+        <div class="cards">
+          <article class="card reveal" data-section="3.2">
+            <div class="img-wrap">
+              <img class="swap-img main-img" src="./img/tutor--main.png" alt="Doučování informatiky" width="370" height="310" loading="lazy">
+              <img class="swap-img hover-img" src="./img/tutor--hover.png" alt="" aria-hidden="true" loading="lazy">
+            </div>
+            <h3 data-i18n="card.tutor.title">Doučování informatiky</h3>
+            <p data-i18n="card.tutor.text"></p>
+            První setkání zdarma
+          </article>
+          <article class="card reveal" data-section="3.3">
+            <div class="img-wrap">
+              <img class="swap-img main-img" src="./img/chess--main.png" alt="Šachy pro děti" width="330" height="320" loading="lazy">
+              <img class="swap-img hover-img" src="./img/chess--hover.png" alt="" aria-hidden="true" loading="lazy">
+            </div>
+            <h3 data-i18n="card.chess.title">Šachy pro děti</h3>
+            <p data-i18n="card.chess.text"></p>
+            První hodina zdarma
+          </article>
+          <article class="card reveal" data-section="3.4">
+            <div class="img-wrap">
+              <img class="swap-img main-img" src="./img/development--main.png" alt="Děti a umělá inteligence" width="320" height="320" loading="lazy">
+              <img class="swap-img hover-img" src="./img/development--hover.png" alt="" aria-hidden="true" loading="lazy">
+            </div>
+            <h3 data-i18n="card.development.title">Děti & umělá inteligence</h3>
+            <p data-i18n="card.development.text"></p>
+            První hodina zdarma
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="design">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="sec.design.eyebrow">04 — Design</p>
+          <h2 data-i18n="sec.design.title">Grafika & web pro vaše podnikání</h2>
+        </header>
+        <article class="feature reveal" data-section="4">
+          <div class="img-wrap">
+            <img class="swap-img main-img" src="./img/design--main.png" alt="Grafika a web" width="310" height="310" loading="lazy">
+            <img class="swap-img hover-img" src="./img/design--hover.png" alt="" aria-hidden="true" loading="lazy">
+          </div>
+          <div>
+            <h3 data-i18n="card.design.title">Vaše značka, jak si zaslouží</h3>
+            <p data-i18n="card.design.text"></p>
+            <ul class="feature-list">
+              <li data-i18n="design.item1">Letáky a plakáty</li>
+              <li data-i18n="design.item2">Webové stránky a katalogy</li>
+              <li data-i18n="design.item3">Aplikace na míru</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact" data-i18n="cta.brief">Nezávazná konzultace</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-intro reveal">
+          <p class="eyebrow" data-i18n="sec.contact.eyebrow">Kontakt</p>
+          <h2 data-i18n="sec.contact.title">Klid v domě je jen jeden telefonát daleko</h2>
+          <p data-i18n="sec.contact.lead">Zavolejte nebo napište — bez stresu a bez závazku. Domluvíme se na čase, který bude vyhovovat právě vám, a zbytek řeším já.</p>
+        </div>
+        <div class="contact-card reveal">
+          <ul class="contact-list">
+            <li><a href="tel:+420777123456"><span class="icon">📞</span><span><strong data-i18n="contact.callLabel">Zavolat</strong><span class="value">+420 777 123 456</span></span></a></li>
+            <li><a href="mailto:klid@vdome.cz?subject=Pomoc%20s%20po%C4%8D%C3%ADta%C4%8Dem"><span class="icon">✉️</span><span><strong data-i18n="contact.mailLabel">Napsat e-mail</strong><span class="value">klid@vdome.cz</span></span></a></li>
+            <li><a href="https://wa.me/420777123456" target="_blank" rel="noopener"><span class="icon">💬</span><span><strong data-i18n="contact.waLabel">WhatsApp</strong><span class="value">+420 777 123 456</span></span></a></li>
+            <li><a href="https://t.me/klidvdome" target="_blank" rel="noopener"><span class="icon">📨</span><span><strong data-i18n="contact.tgLabel">Telegram</strong><span class="value">@klidvdome</span></span></a></li>
+          </ul>
+          <p class="hours" data-i18n="contact.hours">Po — So · 8:00–20:00 · Praha a okolí</p>
+        </div>
+      </div>
+    </section>
+
   </main>
-  <script src="./i18n.js"></script><script src="./app.js"></script>
-</body></html>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>©  Klid v domě · Výjezdový mistr počítačových služeb</p>
+      <p><a href="#top" data-i18n="footer.toTop">Zpět nahoru ↑</a></p>
+    </div>
+  </footer>
+
+  <script src="./i18n.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
