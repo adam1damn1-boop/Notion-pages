@@ -1,0 +1,11 @@
+{
+  "name": "Sousedský tón",
+  "short_name": "Soused",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6eedd",
+  "theme_color": "#b1532f",
+  "icons": [
+    { "src": "./img/hero--main.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
