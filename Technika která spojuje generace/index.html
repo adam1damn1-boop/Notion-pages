@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="cs">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Výjezdní počítačové služby pro domácnosti: servis, bezpečnost, výuka i design. Výjezd a první diagnostika zdarma.">
+	<meta name="theme-color" content="#203d4f">
+	<title>Technika, která spojuje generace</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+	<a class="skip-link" href="#main">Přejít na obsah</a>
+
+	<header class="site-header" data-header>
+		<nav class="nav shell" aria-label="Hlavní navigace">
+			<a class="brand" href="#top" aria-label="Domů">
+				<span class="brand__mark" aria-hidden="true">R</span>
+				<span class="brand__text">
+					<span data-i18n="brand.name">Radka servis</span>
+					<span data-i18n="brand.tag">počítače pro celou rodinu</span>
+				</span>
+			</a>
+
+			<button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-menu-toggle>
+				<span aria-hidden="true">☰</span>
+				<span class="sr-only">Otevřít menu</span>
+			</button>
+
+			<div class="nav__menu" id="nav-menu" data-menu>
+				<a href="#services" data-i18n="nav.services">Služby</a>
+				<a href="#approach" data-i18n="nav.approach">Jak pracuji</a>
+				<a href="#contact" data-i18n="nav.contact">Kontakt</a>
+				<label class="language" for="language-select">
+					Jazyk
+					<select id="language-select" data-language-switcher aria-label="Výběr jazyka">
+						<option value="cs">CS</option>
+					</select>
+				</label>
+			</div>
+		</nav>
+	</header>
+
+	<main id="main">
+		<section class="hero shell" id="top">
+			<div class="hero__copy reveal">
+				<p class="eyebrow" data-i18n="hero.eyebrow">Výjezd a první diagnostika zdarma</p>
+				<h1 data-i18n="hero.title">Technika, která spojuje generace.</h1>
+				<p class="hero__lead" data-i18n="hero.lead">Pomohu vaší rodině s počítačem, mobilem, bezpečností, výukou i designem — klidně, srozumitelně a přímo u vás doma.</p>
+				<div class="hero__actions">
+					<a class="button button--primary" href="#contact" data-i18n="hero.ctaPrimary">Domluvit návštěvu</a>
+					<a class="button button--ghost" href="#services" data-i18n="hero.ctaSecondary">Prohlédnout služby</a>
+				</div>
+				<ul class="hero__badges" aria-label="Výhody">
+					<li data-i18n="hero.badge1">Bez závazku</li>
+					<li data-i18n="hero.badge2">Doma u vás</li>
+					<li data-i18n="hero.badge3">Pro děti i prarodiče</li>
+				</ul>
+			</div>
+
+			<div class="hero__visual reveal">
+				<div class="hero-card">
+					<picture>
+						<img class="hero-card__img hero-card__img--main" src="./img/hero--main.png" width="370" height="790" alt="Počítačový mistr připravený pomoci rodině" loading="eager">
+						<img class="hero-card__img hero-card__img--hover" src="./img/hero--hover.png" width="370" height="790" alt="" aria-hidden="true" loading="lazy">
+					</picture>
+					<div class="hero-card__note">
+						<strong data-i18n="hero.noteTitle">Klid pro celou rodinu</strong>
+						Od tichého notebooku po bezpečný domov.
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section intro shell" id="approach">
+			<div class="section__heading reveal">
+				<p class="eyebrow" data-i18n="approach.eyebrow">Jednoduchý postup</p>
+				<h2 data-i18n="approach.title">Nejdřív se podívám, potom se rozhodnete.</h2>
+			</div>
+			<div class="steps">
+				<article class="step reveal">
+					01
+					<h3 data-i18n="approach.step1Title">Krátce popíšete problém</h3>
+					<p data-i18n="approach.step1Text">Stačí telefonát nebo zpráva. Řeknete, co nefunguje a komu má technika pomáhat.</p>
+				</article>
+				<article class="step reveal">
+					02
+					<h3 data-i18n="approach.step2Title">Přijedu a zkontroluji situaci</h3>
+					<p data-i18n="approach.step2Text">Výjezd i první diagnostika jsou zdarma. Vysvětlím možnosti bez složitých pojmů.</p>
+				</article>
+				<article class="step reveal">
+					03
+					<h3 data-i18n="approach.step3Title">Platíte jen za práci</h3>
+					<p data-i18n="approach.step3Text">Vyberete řešení, které dává smysl. Bez tlaku, bez zbytečných nákupů.</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="section services" id="services">
+			<div class="shell">
+				<div class="section__heading reveal">
+					<p class="eyebrow" data-i18n="services.eyebrow">12 služeb pro domácnost</p>
+					<h2 data-i18n="services.title">Technická pomoc od údržby po vzdělávání.</h2>
+					<p data-i18n="services.subtitle">Karty reagují na najetí myší nebo fokus — stejně jako dobrá technika reaguje na potřeby vaší rodiny.</p>
+				</div>
+
+				<div class="service-group reveal">
+					<h3 data-i18n="groups.care">Údržba počítače</h3>
+					<div class="services__grid" data-service-group="care"></div>
+				</div>
+
+				<div class="service-group reveal">
+					<h3 data-i18n="groups.security">Bezpečnost a chytrá domácnost</h3>
+					<div class="services__grid" data-service-group="security"></div>
+				</div>
+
+				<div class="service-group reveal">
+					<h3 data-i18n="groups.learning">Výuka pro dospělé i děti</h3>
+					<div class="services__grid" data-service-group="learning"></div>
+				</div>
+
+				<div class="service-group reveal">
+					<h3 data-i18n="groups.design">Design</h3>
+					<div class="services__grid services__grid--single" data-service-group="design"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section promise shell">
+			<div class="promise__panel reveal">
+				<div>
+					<p class="eyebrow" data-i18n="promise.eyebrow">Rodinný klid</p>
+					<h2 data-i18n="promise.title">Méně vysvětlování po telefonu, více společného času.</h2>
+				</div>
+				<p data-i18n="promise.text">Když technika funguje a lidé jí rozumí, prarodiče mohou volat vnoučatům, děti se učí moderně a rodiče nemusí jezdit přes půl města kvůli jednomu tlačítku.</p>
+			</div>
+		</section>
+
+		<section class="section contact shell" id="contact">
+			<div class="contact__copy reveal">
+				<p class="eyebrow" data-i18n="contact.eyebrow">Kontakt</p>
+				<h2 data-i18n="contact.title">Ozvěte se, první krok je zdarma.</h2>
+				<p data-i18n="contact.text">Stačí se ozvat — krátký telefonát, pár vět o problému, a domluvíme se, kdy se u vás zastavím. Výjezd a první diagnostika jsou vždy zdarma.</p>
+				<div class="contact__actions">
+					<a class="button button--primary" href="mailto:servis@example.cz?subject=Domluva%20návštěvy" data-i18n="contact.email">Napsat e-mail</a>
+					<a class="button button--ghost" href="tel:+420000000000" data-i18n="contact.phone">Zavolat</a>
+				</div>
+			</div>
+
+			<form class="contact__form reveal" action="mailto:servis@example.cz" method="post" enctype="text/plain">
+				<label>
+					Jméno
+					<input name="name" type="text" autocomplete="name" required>
+				</label>
+				<label>
+					Co potřebujete vyřešit?
+					<textarea name="message" rows="4" required></textarea>
+				</label>
+				<button class="button button--primary" type="submit" data-i18n="form.submit">Odeslat poptávku</button>
+				<p class="form-note" data-i18n="form.note">Formulář otevře váš e-mailový program. Nepoužívá žádný server ani databázi.</p>
+			</form>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="shell footer__inner">
+			<p>© <span data-year></span> Radka servis</p>
+			<a href="#top" data-i18n="footer.top">Zpět nahoru</a>
+		</div>
+	</footer>
+
+	<script src="./js/i18n.js"></script>
+	<script src="./js/app.js"></script>
+</body>
+</html>
