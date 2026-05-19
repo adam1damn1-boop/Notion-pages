@@ -1,0 +1,9 @@
+{
+  "name": "Teplý pomocník",
+  "short_name": "Teplý pomocník",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fbf5ea",
+  "theme_color": "#c47a3c",
+  "icons": []
+}
