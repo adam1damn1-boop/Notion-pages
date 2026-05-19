@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Útulné technologie pro váš domov. Počítačové služby s výjezdem a první diagnostikou zdarma.">
+<meta name="theme-color" content="#C66B3D">
+<title>Útulné technologie — počítačové služby s výjezdem zdarma</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="./styles.css">
+<link rel="manifest" href="./manifest.webmanifest">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Přeskočit na obsah</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="#top">☕ Útulné technologie</a>
+    <nav class="main-nav" aria-label="Navigace">
+      <a href="#care" data-i18n="nav.care">Péče</a>
+      <a href="#security" data-i18n="nav.security">Bezpečnost</a>
+      <a href="#learning" data-i18n="nav.learning">Učení</a>
+      <a href="#design" data-i18n="nav.design">Design</a>
+      <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Jazyk">
+      <button class="lang-btn is-active" data-lang="cs" aria-pressed="true">CS</button>
+    </div>
+    <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Vítejte doma u techniky</p>
+        <h1 data-i18n="hero.title">Útulné technologie pro váš domov</h1>
+        <p class="lead" data-i18n="hero.main">Útulné technologie pro váš domov — výjezd i první diagnostika zdarma.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact" data-i18n="hero.cta">Napsat mistrovi</a>
+          <a class="btn btn-ghost" href="#care" data-i18n="hero.services">Prohlédnout služby</a>
+        </div>
+      </div>
+      <figure class="hero-figure">
+        <img class="hero-img hero-img--main" src="./img/hero--main.png" alt="Mistr Květoslav" width="370" height="790">
+        <img class="hero-img hero-img--hover" src="./img/hero--hover.png" alt="" aria-hidden="true" width="370" height="790">
+        <figcaption class="hero-badge" data-i18n="hero.badge">Výjezd a diagnostika zdarma</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="category" id="care"><div class="container"><header class="cat-header"><div class="cat-icon">🖥️</div><h2 data-i18n="cat.care.title">Péče o počítač</h2><p data-i18n="cat.care.lead">Aby vaše technika doma spolehlivě dýchala.</p></header><div class="cards" data-cat="care"></div></div></section>
+  <section class="category alt" id="security"><div class="container"><header class="cat-header"><div class="cat-icon">🔒</div><h2 data-i18n="cat.security.title">Bezpečnost</h2><p data-i18n="cat.security.lead">Klidný spánek díky chytrému dohledu.</p></header><div class="cards" data-cat="security"></div></div></section>
+  <section class="category" id="learning"><div class="container"><header class="cat-header"><div class="cat-icon">🎓</div><h2 data-i18n="cat.learning.title">Učení</h2><p data-i18n="cat.learning.lead">Pro dospělé i pro děti — v pohodlí domova.</p></header><div class="cards" data-cat="learning"></div></div></section>
+  <section class="category alt" id="design"><div class="container"><header class="cat-header"><div class="cat-icon">🎨</div><h2 data-i18n="cat.design.title">Design</h2><p data-i18n="cat.design.lead">Z vašeho nápadu uděláme něco hezkého.</p></header><div class="cards" data-cat="design"></div></div></section>
+
+
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-text">
+        <p class="eyebrow" data-i18n="contact.eyebrow">📞 Spojme se</p>
+        <h2 data-i18n="contact.title">Stačí krátká zpráva</h2>
+        <p class="lead" data-i18n="contact.lead">Stačí krátká zpráva — ozvu se vám, v klidu si popovídáme a domluvíme příjezd. První konzultace nic nestojí a k ničemu vás nezavazuje.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="container footer-inner"><p data-i18n="footer.rights">© 2026 Útulné technologie. Vytvořeno s teplem.</p><p><a href="#top" data-i18n="footer.top">Nahoru ↑</a></p></div></footer>
+
+<script src="./i18n.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
