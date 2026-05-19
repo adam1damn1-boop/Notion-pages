@@ -1,0 +1,9 @@
+{
+  "name": "teply-pomocnik",
+  "version": "1.0.0",
+  "description": "Statický web pro výjezdního počítačového mistra (čeština).",
+  "private": true,
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
