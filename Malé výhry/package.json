@@ -1,0 +1,10 @@
+{
+  "name": "male-vyhry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Statický landing pro výjezdního počítačového mistra — koncept Malé výhry.",
+  "scripts": {
+    "dev": "npx --yes serve .",
+    "start": "npx --yes serve ."
+  }
+}

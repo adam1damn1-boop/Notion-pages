@@ -1,0 +1,9 @@
+{
+  "name": "Malé výhry",
+  "short_name": "Malé výhry",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdf7ec",
+  "theme_color": "#f6b352",
+  "icons": []
+}
