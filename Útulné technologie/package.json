@@ -1,1 +1,11 @@
-{"name":"utulne-technologie","version":"1.0.0","private":true,"scripts":{"start":"npx serve .","build":"echo 'Static site — nothing to build.'"}}
+{
+  "name": "utulne-technologie",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static marketing site for cozy computer services (cs).",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static site — nothing to build.'"
+  },
+  "license": "MIT"
+}

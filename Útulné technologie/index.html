@@ -16,7 +16,10 @@
 <a class="skip" href="#main" data-i18n="skip">Přeskočit na obsah</a>
 <header class="site-header">
   <div class="container header-inner">
-    <a class="logo" href="#top">☕ Útulné technologie</a>
+    <a class="logo" href="#top">
+      ☕
+      Útulné technologie
+    </a>
     <nav class="main-nav" aria-label="Navigace">
       <a href="#care" data-i18n="nav.care">Péče</a>
       <a href="#security" data-i18n="nav.security">Bezpečnost</a>
@@ -44,6 +47,11 @@
           <a class="btn btn-primary" href="#contact" data-i18n="hero.cta">Napsat mistrovi</a>
           <a class="btn btn-ghost" href="#care" data-i18n="hero.services">Prohlédnout služby</a>
         </div>
+        <ul class="hero-points">
+          <li data-i18n="hero.p1">✔ Výjezd zdarma</li>
+          <li data-i18n="hero.p2">✔ První diagnostika zdarma</li>
+          <li data-i18n="hero.p3">✔ Platíte jen za práci a díly</li>
+        </ul>
       </div>
       <figure class="hero-figure">
         <img class="hero-img hero-img--main" src="./img/hero--main.png" alt="Mistr Květoslav" width="370" height="790">
@@ -53,11 +61,49 @@
     </div>
   </section>
 
-  <section class="category" id="care"><div class="container"><header class="cat-header"><div class="cat-icon">🖥️</div><h2 data-i18n="cat.care.title">Péče o počítač</h2><p data-i18n="cat.care.lead">Aby vaše technika doma spolehlivě dýchala.</p></header><div class="cards" data-cat="care"></div></div></section>
-  <section class="category alt" id="security"><div class="container"><header class="cat-header"><div class="cat-icon">🔒</div><h2 data-i18n="cat.security.title">Bezpečnost</h2><p data-i18n="cat.security.lead">Klidný spánek díky chytrému dohledu.</p></header><div class="cards" data-cat="security"></div></div></section>
-  <section class="category" id="learning"><div class="container"><header class="cat-header"><div class="cat-icon">🎓</div><h2 data-i18n="cat.learning.title">Učení</h2><p data-i18n="cat.learning.lead">Pro dospělé i pro děti — v pohodlí domova.</p></header><div class="cards" data-cat="learning"></div></div></section>
-  <section class="category alt" id="design"><div class="container"><header class="cat-header"><div class="cat-icon">🎨</div><h2 data-i18n="cat.design.title">Design</h2><p data-i18n="cat.design.lead">Z vašeho nápadu uděláme něco hezkého.</p></header><div class="cards" data-cat="design"></div></div></section>
+  <section class="category" id="care">
+    <div class="container">
+      <header class="cat-header">
+        🖥️
+        <h2 data-i18n="cat.care.title">Péče o počítač</h2>
+        <p data-i18n="cat.care.lead">Aby vaše technika doma spolehlivě dýchala.</p>
+      </header>
+      <div class="cards" data-cat="care"></div>
+    </div>
+  </section>
 
+  <section class="category alt" id="security">
+    <div class="container">
+      <header class="cat-header">
+        🔒
+        <h2 data-i18n="cat.security.title">Bezpečnost</h2>
+        <p data-i18n="cat.security.lead">Klidný spánek díky chytrému dohledu.</p>
+      </header>
+      <div class="cards" data-cat="security"></div>
+    </div>
+  </section>
+
+  <section class="category" id="learning">
+    <div class="container">
+      <header class="cat-header">
+        🎓
+        <h2 data-i18n="cat.learning.title">Učení</h2>
+        <p data-i18n="cat.learning.lead">Pro dospělé i pro děti — v pohodlí domova.</p>
+      </header>
+      <div class="cards" data-cat="learning"></div>
+    </div>
+  </section>
+
+  <section class="category alt" id="design">
+    <div class="container">
+      <header class="cat-header">
+        🎨
+        <h2 data-i18n="cat.design.title">Design</h2>
+        <p data-i18n="cat.design.lead">Z vašeho nápadu uděláme něco hezkého.</p>
+      </header>
+      <div class="cards" data-cat="design"></div>
+    </div>
+  </section>
 
   <section class="contact" id="contact">
     <div class="container contact-inner">
@@ -65,12 +111,38 @@
         <p class="eyebrow" data-i18n="contact.eyebrow">📞 Spojme se</p>
         <h2 data-i18n="contact.title">Stačí krátká zpráva</h2>
         <p class="lead" data-i18n="contact.lead">Stačí krátká zpráva — ozvu se vám, v klidu si popovídáme a domluvíme příjezd. První konzultace nic nestojí a k ničemu vás nezavazuje.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:mistr@utulnetechnologie.cz" data-i18n="contact.cta_email">✉ Napsat e-mail</a>
+          <a class="btn btn-ghost" href="tel:+420777000000" data-i18n="contact.cta_call">📞 Zavolat</a>
+          <a class="btn btn-ghost" href="https://wa.me/420777000000" data-i18n="contact.cta_msg">💬 WhatsApp</a>
+          <a class="btn btn-ghost" href="https://t.me/utulnetechnologie" data-i18n="contact.cta_tg">✈ Telegram</a>
+        </div>
+        <form class="contact-form" action="https://formsubmit.co/mistr@utulnetechnologie.cz" method="POST">
+          <label>Vaše jméno<input type="text" name="name" required></label>
+          <label>E-mail nebo telefon<input type="text" name="contact" required></label>
+          <label>Napište, s čím vám mohu pomoci<textarea name="message" rows="4" required></textarea></label>
+          <button type="submit" class="btn btn-primary" data-i18n="form.submit">Odeslat zprávu</button>
+        </form>
       </div>
+      <aside class="contact-meta">
+        <h3 data-i18n="contact.meta_title">Co od první návštěvy čekat?</h3>
+        <ol>
+          <li data-i18n="contact.meta_1">Krátký rozhovor, abych pochopil situaci.</li>
+          <li data-i18n="contact.meta_2">Bezplatný příjezd k vám domů.</li>
+          <li data-i18n="contact.meta_3">Klidná diagnostika a férový návrh řešení.</li>
+          <li data-i18n="contact.meta_4">Platíte až po dohodě — jen za práci a díly.</li>
+        </ol>
+      </aside>
     </div>
   </section>
 </main>
 
-<footer class="site-footer"><div class="container footer-inner"><p data-i18n="footer.rights">© 2026 Útulné technologie. Vytvořeno s teplem.</p><p><a href="#top" data-i18n="footer.top">Nahoru ↑</a></p></div></footer>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p data-i18n="footer.rights">© 2026 Útulné technologie. Vytvořeno s teplem.</p>
+    <p><a href="#top" data-i18n="footer.top">Nahoru ↑</a></p>
+  </div>
+</footer>
 
 <script src="./i18n.js"></script>
 <script src="./main.js"></script>

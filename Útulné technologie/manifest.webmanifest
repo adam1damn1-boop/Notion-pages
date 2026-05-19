@@ -1,1 +1,9 @@
-{"name":"Útulné technologie","short_name":"Útulné","start_url":"/","display":"standalone","background_color":"#FAF5EC","theme_color":"#C66B3D","icons":[]}
+{
+  "name": "Útulné technologie",
+  "short_name": "Útulné",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF5EC",
+  "theme_color": "#C66B3D",
+  "icons": []
+}
