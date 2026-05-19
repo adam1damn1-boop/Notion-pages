@@ -1,0 +1,10 @@
+{
+  "name": "Teplý pomocník",
+  "short_name": "Teplý pomocník",
+  "description": "Domácí počítačové služby. Výjezd a první prohlídka zdarma.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FAF5EC",
+  "theme_color": "#FAF5EC",
+  "icons": []
+}

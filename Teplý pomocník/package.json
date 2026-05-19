@@ -1,0 +1,10 @@
+{
+  "name": "teply-pomocnik",
+  "version": "1.0.0",
+  "description": "Domácí počítačové služby — statický web (Vercel-ready).",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "deploy": "npx vercel --prod"
+  }
+}
