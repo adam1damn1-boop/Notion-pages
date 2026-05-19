@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="cs" data-lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#C8553D" />
+  <title data-i18n="meta.title">Soused od vedle — počítačový pomocník u vás doma</title>
+  <meta name="description" data-i18n-attr="content" data-i18n="meta.desc" content="Počítačový soused, který přijede až k vám domů. Výjezd a první diagnostika zdarma." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='54' font-size='52'%3E🏘️%3C/text%3E%3C/svg%3E" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Přeskočit na obsah</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-row">
+      <a class="brand" href="#top" aria-label="Soused od vedle">
+        🏘️
+        
+          <strong data-i18n="brand.name">Soused od vedle</strong>
+          <small data-i18n="brand.tag">počítače · bezpečnost · učení</small>
+        
+      </a>
+      <nav class="site-nav" aria-label="Hlavní menu">
+        <ul>
+          <li><a href="#care" data-i18n="nav.care">Péče</a></li>
+          <li><a href="#security" data-i18n="nav.security">Bezpečnost</a></li>
+          <li><a href="#learning" data-i18n="nav.learning">Učení</a></li>
+          <li><a href="#design" data-i18n="nav.design">Design</a></li>
+          <li><a class="nav-cta" href="#contact" data-i18n="nav.contact">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="header-tools">
+        <label class="lang-switch" for="lang-select">
+          Jazyk
+          <select id="lang-select" aria-label="Jazyk"></select>
+        </label>
+        <button class="menu-toggle" aria-label="Menu" aria-expanded="false"></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker" data-i18n="hero.kicker">Vítejte ve dveřích</p>
+          <h1 data-i18n="hero.title">Soused od vedle, který rozumí počítačům</h1>
+          <p class="lead" data-i18n="sec.main"></p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#contact" data-i18n="cta.call">Zavolat sousedovi</a>
+            <a class="btn btn-ghost" href="#care" data-i18n="cta.services">Prohlédnout služby</a>
+          </div>
+          <ul class="badges">
+            <li data-i18n="hero.badge1">Výjezd zdarma</li>
+            <li data-i18n="hero.badge2">Diagnostika zdarma</li>
+            <li data-i18n="hero.badge3">Bez předplatného</li>
+          </ul>
+        </div>
+        <figure class="hero-art">
+          <img class="img-main" src="./img/hero--main.png" alt="Soused od vedle" width="370" height="790" />
+          <img class="img-hover" src="./img/hero--hover.png" alt="" aria-hidden="true" loading="lazy" width="370" height="790" />
+          <figcaption class="hero-stamp" data-i18n="hero.stamp">U vás doma</figcaption>
+        </figure>
+      </div>
+      <a class="scroll-down" href="#care" aria-hidden="true">↓</a>
+    </section>
+
+    <section class="services section-care" id="care">
+      <div class="container">
+        <header class="section-head">
+          01
+          <h2 data-i18n="sec1.title">Péče o počítač</h2>
+          <p class="section-intro" data-i18n="sec1.intro">Pravidelná údržba, modernizace, software i druhý život pro starý stroj.</p>
+        </header>
+        <div class="cards cards-4">
+          <article class="card" id="cleaning">
+            <div class="card-art"><img class="img-main" src="./img/cleaning--main.png" alt="cleaning" loading="lazy" width="310" height="310" /><img class="img-hover" src="./img/cleaning--hover.png" alt="" aria-hidden="true" loading="lazy" width="310" height="310" /></div>
+            <h3 data-i18n="srv.cleaning.title">Čištění a chlazení</h3>
+            <p data-i18n="sec.cleaning"></p>
+            Výjezd zdarma
+          </article>
+          <article class="card" id="upgrade">
+            <div class="card-art"><img class="img-main" src="./img/upgrade--main.png" alt="upgrade" loading="lazy" width="320" height="340" /><img class="img-hover" src="./img/upgrade--hover.png" alt="" aria-hidden="true" loading="lazy" width="320" height="340" /></div>
+            <h3 data-i18n="srv.upgrade.title">Modernizace</h3>
+            <p data-i18n="sec.upgrade"></p>
+            Výjezd zdarma
+          </article>
+          <article class="card" id="software">
+            <div class="card-art"><img class="img-main" src="./img/software--main.png" alt="software" loading="lazy" width="350" height="300" /><img class="img-hover" src="./img/software--hover.png" alt="" aria-hidden="true" loading="lazy" width="350" height="300" /></div>
+            <h3 data-i18n="srv.software.title">Software a Windows</h3>
+            <p data-i18n="sec.software"></p>
+            Výjezd zdarma
+          </article>
+          <article class="card" id="repair">
+            <div class="card-art"><img class="img-main" src="./img/repair--main.png" alt="repair" loading="lazy" width="300" height="286" /><img class="img-hover" src="./img/repair--hover.png" alt="" aria-hidden="true" loading="lazy" width="300" height="286" /></div>
+            <h3 data-i18n="srv.repair.title">Oprava a likvidace</h3>
+            <p data-i18n="sec.repair"></p>
+            Výjezd zdarma
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-security" id="security">
+      <div class="container">
+        <header class="section-head">
+          02
+          <h2 data-i18n="sec2.title">Bezpečnost domova</h2>
+          <p class="section-intro" data-i18n="sec2.intro">Klidný spánek, ať jste doma, na chalupě nebo na dovolené.</p>
+        </header>
+        <div class="cards cards-3">
+          <article class="card" id="webcam">
+            <div class="card-art"><img class="img-main" src="./img/webcam--main.png" alt="webcam" loading="lazy" width="220" height="290" /><img class="img-hover" src="./img/webcam--hover.png" alt="" aria-hidden="true" loading="lazy" width="220" height="290" /></div>
+            <h3 data-i18n="srv.webcam.title">Web-kamery</h3>
+            <p data-i18n="sec.webcam"></p>
+            Výjezd zdarma
+          </article>
+          <article class="card" id="alarm">
+            <div class="card-art"><img class="img-main" src="./img/alarm--main.png" alt="alarm" loading="lazy" width="360" height="280" /><img class="img-hover" src="./img/alarm--hover.png" alt="" aria-hidden="true" loading="lazy" width="360" height="280" /></div>
+            <h3 data-i18n="srv.alarm.title">Domácí alarm</h3>
+            <p data-i18n="sec.alarm"></p>
+            Výjezd zdarma
+          </article>
+          <article class="card" id="appliances">
+            <div class="card-art"><img class="img-main" src="./img/appliances--main.png" alt="appliances" loading="lazy" width="290" height="290" /><img class="img-hover" src="./img/appliances--hover.png" alt="" aria-hidden="true" loading="lazy" width="290" height="290" /></div>
+            <h3 data-i18n="srv.appliances.title">Chytrá domácnost</h3>
+            <p data-i18n="sec.appliances"></p>
+            Výjezd zdarma
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero-strip">
+      <div class="container">
+        <p class="strip-quote" data-i18n="strip.quote">„Žádný tlak, žádné předplatné — prostě soused, který rozumí počítačům.“</p>
+      </div>
+    </section>
+
+    <section class="services section-learning" id="learning">
+      <div class="container">
+        <header class="section-head">
+          03
+          <h2 data-i18n="sec3.title">Učení pro celou rodinu</h2>
+          <p class="section-intro" data-i18n="sec3.intro">Pro dospělé i pro děti — od základů po umělou inteligenci.</p>
+        </header>
+        <h3 class="subgroup" data-i18n="sec3.adults">Pro dospělé</h3>
+        <div class="cards cards-1">
+          <article class="card card-wide" id="literacy">
+            <div class="card-art"><img class="img-main" src="./img/literacy--main.png" alt="literacy" loading="lazy" width="320" height="290" /><img class="img-hover" src="./img/literacy--hover.png" alt="" aria-hidden="true" loading="lazy" width="320" height="290" /></div>
+            <div class="card-body">
+              <h3 data-i18n="srv.literacy.title">Počítačová gramotnost</h3>
+              <p data-i18n="sec.literacy"></p>
+              Návštěva zdarma
+            </div>
+          </article>
+        </div>
+        <h3 class="subgroup" data-i18n="sec3.kids">Pro děti</h3>
+        <div class="cards cards-3">
+          <article class="card" id="tutor">
+            <div class="card-art"><img class="img-main" src="./img/tutor--main.png" alt="tutor" loading="lazy" width="370" height="310" /><img class="img-hover" src="./img/tutor--hover.png" alt="" aria-hidden="true" loading="lazy" width="370" height="310" /></div>
+            <h3 data-i18n="srv.tutor.title">Doučování informatiky</h3>
+            <p data-i18n="sec.tutor"></p>
+            Návštěva zdarma
+          </article>
+          <article class="card" id="chess">
+            <div class="card-art"><img class="img-main" src="./img/chess--main.png" alt="chess" loading="lazy" width="330" height="320" /><img class="img-hover" src="./img/chess--hover.png" alt="" aria-hidden="true" loading="lazy" width="330" height="320" /></div>
+            <h3 data-i18n="srv.chess.title">Šachy pro děti</h3>
+            <p data-i18n="sec.chess"></p>
+            První lekce zdarma
+          </article>
+          <article class="card" id="development">
+            <div class="card-art"><img class="img-main" src="./img/development--main.png" alt="development" loading="lazy" width="320" height="320" /><img class="img-hover" src="./img/development--hover.png" alt="" aria-hidden="true" loading="lazy" width="320" height="320" /></div>
+            <h3 data-i18n="srv.development.title">Vysoké technologie a AI</h3>
+            <p data-i18n="sec.development"></p>
+            Konzultace zdarma
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-design" id="design">
+      <div class="container">
+        <header class="section-head">
+          04
+          <h2 data-i18n="sec4.title">Design pro lidi i firmy</h2>
+        </header>
+        <div class="cards cards-1">
+          <article class="card card-wide" id="design-card">
+            <div class="card-art"><img class="img-main" src="./img/design--main.png" alt="design" loading="lazy" width="310" height="310" /><img class="img-hover" src="./img/design--hover.png" alt="" aria-hidden="true" loading="lazy" width="310" height="310" /></div>
+            <div class="card-body">
+              <h3 data-i18n="srv.design.title">Letáky, weby, katalogy</h3>
+              <p data-i18n="sec.design"></p>
+              Konzultace u kávy zdarma
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="kicker" data-i18n="contact.kicker">Ozvěte se</p>
+          <h2 data-i18n="contact.title">Domluvíme se přes plot</h2>
+          <p class="lead" data-i18n="sec.contact"></p>
+        </div>
+        <ul class="contact-list">
+          <li><a href="mailto:soused@pocitacovysoused.cz">✉️<strong>E-mail</strong><small>soused@pocitacovysoused.cz</small></a></li>
+          <li><a href="tel:+420777123456">📞<strong data-i18n="contact.phone">Telefon</strong><small>+420 777 123 456</small></a></li>
+          <li><a href="https://wa.me/420777123456" target="_blank" rel="noopener">💬<strong>WhatsApp</strong><small>+420 777 123 456</small></a></li>
+          <li><a href="https://t.me/pocitacovysoused" target="_blank" rel="noopener">✈️<strong>Telegram</strong><small>@pocitacovysoused</small></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>©  Soused od vedle · vyrobeno s láskou pro sousedy</p>
+      <p class="muted" data-i18n="footer.note">Výjezd zdarma v Praze a okolí. Mimo region po dohodě.</p>
+    </div>
+  </footer>
+
+  <script src="./i18n.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>

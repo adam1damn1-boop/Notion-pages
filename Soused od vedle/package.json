@@ -1,0 +1,10 @@
+{
+  "name": "soused-od-vedle",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Statický web pro výjezdního počítačového mistra. Koncept: Соседский тон.",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Žádný build krok — pouze statické soubory.'"
+  }
+}
