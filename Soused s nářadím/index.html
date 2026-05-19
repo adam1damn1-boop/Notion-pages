@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fbf7f0">
+<title data-i18n="meta.title">Soused s nářadím — počítačové služby u vás doma</title>
+<meta name="description" data-i18n-attr="content" data-i18n="meta.desc" content="Výjezdový mistr počítačových služeb. Přijdu jako přítel s nářadím. První návštěva a diagnostika zdarma.">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%A7%B0</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body id="top">
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-row">
+    <a href="#top" class="brand" aria-label="Soused s nářadím">
+      🧰
+      Soused s nářadím
+    </a>
+    <nav class="nav" aria-label="Hlavní menu">
+      <a href="#care" data-i18n="nav.care">Péče</a>
+      <a href="#security" data-i18n="nav.security">Bezpečnost</a>
+      <a href="#learning" data-i18n="nav.learning">Učení</a>
+      <a href="#design-section" data-i18n="nav.design">Design</a>
+      <a href="#contact" class="nav-cta" data-i18n="nav.contact">Kontakt</a>
+    </nav>
+    <div class="lang">
+      <button class="lang-btn" type="button" aria-expanded="false" aria-haspopup="true" id="langBtn" aria-label="Změnit jazyk">
+        CS
+        <svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <ul class="lang-menu" id="langMenu" role="menu">
+        <li role="none"><button role="menuitem" data-lang="cs">Čeština</button></li>
+      </ul>
+    </div>
+    <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false"></button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <p class="kicker" data-i18n="hero.kicker">Výjezdový mistr · první návštěva zdarma</p>
+        <h1 data-i18n="hero.title">Přijdu jako přítel s nářadím — a vaše technika zase ožije.</h1>
+        <p class="lead" data-i18n="hero.lead">Počítačové služby u vás doma: péče, bezpečnost, učení i design. Bez nátlaku, bez složitých řečí, bez zbytečných výdajů.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Domluvit návštěvu</a>
+          <a href="#services" class="btn btn-ghost" data-i18n="hero.cta2">Co umím</a>
+        </div>
+        <ul class="hero-points">
+          <li>🛠Příjezd a diagnostika zdarma</li>
+          <li>🤝Mluvíme lidsky, ne v IT</li>
+          <li>💶Platíte jen za skutečnou práci</li>
+        </ul>
+      </div>
+      <figure class="hero-image reveal">
+        <div class="hero-frame">
+          <img class="img-main" src="./img/hero--main.png" alt="" data-alt-i18n="hero.alt" loading="eager" decoding="async">
+          <img class="img-hover" src="./img/hero--hover.png" alt="" aria-hidden="true" loading="eager" decoding="async">
+        </div>
+        🧰
+      </figure>
+    </div>
+    <a href="#services" class="scroll-hint" aria-label="Posunout dolů">
+      
+    </a>
+  </section>
+
+  <section id="services" class="section services">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow" data-i18n="services.eyebrow">Co u vás zařídím</p>
+        <h2 data-i18n="services.title">Dvanáct věcí, na které se lidé volají</h2>
+        <p class="section-lead" data-i18n="services.lead">Najedete kurzorem na kartičku — uvidíte druhou stranu mince. Vše ostatní vyřešíme u kávy.</p>
+      </header>
+
+      <div class="cat" id="care">
+        <div class="cat-head reveal">
+          01
+          <h3 data-i18n="cat.care">Péče o počítač</h3>
+          <p data-i18n="cat.care.lead">Aby vám stroj vydržel a fungoval, jak má.</p>
+        </div>
+        <div class="cards">
+          <article class="card reveal" data-section="1.1">
+            <div class="card-media">
+              <img class="img-main" src="./img/cleaning--main.png" alt="" data-alt-i18n="srv.cleaning.alt" loading="lazy" decoding="async">
+              <img class="img-hover" src="./img/cleaning--hover.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </div>
+            <div class="card-body">
+              1.1
+              <h4 data-i18n="srv.cleaning.title">Čištění počítače</h4>
+              <p data-i18n="srv.cleaning.text"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="1.2">
+            <div class="card-media">
+              <img class="img-main" src="./img/upgrade--main.png" alt="" data-alt-i18n="srv.upgrade.alt" loading="lazy" decoding="async">
+              <img class="img-hover" src="./img/upgrade--hover.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </div>
+            <div class="card-body">
+              1.2
+              <h4 data-i18n="srv.upgrade.title">Modernizace</h4>
+              <p data-i18n="srv.upgrade.text"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="1.3">
+            <div class="card-media">
+              <img class="img-main" src="./img/software--main.png" alt="" data-alt-i18n="srv.software.alt" loading="lazy" decoding="async">
+              <img class="img-hover" src="./img/software--hover.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </div>
+            <div class="card-body">
+              1.3
+              <h4 data-i18n="srv.software.title">Nastavení softwaru</h4>
+              <p data-i18n="srv.software.text"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="1.4">
+            <div class="card-media">
+              <img class="img-main" src="./img/repair--main.png" alt="" data-alt-i18n="srv.repair.alt" loading="lazy" decoding="async">
+              <img class="img-hover" src="./img/repair--hover.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </div>
+            <div class="card-body">
+              1.4
+              <h4 data-i18n="srv.repair.title">Oprava a recyklace</h4>
+              <p data-i18n="srv.repair.text"></p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="cat" id="security">
+        <div class="cat-head reveal">
+          02
+          <h3 data-i18n="cat.security">Bezpečnost</h3>
+          <p data-i18n="cat.security.lead">Aby vám doma bylo klidně, i když nejste doma.</p>
+        </div>
+        <div class="cards">
+          <article class="card reveal" data-section="2.1">
+            <div class="card-media">
+              <img class="img-main" src="./img/webcam--main.png" alt="" data-alt-i18n="srv.webcam.alt" loading="lazy" decoding="async">
+              <img class="img-hover" src="./img/webcam--hover.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </div>
+            <div class="card-body">
+              2.1
+              <h4 data-i18n="srv.webcam.title">Web-kamery</h4>
+              <p data-i18n="srv.webcam.text"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="2.2">
+            <div class="card-media">
+              <img class="img-main" src="./img/alarm--main.png" alt="" data-alt-i18n="srv.alarm.alt" loading="lazy" decoding="async">
+              <img class="img-hover" src="./img/alarm--hover.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </div>
+            <div class="card-body">
+              2.2
+              <h4 data-i18n="srv.alarm.title">Domácí alarm</h4>
+              <p data-i18n="srv.alarm.text"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="2.3">
+            <div class="card-media">
+              <img class="img-main" src="./img/appliances--main.png" alt="" data-alt-i18n="srv.appliances.alt" loading="lazy" decoding="async">
+              <img class="img-hover" src="./img/appliances--hover.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </div>
+            <div class="card-body">
+              2.3
+              <h4 data-i18n="srv.appliances.title">Chytrá domácnost</h4>
+              <p data-i18n="srv.appliances.text"></p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="hero-strip reveal">
+        <div class="hero-strip-text">
+          <p class="eyebrow" data-i18n="strip.eyebrow">Sousedský přístup</p>
+          <h3 data-i18n="strip.title">První kafe je na mně. A diagnostika taky.</h3>
+          <p data-i18n="strip.text">Než vám něco doporučím, podívám se a vysvětlím, co a proč. Bez tlaku a bez termínů, kterým nerozumíte.</p>
+        </div>
+        <a href="#contact" class="btn btn-primary" data-i18n="strip.cta">Domluvit návštěvu</a>
+      </div>
+
+      <div class="cat" id="learning">
+        <div class="cat-head reveal">
+          03
+          <h3 data-i18n="cat.learning">Učení</h3>
+          <p data-i18n="cat.learning.lead">Pro dospělé i pro děti — klidně, srozumitelně, s respektem.</p>
+        </div>
+        <div class="cards">
+          <article class="card reveal" data-section="3.1">
+            <div class="card-media">
+              <img class="img-main" src="./img/literacy--main.png" alt="" data-alt-i18n="srv.literacy.alt" loading="lazy" decoding="async">
+              <img class="img-hover" src="./img/literacy--hover.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </div>
+            <div class="card-body">
+              3.1
+              <h4 data-i18n="srv.literacy.title">Počítačová gramotnost</h4>
+              <p data-i18n="srv.literacy.text"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="3.2">
+            <div class="card-media">
+              <img class="img-main" src="./img/tutor--main.png" alt="" data-alt-i18n="srv.tutor.alt" loading="lazy" decoding="async">
+              <img class="img-hover" src="./img/tutor--hover.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </div>
+            <div class="card-body">
+              3.2
+              <h4 data-i18n="srv.tutor.title">Doučování informatiky</h4>
+              <p data-i18n="srv.tutor.text"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="3.3">
+            <div class="card-media">
+              <img class="img-main" src="./img/chess--main.png" alt="" data-alt-i18n="srv.chess.alt" loading="lazy" decoding="async">
+              <img class="img-hover" src="./img/chess--hover.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </div>
+            <div class="card-body">
+              3.3
+              <h4 data-i18n="srv.chess.title">Šachy pro děti</h4>
+              <p data-i18n="srv.chess.text"></p>
+            </div>
+          </article>
+          <article class="card reveal" data-section="3.4">
+            <div class="card-media">
+              <img class="img-main" src="./img/development--main.png" alt="" data-alt-i18n="srv.development.alt" loading="lazy" decoding="async">
+              <img class="img-hover" src="./img/development--hover.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </div>
+            <div class="card-body">
+              3.4
+              <h4 data-i18n="srv.development.title">Vysoké technologie a AI</h4>
+              <p data-i18n="srv.development.text"></p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="cat" id="design-section">
+        <div class="cat-head reveal">
+          04
+          <h3 data-i18n="cat.design">Design a vývoj</h3>
+          <p data-i18n="cat.design.lead">Když i drobné podnikání vypadá dobře, lidé mu věří.</p>
+        </div>
+        <div class="cards cards-single">
+          <article class="card reveal card-wide" data-section="4">
+            <div class="card-media">
+              <img class="img-main" src="./img/design--main.png" alt="" data-alt-i18n="srv.design.alt" loading="lazy" decoding="async">
+              <img class="img-hover" src="./img/design--hover.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </div>
+            <div class="card-body">
+              4
+              <h4 data-i18n="srv.design.title">Letáky, plakáty, weby, katalogy</h4>
+              <p data-i18n="srv.design.text"></p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section how reveal">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow" data-i18n="how.eyebrow">Jak to probíhá</p>
+        <h2 data-i18n="how.title">Čtyři kroky k tomu, aby technika sloužila vám</h2>
+      </header>
+      <ol class="steps">
+        <li class="reveal">1<h4 data-i18n="how.s1.t">Ozvete se</h4><p data-i18n="how.s1.d">Telefon, e-mail nebo zpráva přes messenger. Stačí pár vět.</p></li>
+        <li class="reveal">2<h4 data-i18n="how.s2.t">Přijdu zdarma</h4><p data-i18n="how.s2.d">Podívám se, poslechnu, položím pár otázek. Bez závazku.</p></li>
+        <li class="reveal">3<h4 data-i18n="how.s3.t">Domluvíme se</h4><p data-i18n="how.s3.d">Řeknu na rovinu, co dává smysl a kolik to bude stát.</p></li>
+        <li class="reveal">4<h4 data-i18n="how.s4.t">Vyřeším to</h4><p data-i18n="how.s4.d">Odejdu, až bude všechno fungovat, jak má. A vrátím se, kdyby cokoli.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container contact-grid">
+      <div class="contact-text reveal">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Kontakt</p>
+        <h2 data-i18n="contact.title">Domluvíme se jako sousedé přes plot.</h2>
+        <p class="section-lead" data-i18n="contact.lead"></p>
+        <ul class="contact-list">
+          <li><a href="tel:+420777123456">📞+420 777 123 456</a></li>
+          <li><a href="mailto:soused@nastroje.cz">✉️soused@nastroje.cz</a></li>
+          <li><a href="https://wa.me/420777123456" rel="noopener" target="_blank">💬WhatsApp</a></li>
+          <li><a href="https://t.me/sousedsnaradim" rel="noopener" target="_blank">✈️Telegram</a></li>
+        </ul>
+        <p class="contact-note" data-i18n="contact.note">První návštěva a diagnostika zdarma. Pracuji v Praze a okolí.</p>
+      </div>
+      <form class="contact-form reveal" action="https://formsubmit.co/soused@nastroje.cz" method="POST" novalidate>
+        <input type="hidden" name="_subject" value="Nová poptávka z webu Soused s nářadím">
+        <input type="hidden" name="_template" value="table">
+        <label>Vaše jméno<input type="text" name="name" required></label>
+        <label>Telefon nebo e-mail<input type="text" name="contact" required></label>
+        <label>Co potřebujete?<textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn btn-primary" data-i18n="form.send">Odeslat zprávu</button>
+        <p class="form-hint" data-i18n="form.hint">Ozvu se zpravidla do několika hodin.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="brand brand-foot">🧰Soused s nářadím</p>
+      <p class="footer-tag" data-i18n="footer.tag">Výjezdový mistr počítačových služeb. Lidsky, klidně, poctivě.</p>
+    </div>
+    <div>
+      <p class="foot-h" data-i18n="footer.menu">Sekce</p>
+      <ul>
+        <li><a href="#care" data-i18n="nav.care">Péče</a></li>
+        <li><a href="#security" data-i18n="nav.security">Bezpečnost</a></li>
+        <li><a href="#learning" data-i18n="nav.learning">Učení</a></li>
+        <li><a href="#design-section" data-i18n="nav.design">Design</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="foot-h" data-i18n="footer.contact">Kontakt</p>
+      <ul>
+        <li><a href="tel:+420777123456">+420 777 123 456</a></li>
+        <li><a href="mailto:soused@nastroje.cz">soused@nastroje.cz</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>©  · Soused s nářadím. Všechna práva vyhrazena.</p>
+  </div>
+</footer>
+
+<script src="./i18n.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
