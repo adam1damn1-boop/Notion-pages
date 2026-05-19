@@ -1,0 +1,1 @@
+window.DICT={cs:{'brand.name':'Adam — IT na výjezd','nav.home':'Domů','nav.services':'Služby','nav.contact':'Kontakt'}};
