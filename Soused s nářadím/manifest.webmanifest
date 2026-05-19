@@ -1,0 +1,11 @@
+{
+  "name": "Soused s nářadím",
+  "short_name": "Soused",
+  "description": "Výjezdový mistr počítačových služeb. První návštěva zdarma.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fbf7f0",
+  "theme_color": "#c8552f",
+  "lang": "cs",
+  "icons": []
+}
