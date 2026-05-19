@@ -1,0 +1,11 @@
+{
+  "name": "bez-bolesti-hlavy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Statický marketingový web výjezdového mistra počítačových služeb — koncept Šálek klidu / Bez bolesti hlavy.",
+  "scripts": {
+    "start": "npx serve .",
+    "deploy": "npx vercel --prod"
+  },
+  "keywords": ["počítačové služby", "výjezdový mistr", "czech"]
+}

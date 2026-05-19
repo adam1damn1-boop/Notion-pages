@@ -1,0 +1,10 @@
+{
+  "name": "Bez bolesti hlavy",
+  "short_name": "BBH",
+  "description": "Výjezdový mistr počítačových služeb. Výjezd a první diagnostika zdarma.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF6EF",
+  "theme_color": "#4F7B71",
+  "icons": []
+}
