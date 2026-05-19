@@ -1,0 +1,12 @@
+{
+  "name": "Digitální péče",
+  "short_name": "Digi péče",
+  "description": "Sousedský počítačový mistr — výjezd a první diagnostika zdarma.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf5ec",
+  "theme_color": "#fbf5ec",
+  "icons": [
+    { "src": "./img/hero--main.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

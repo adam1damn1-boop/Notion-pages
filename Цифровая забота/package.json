@@ -1,0 +1,10 @@
+{
+  "name": "digitalni-pece",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Statický lendingový web Digitální péče — Adam, sousedský počítačový mistr.",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  }
+}

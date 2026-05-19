@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="theme-color" content="#fbf5ec" />
+<meta name="description" content="Digitální péče, jakou si zaslouží i váš počítač — výjezd a první diagnostika zdarma." />
+<title>Digitální péče — Adam, sousedský počítačový mistr</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Manrope:wght@300;400;500;600;700&display=swap" />
+<link rel="stylesheet" href="./styles/main.css" />
+<link rel="icon" href="./img/hero--main.png" type="image/png" />
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="a11y.skip">Přeskočit na obsah</a>
+
+<header class="site-header">
+  <a href="#top" class="brand" aria-label="Digitální péče">
+    ❤︎
+    
+  </a>
+  <nav class="primary-nav" aria-label="Hlavní navigace">
+    <a href="#care" data-i18n="nav.care"></a>
+    <a href="#security" data-i18n="nav.security"></a>
+    <a href="#learning" data-i18n="nav.learning"></a>
+    <a href="#design" data-i18n="nav.design"></a>
+    <a href="#contact" class="cta" data-i18n="nav.contact"></a>
+  </nav>
+  <div class="lang-switch" role="group" aria-label="Jazyk">
+    <button type="button" data-lang="cs" class="is-active">CS</button>
+  </div>
+  <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false">
+    
+  </button>
+</header>
+
+<main id="main">
+  <section class="hero" id="top" data-reveal>
+    <div class="hero-copy">
+      <p class="eyebrow" data-i18n="hero.eyebrow"></p>
+      <h1 class="hero-title" data-i18n="hero.title"></h1>
+      <p class="hero-lead" data-i18n="hero.lead"></p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#contact" data-i18n="hero.cta1"></a>
+        <a class="btn ghost" href="#care" data-i18n="hero.cta2"></a>
+      </div>
+      <ul class="hero-points">
+        <li data-i18n="hero.points.0"></li>
+        <li data-i18n="hero.points.1"></li>
+        <li data-i18n="hero.points.2"></li>
+      </ul>
+    </div>
+    <figure class="hero-figure swap" data-main="./img/hero--main.png" data-hover="./img/hero--hover.png">
+      <img src="./img/hero--main.png" alt="Adam — váš počítačový mistr" loading="eager" />
+      <div class="hero-badge" data-i18n="hero.badge"></div>
+    </figure>
+  </section>
+
+  <section class="group" id="care" data-reveal>
+    <header class="group-head">
+      01
+      <div>
+        <h2 data-i18n="groups.care.title"></h2>
+        <p data-i18n="groups.care.lead"></p>
+      </div>
+    </header>
+    <div class="cards" data-group="care"></div>
+  </section>
+
+  <section class="group accent" id="security" data-reveal>
+    <div class="group-inner">
+      <header class="group-head">
+        02
+        <div>
+          <h2 data-i18n="groups.security.title"></h2>
+          <p data-i18n="groups.security.lead"></p>
+        </div>
+      </header>
+      <div class="cards" data-group="security"></div>
+    </div>
+  </section>
+
+  <section class="group" id="learning" data-reveal>
+    <header class="group-head">
+      03
+      <div>
+        <h2 data-i18n="groups.learning.title"></h2>
+        <p data-i18n="groups.learning.lead"></p>
+      </div>
+    </header>
+    <div class="cards" data-group="learning"></div>
+  </section>
+
+  <section class="group accent" id="design" data-reveal>
+    <div class="group-inner">
+      <header class="group-head">
+        04
+        <div>
+          <h2 data-i18n="groups.design.title"></h2>
+          <p data-i18n="groups.design.lead"></p>
+        </div>
+      </header>
+      <div class="cards" data-group="design"></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" data-reveal>
+    <div class="contact-inner">
+      <div class="contact-copy">
+        <p class="eyebrow" data-i18n="contact.eyebrow"></p>
+        <h2 data-i18n="contact.title"></h2>
+        <p class="contact-lead" data-i18n="sections.contact"></p>
+        <ul class="contact-channels">
+          <li><a href="mailto:adam@digitalnipece.cz">adam@digitalnipece.cz</a></li>
+          <li><a href="tel:+420777123456">+420 777 123 456</a></li>
+          <li><a href="https://wa.me/420777123456" target="_blank" rel="noopener">+420 777 123 456</a></li>
+          <li><a href="https://t.me/digitalnipece" target="_blank" rel="noopener">@digitalnipece</a></li>
+        </ul>
+      </div>
+      <form class="contact-form" action="https://formsubmit.co/adam@digitalnipece.cz" method="POST">
+        <input type="hidden" name="_subject" value="Nová poptávka z webu Digitální péče" />
+        <input type="hidden" name="_template" value="table" />
+        <label>
+          
+          <input name="name" type="text" required autocomplete="name" />
+        </label>
+        <label>
+          
+          <input name="contact" type="text" required autocomplete="tel" />
+        </label>
+        <label>
+          
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn primary" data-i18n="form.submit"></button>
+        <p class="form-note" data-i18n="form.note"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  
+  
+</footer>
+
+<template id="card-template">
+  <article class="card swap" tabindex="0">
+    <div class="card-media">
+      <img loading="lazy" />
+    </div>
+    <div class="card-body">
+      
+      <h3 class="card-title"></h3>
+      <p class="card-text"></p>
+    </div>
+  </article>
+</template>
+
+<script src="./scripts/i18n.js"></script>
+<script src="./scripts/main.js"></script>
+</body>
+</html>
