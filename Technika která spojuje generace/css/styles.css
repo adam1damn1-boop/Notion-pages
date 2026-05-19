@@ -757,9 +757,9 @@ h3 {
 }
 
 @media (prefers-reduced-motion: reduce) {
-	,
-	::before,
-	::after {
+	*,
+	*::before,
+	*::after {
 		scroll-behavior: auto !important;
 		transition-duration: 0.01ms !important;
 		animation-duration: 0.01ms !important;
@@ -771,90 +771,3 @@ h3 {
 		transform: none;
 	}
 }
-
-## Отчёт по сайту
-
-Создан статический рекламный сайт **«Technika, která spojuje generace»** для выездного мастера компьютерных услуг. Концепция — тёплый семейный сервис, где техника помогает бабушкам, дедушкам, родителям и детям оставаться на связи.
-
-### Ключевые решения
-
-- **Стиль:** мягкий семейный минимализм с карточками услуг, стеклянными панелями и спокойными анимациями появления.
-- **Палитра:** тёплый кремовый фон, глубокий сине-зелёный для доверия, терракотовый акцент для дружелюбия.
-- **Типографика:** `Playfair Display` для крупных эмоциональных заголовков и `Manrope` для удобного чтения сервисных текстов.
-- **UX:** sticky-навигация, мобильное меню, плавные якоря, skip-link, видимые состояния фокуса, адаптивная сетка.
-- **Изображения:** все карточки используют пары `./img/slug--main.png` и `./img/slug--hover.png`; при наведении или фокусе происходит мягкая смена изображения.
-- **Мультиязычность:** тексты вынесены в `js/i18n.js` в словарь `cs`; переключатель языка уже встроен и готов к добавлению новых языков.
-
-### Проверка контента
-
-На сайте представлены все 12 услуг:
-
-1. `cleaning` — 1.1 Компьютерная уборка
-2. `upgrade` — 1.2 Модернизация
-3. `software` — 1.3 Настройка программного обеспечения
-4. `repair` — 1.4 Ремонт и утилизация
-5. `webcam` — 2.1 Web-камеры
-6. `alarm` — 2.2 Домашняя сигнализация
-7. `appliances` — 2.3 Устройства умного дома
-8. `literacy` — 3.1 Компьютерная грамотность
-9. `tutor` — 3.2 Репетитор по информатике
-10. `chess` — 3.3 Шахматы
-11. `development` — 3.4 Высокие технологии
-12. `design` — 4. Дизайн
-
-## Инструкция по сборке
-
-Создайте папку проекта со следующей структурой:
-
-```
-project/
-  index.html
-  css/
-    styles.css
-  js/
-    i18n.js
-    app.js
-  img/
-    hero--main.png
-    hero--hover.png
-    cleaning--main.png
-    cleaning--hover.png
-    upgrade--main.png
-    upgrade--hover.png
-    software--main.png
-    software--hover.png
-    repair--main.png
-    repair--hover.png
-    webcam--main.png
-    webcam--hover.png
-    alarm--main.png
-    alarm--hover.png
-    appliances--main.png
-    appliances--hover.png
-    literacy--main.png
-    literacy--hover.png
-    tutor--main.png
-    tutor--hover.png
-    chess--main.png
-    chess--hover.png
-    development--main.png
-    development--hover.png
-    design--main.png
-    design--hover.png
-```
-
-Содержимое свойства **Html** сохраните в `index.html`; **Styles** — в `css/styles.css`; **Scripts** разделите на `js/i18n.js` и `js/app.js`; **Other** — на `README.md`, `vercel.json` и `robots.txt`.
-
-Папку `img/` заполните изображениями с указанными именами. Пути в коде уже настроены на `./img/`.
-
-### Как добавить язык
-
-1. Откройте `js/i18n.js`.
-2. Скопируйте объект `cs` в новый ключ, например `en`.
-3. Переведите строки, сохранив структуру ключей.
-4. Переключатель языка автоматически добавит новый вариант.
-
-## Развёртывание на Vercel
-
-1. Создайте новый проект в Vercel.
-2. Загрузите папку проекта или подключите Git-репозиторий.
