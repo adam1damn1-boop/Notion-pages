@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="cs" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technika bez strachu | Počítačové služby u vás doma</title>
+  <meta name="description" content="Výjezdní počítačové služby, bezpečnost, chytrá domácnost, výuka a design. První diagnostika u vás doma zdarma.">
+  <meta name="theme-color" content="#16213e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="manifest" href="./manifest.webmanifest">
+</head>
+<body>
+  <a class="skip-link" href="#sluzby">Přeskočit na služby</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Hlavní navigace">
+      <a class="brand" href="#top" aria-label="Technika bez strachu">
+        ⌘
+        Technika bez strachu
+      </a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        
+        Menu
+      </button>
+      <div class="nav__links" id="nav-links">
+        <a href="#sluzby" data-i18n="nav.services">Služby</a>
+        <a href="#jak-to-funguje" data-i18n="nav.process">Jak to funguje</a>
+        <a href="#kontakt" data-i18n="nav.contact">Kontakt</a>
+        <label class="language" for="language-select">
+          Jazyk
+          <select id="language-select" aria-label="Výběr jazyka">
+            <option value="cs">CS</option>
+          </select>
+        </label>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero__content reveal">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Výjezdní počítačový servis</p>
+        <h1 data-i18n="hero.title">Technika nemusí strašit – přijedu, vysvětlím a vyřeším.</h1>
+        <p class="hero__lead" data-i18n="hero.lead">Počítače, chytrá domácnost, bezpečnost, výuka i drobný design. První diagnostika a cesta k vám domů jsou zdarma.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#kontakt" data-i18n="hero.ctaPrimary">Chci poradit zdarma</a>
+          <a class="button button--ghost" href="#sluzby" data-i18n="hero.ctaSecondary">Prohlédnout služby</a>
+        </div>
+        <dl class="trust-list" aria-label="Výhody">
+          <div><dt>0 Kč</dt><dd data-i18n="hero.trust.visit">první výjezd a prohlídka</dd></div>
+          <div><dt>12</dt><dd data-i18n="hero.trust.services">služeb pro domov i práci</dd></div>
+          <div><dt>CS</dt><dd data-i18n="hero.trust.language">čeština v celém webu</dd></div>
+        </dl>
+      </div>
+      <div class="hero__visual reveal" aria-label="Ilustrace mistra">
+        <div class="orbit orbit--one"></div>
+        <div class="orbit orbit--two"></div>
+        <picture class="hero-card">
+          <img src="./img/hero--main.png" data-hover="./img/hero--hover.png" alt="Přátelský počítačový technik" width="370" height="790" loading="eager">
+        </picture>
+        <div class="floating-note floating-note--top">diagnostika zdarma</div>
+        <div class="floating-note floating-note--bottom">bez technických řečí</div>
+      </div>
+    </section>
+
+    <section class="section intro-strip" aria-label="Hlavní sdělení">
+      <div class="intro-strip__card reveal">
+        💻
+        <p data-i18n="intro">Profesionální počítačové služby: údržba, bezpečnost, učení i design. Platíte jen za skutečnou práci a případné díly.</p>
+      </div>
+    </section>
+
+    <section class="section services" id="sluzby">
+      <div class="section__heading reveal">
+        <p class="eyebrow" data-i18n="services.eyebrow">Co pro vás zařídím</p>
+        <h2 data-i18n="services.title">Dvanáct služeb, které berou technice strašidelnost.</h2>
+        <p data-i18n="services.subtitle">Každá karta má vlastní ilustraci. Najeďte myší nebo klepněte na mobilu a uvidíte druhý obraz.</p>
+      </div>
+
+      <div class="category-tabs reveal" role="tablist" aria-label="Kategorie služeb">
+        <button class="tab is-active" type="button" data-filter="all" data-i18n="filters.all">Vše</button>
+        <button class="tab" type="button" data-filter="care" data-i18n="filters.care">Počítač</button>
+        <button class="tab" type="button" data-filter="security" data-i18n="filters.security">Bezpečnost</button>
+        <button class="tab" type="button" data-filter="education" data-i18n="filters.education">Výuka</button>
+        <button class="tab" type="button" data-filter="design" data-i18n="filters.design">Design</button>
+      </div>
+
+      <div class="services-grid" id="services-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="section process" id="jak-to-funguje">
+      <div class="section__heading reveal">
+        <p class="eyebrow" data-i18n="process.eyebrow">Jednoduchý postup</p>
+        <h2 data-i18n="process.title">Bez stresu, bez zbytečných nákupů.</h2>
+      </div>
+      <div class="steps">
+        <article class="step reveal">
+          01
+          <h3 data-i18n="process.steps.0.title">Ozvete se</h3>
+          <p data-i18n="process.steps.0.text">Krátce popíšete, co se děje. I malý dotaz je v pořádku.</p>
+        </article>
+        <article class="step reveal">
+          02
+          <h3 data-i18n="process.steps.1.title">Přijedu zdarma</h3>
+          <p data-i18n="process.steps.1.text">Na místě zkontroluji techniku a vysvětlím řešení lidskou řečí.</p>
+        </article>
+        <article class="step reveal">
+          03
+          <h3 data-i18n="process.steps.2.title">Vyřešíme úkol</h3>
+          <p data-i18n="process.steps.2.text">Platíte jen za práci, kterou odsouhlasíte, a za potřebné díly.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="kontakt">
+      <div class="contact__panel reveal">
+        <div>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Kontakt</p>
+          <h2 data-i18n="contact.title">Napište dřív, než z malé potíže vyroste velký problém.</h2>
+          <p data-i18n="contact.text">Nebojte se mi ozvat, i kdyby šlo jen o malý dotaz – první rada vás nic nestojí a často ušetří spoustu starostí dopředu.</p>
+        </div>
+        <div class="contact__actions" aria-label="Kontaktní odkazy">
+          <a class="contact-link" href="mailto:technik@example.cz">
+            ✉
+            <strong data-i18n="contact.emailLabel">E-mail</strong>
+            <small>mailto:technik@example.cz</small>
+          </a>
+          <a class="contact-link" href="tel:+420000000000">
+            ☎
+            <strong data-i18n="contact.phoneLabel">Telefon</strong>
+            <small>+420 000 000 000</small>
+          </a>
+          <a class="contact-link" href="https://wa.me/420000000000" rel="noopener">
+            ☘
+            <strong data-i18n="contact.whatsappLabel">WhatsApp</strong>
+            <small data-i18n="contact.whatsappText">rychlá zpráva</small>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>©  Technika bez strachu</p>
+    <a href="#top" data-i18n="footer.top">Zpět nahoru</a>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

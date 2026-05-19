@@ -1,0 +1,11 @@
+{
+  "name": "Technika bez strachu",
+  "short_name": "Tech servis",
+  "description": "Lehký vícejazyčný statický web pro výjezdní počítačové služby.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f3ea",
+  "theme_color": "#16213e",
+  "lang": "cs",
+  "icons": []
+}
