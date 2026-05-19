@@ -1,0 +1,10 @@
+{
+  "name": "Počítačový soused",
+  "short_name": "Servis",
+  "description": "Výjezdový počítačový servis bez starostí.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff9ef",
+  "theme_color": "#2f5d62",
+  "icons": []
+}
