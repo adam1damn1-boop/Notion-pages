@@ -1,0 +1,9 @@
+{
+  "name": "Sezónní starosti",
+  "short_name": "Sez. starosti",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf6ef",
+  "theme_color": "#c8553d",
+  "icons": []
+}

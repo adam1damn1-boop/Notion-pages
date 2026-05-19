@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#c8553d">
+<meta name="description" content="Sezónní starosti — výjezdní počítačový mistr. Údržba, bezpečnost, výuka a design. Výjezd a první diagnostika zdarma.">
+<title>Sezónní starosti — počítačový mistr na zavolanou</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%82%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Přeskočit na obsah</a>
+<header class="site-header" id="top">
+  <div class="container nav">
+    <a href="#top" class="brand">
+      🍂
+      Sezónní starosti
+    </a>
+    <nav class="primary-nav" aria-label="Hlavní navigace">
+      <a href="#care" data-i18n="nav.care">Péče</a>
+      <a href="#safety" data-i18n="nav.safety">Bezpečí</a>
+      <a href="#learning" data-i18n="nav.learning">Učení</a>
+      <a href="#design" data-i18n="nav.design">Design</a>
+      <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Jazyk">
+      <button type="button" data-lang="cs" class="is-active">CS</button>
+    </div>
+    <button class="menu-toggle" type="button" aria-label="Otevřít menu" aria-expanded="false"></button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__grid">
+      <div class="hero__copy" data-reveal>
+        <p class="eyebrow" data-i18n="hero.eyebrow">Výjezd a první diagnostika zdarma</p>
+        <h1 class="hero__title" data-i18n="hero.title">Technika ve vaší domácnosti — po celý rok v pohodě.</h1>
+        <p class="hero__lede" data-i18n="hero.lede">Výjezdní počítačový mistr pro celou rodinu — údržba, bezpečnost, výuka i design. Platíte jen za skutečnou práci a díly.</p>
+        <div class="hero__cta">
+          <a href="#contact" class="btn btn--primary">Zavolat mistra</a>
+          <a href="#services" class="btn btn--ghost">Prohlédnout služby</a>
+        </div>
+        <ul class="hero__stats">
+          <li><strong>12</strong>služeb pro domácnost</li>
+          <li><strong>0 Kč</strong>za výjezd a diagnostiku</li>
+          <li><strong>4</strong>sezóny v péči</li>
+        </ul>
+      </div>
+      <aside class="hero__art" aria-hidden="true">
+        🍂
+        🍁
+        ❄️
+        🌸
+        ☀️
+        <div class="hero__disc"></div>
+      </aside>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <header class="section-head container" data-reveal>
+      <p class="eyebrow" data-i18n="services.eyebrow">Co umím</p>
+      <h2 data-i18n="services.title">Dvanáct služeb pro každou sezonu</h2>
+      <p class="lead" data-i18n="services.lead">Od jarní modernizace po zimní bezpečnost — vyřeším techniku tak, aby vám sloužila, ne komandovala.</p>
+    </header>
+
+    <div id="care" class="services__group container">
+      <div class="group-head" data-reveal>
+        01
+        <div>
+          <h3 data-i18n="group.care.title">Péče o počítač</h3>
+          <p data-i18n="group.care.desc">Aby technika přečkala léto i zimu bez stresu.</p>
+        </div>
+      </div>
+      <div class="cards">
+        <article class="card" data-reveal>
+          <a class="card__media" href="#contact">
+            <img src="./img/cleaning--main.png" alt="cleaning" class="card__image card__image--main" loading="lazy">
+            <img src="./img/cleaning--hover.png" alt="cleaning" class="card__image card__image--hover" loading="lazy">
+          </a>
+          <div class="card__body">
+            1.1
+            <h4 data-i18n="card.cleaning.title">Počítačový úklid</h4>
+            <p data-i18n="card.cleaning.body">Letní vedra dělají z notebooku malý radiátor — ventilátor řve, počítač zamrzá a nervy jsou pryč. Stačí jednou ročně pořádná údržba: vyfoukám prach z útrob, vyměním teplovodivou pastu, promažu ventilátory a v případě potřeby vylepším chlazení. Přijedu k vám domů zdarma a první prohlídku udělám také bez poplatku. Platíte jen za skutečnou práci a díly. Vaše technika tak v klidu přečká léto i zimu.</p>
+          </div>
+        </article>
+        <article class="card" data-reveal>
+          <a class="card__media" href="#contact">
+            <img src="./img/upgrade--main.png" alt="upgrade" class="card__image card__image--main" loading="lazy">
+            <img src="./img/upgrade--hover.png" alt="upgrade" class="card__image card__image--hover" loading="lazy">
+          </a>
+          <div class="card__body">
+            1.2
+            <h4 data-i18n="card.upgrade.title">Modernizace</h4>
+            <p data-i18n="card.upgrade.body">Když počítač začne loudat i u běžných stránek, neznamená to hned koupi nového stroje. Často stačí vyměnit pomalý disk za rychlé SSD, přidat paměť, vyměnit procesor nebo dát notebooku novou baterii. Přijdu k vám, na místě se podívám, co počítači skutečně chybí, a poradím — výjezd i první diagnostika jsou zdarma. Ušetříte za nový stroj a vaše stará technika dostane druhý dech, ať už ji potřebujete na podzimní práci, zimní filmy nebo jarní cestování.</p>
+          </div>
+        </article>
+        <article class="card" data-reveal>
+          <a class="card__media" href="#contact">
+            <img src="./img/software--main.png" alt="software" class="card__image card__image--main" loading="lazy">
+            <img src="./img/software--hover.png" alt="software" class="card__image card__image--hover" loading="lazy">
+          </a>
+          <div class="card__body">
+            1.3
+            <h4 data-i18n="card.software.title">Nastavení softwaru</h4>
+            <p data-i18n="card.software.body">Když Windows začne fungovat divně, je plný nepotřebných programů a možná i virů, je to jako neuklizený byt — všechno trvá dvakrát déle. Provedu kompletní úklid systému, nainstaluji modernější verzi Windows, doplním programy pro práci, studium i zábavu a vyřeším potíže s internetem. Pomohu i s registrací na webech, podáním žádostí na úřadech a vyplňováním sezónních formulářů. Dorazím k vám zdarma a první konzultace je rovněž bez poplatku — vy jen řeknete, co vás trápí.</p>
+          </div>
+        </article>
+        <article class="card" data-reveal>
+          <a class="card__media" href="#contact">
+            <img src="./img/repair--main.png" alt="repair" class="card__image card__image--main" loading="lazy">
+            <img src="./img/repair--hover.png" alt="repair" class="card__image card__image--hover" loading="lazy">
+          </a>
+          <div class="card__body">
+            1.4
+            <h4 data-i18n="card.repair.title">Oprava a recyklace</h4>
+            <p data-i18n="card.repair.body">Než starou techniku odnesete do popelnice, dejte jí ještě jednu šanci. Často se počítač nebo notebook dá oživit výměnou několika dílů a poslouží další roky — třeba dětem na úkoly, babičce na videohovory nebo vám jako záložní stroj na chalupě. A pokud už se opravdu neoplatí opravovat, vezmu si ho na náhradní díly, abyste se nemuseli starat o ekologickou likvidaci. Výjezd k vám i posouzení stavu jsou zdarma.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="banner" data-reveal>
+      <div class="container banner__inner">
+        <p class="banner__text" data-i18n="banner.free">Výjezd a první diagnostika jsou vždy zdarma — platíte jen za skutečnou práci a díly.</p>
+      </div>
+    </div>
+
+    <div id="safety" class="services__group container">
+      <div class="group-head" data-reveal>
+        02
+        <div>
+          <h3 data-i18n="group.safety.title">Bezpečnost</h3>
+          <p data-i18n="group.safety.desc">Klidnější dovolená i pracovní den.</p>
+        </div>
+      </div>
+      <div class="cards">
+        <article class="card" data-reveal>
+          <a class="card__media" href="#contact">
+            <img src="./img/webcam--main.png" alt="webcam" class="card__image card__image--main" loading="lazy">
+            <img src="./img/webcam--hover.png" alt="webcam" class="card__image card__image--hover" loading="lazy">
+          </a>
+          <div class="card__body">
+            2.1
+            <h4 data-i18n="card.webcam.title">Web-kamery</h4>
+            <p data-i18n="card.webcam.body">Odjíždíte v létě na chalupu a v hlavě vám neustále hloubá, jestli je doma všechno v pořádku? S kamerami se kdykoli podíváte na byt, dvůr, garáž i vchodové dveře přímo z telefonu — a s návštěvou si v případě potřeby promluvíte, i když jste stovky kilometrů daleko. Připojím vám tolik domácích či venkovních kamer, kolik potřebujete, ke kabelovému internetu nebo Wi-Fi. Výjezd a první prohlídka prostor jsou zdarma, vy už jen v klidu sledujete svůj domov.</p>
+          </div>
+        </article>
+        <article class="card" data-reveal>
+          <a class="card__media" href="#contact">
+            <img src="./img/alarm--main.png" alt="alarm" class="card__image card__image--main" loading="lazy">
+            <img src="./img/alarm--hover.png" alt="alarm" class="card__image card__image--hover" loading="lazy">
+          </a>
+          <div class="card__body">
+            2.2
+            <h4 data-i18n="card.alarm.title">Domácí alarm</h4>
+            <p data-i18n="card.alarm.body">Bojíte se nezvaných hostů, ať už jste v práci, na zimní dovolené nebo na letní chalupě? Namontuji vám přímo na vchodové dveře bytu nebo garáže dálkově ovládaný alarm s hlasitou sirénou a SMS upozorněním na telefon. Jakmile někdo zkusí dveře otevřít, hned o tom víte. Přijedu zdarma, na místě poradím, co se k vašemu vchodu hodí nejlépe, a první konzultace nestojí ani korunu. Spát budete klidněji od první noci.</p>
+          </div>
+        </article>
+        <article class="card" data-reveal>
+          <a class="card__media" href="#contact">
+            <img src="./img/appliances--main.png" alt="appliances" class="card__image card__image--main" loading="lazy">
+            <img src="./img/appliances--hover.png" alt="appliances" class="card__image card__image--hover" loading="lazy">
+          </a>
+          <div class="card__body">
+            2.3
+            <h4 data-i18n="card.appliances.title">Chytrá domácnost</h4>
+            <p data-i18n="card.appliances.body">Smart TV, chytré žárovky, termostat, robotický vysavač — moderní spotřebiče si rozumí mezi sebou, jen je potřeba je naučit spolupracovat. Nastavím vám aplikaci v telefonu, propojím všechna zařízení a srozumitelně vás naučím, jak je ovládat — i kdybyste se s technikou doposud moc nekamarádili. Hodí se to v zimě, když chcete vytopený byt ještě před návratem z práce, i v létě, kdy z dovolené stáhnete žaluzie. Výjezd a první diagnostika jsou samozřejmě zdarma.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="spotlight" data-reveal>
+      <div class="container spotlight__inner">
+        <figure class="spotlight__photo">
+          <img src="./img/hero--main.png" alt="master" class="spotlight__img spotlight__img--main" loading="lazy">
+          <img src="./img/hero--hover.png" alt="master" class="spotlight__img spotlight__img--hover" loading="lazy">
+        </figure>
+        <div class="spotlight__copy">
+          <p class="eyebrow" data-i18n="spotlight.eyebrow">Váš mistr</p>
+          <h2 data-i18n="spotlight.title">Diplomovaný IT odborník, který přijede až k vám.</h2>
+          <p data-i18n="spotlight.body">Vysokoškolské vzdělání v informatice, dlouhá praxe s domácí technikou, výukou i designem. Beru si na starost všechno od prachu ve ventilátoru po web vaší firmy — a celé to vysvětlím srozumitelnou češtinou.</p>
+          <a href="#contact" class="btn btn--primary">Domluvit návštěvu</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="learning" class="services__group container">
+      <div class="group-head" data-reveal>
+        03
+        <div>
+          <h3 data-i18n="group.learning.title">Učení</h3>
+          <p data-i18n="group.learning.desc">Pro dospělé i děti — v klidu u vás doma.</p>
+        </div>
+      </div>
+      <div class="cards">
+        <article class="card" data-reveal>
+          <a class="card__media" href="#contact">
+            <img src="./img/literacy--main.png" alt="literacy" class="card__image card__image--main" loading="lazy">
+            <img src="./img/literacy--hover.png" alt="literacy" class="card__image card__image--hover" loading="lazy">
+          </a>
+          <div class="card__body">
+            3.1
+            <h4 data-i18n="card.literacy.title">Počítačová gramotnost</h4>
+            <p data-i18n="card.literacy.body">Připadá vám, že vás moderní svět trochu předbíhá — e-mail, internetové bankovnictví, úřední formuláře, umělá inteligence? Nic se neděje, dohoníme to v klidu u vás doma. Naučím vás vše, co skutečně potřebujete pro každodenní život, krok za krokem, vlastním tempem a bez nesrozumitelného hantýrku. Sezónní starosti jako daňové přiznání nebo objednání zájezdu pak zvládnete hravě sami. Příjezd k vám i první ukázková lekce jsou bez poplatku.</p>
+          </div>
+        </article>
+        <article class="card" data-reveal>
+          <a class="card__media" href="#contact">
+            <img src="./img/tutor--main.png" alt="tutor" class="card__image card__image--main" loading="lazy">
+            <img src="./img/tutor--hover.png" alt="tutor" class="card__image card__image--hover" loading="lazy">
+          </a>
+          <div class="card__body">
+            3.2
+            <h4 data-i18n="card.tutor.title">Doučování informatiky</h4>
+            <p data-i18n="card.tutor.body">Informatika ve škole vašeho dítěte trochu skřípe? Mám vysokoškolské vzdělání v IT a zkušenosti s výukou studentů z dob doktorského studia. Vysvětlím látku tak, aby jí dítě skutečně rozumělo — od základů až po náročnější témata před zkouškami nebo přijímačkami. Lekce probíhají přímo u vás doma, v klidném prostředí, a první seznámení je zdarma. Investice do vědomostí v pravou chvíli se vrací celý život.</p>
+          </div>
+        </article>
+        <article class="card" data-reveal>
+          <a class="card__media" href="#contact">
+            <img src="./img/chess--main.png" alt="chess" class="card__image card__image--main" loading="lazy">
+            <img src="./img/chess--hover.png" alt="chess" class="card__image card__image--hover" loading="lazy">
+          </a>
+          <div class="card__body">
+            3.3
+            <h4 data-i18n="card.chess.title">Šachy</h4>
+            <p data-i18n="card.chess.body">Šachy nejsou jen hra — jsou to dlouhé zimní večery u stolu, kdy se rodina baví bez obrazovek, a zároveň skvělá průprava pro logické myšlení dítěte. Hraji velmi dobře a rád ukážu vašemu synovi či dceři, jak přemýšlet o tah dopředu — což se hodí ve škole, ve sportu i v životě. Přijedu k vám domů, první ukázková hodina je bez poplatku, a vy uvidíte, jestli to vaše dítě chytne. Někdy z malé partie vyroste velká vášeň.</p>
+          </div>
+        </article>
+        <article class="card" data-reveal>
+          <a class="card__media" href="#contact">
+            <img src="./img/development--main.png" alt="development" class="card__image card__image--main" loading="lazy">
+            <img src="./img/development--hover.png" alt="development" class="card__image card__image--hover" loading="lazy">
+          </a>
+          <div class="card__body">
+            3.4
+            <h4 data-i18n="card.development.title">Vysoké technologie</h4>
+            <p data-i18n="card.development.body">Svět se mění rychleji než kdy dřív a děti, které dnes umí pracovat s umělou inteligencí, budou zítra napřed. Ve škole se tomu ale skoro nikdo nevěnuje. Naučím vaše dítě používat moderní technologie chytře — k úkolům, projektům, kreativním nápadům i k pochopení složitých předmětů. Nabízím to formou volnočasového kroužku nebo doučování v průběhu celého školního roku. Přijedu k vám zdarma, první lekce je nezávazná a vy uvidíte, jak se vašemu dítěti rozzáří oči.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div id="design" class="services__group container">
+      <div class="group-head" data-reveal>
+        04
+        <div>
+          <h3 data-i18n="group.design.title">Design</h3>
+          <p data-i18n="group.design.desc">Vizuální tvář vaší značky pro každou sezonu.</p>
+        </div>
+      </div>
+      <div class="cards cards--single">
+        <article class="card card--wide" data-reveal>
+          <a class="card__media" href="#contact">
+            <img src="./img/design--main.png" alt="design" class="card__image card__image--main" loading="lazy">
+            <img src="./img/design--hover.png" alt="design" class="card__image card__image--hover" loading="lazy">
+          </a>
+          <div class="card__body">
+            4
+            <h4 data-i18n="card.design.title">Grafika a weby</h4>
+            <p data-i18n="card.design.body">Otevíráte na jaře novou kavárnu, plánujete letní akci nebo chcete v zimě rozeslat originální přání zákazníkům? Jako diplomovaný vývojář pro vás připravím stylové letáky, plakáty, webové stránky, katalogy zboží či dokonce celé aplikace. Společně vymyslíme, co vaši firmu nebo nápad nejlépe vystihne. Přijedu si vyslechnout vaše představy bezplatně a teprve podle nich domluvíme rozsah práce. Vaše značka tak roste s každou sezonou.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container contact__grid" data-reveal>
+      <div class="contact__copy">
+        <p class="eyebrow" data-i18n="contact.eyebrow">📞 Spojme se</p>
+        <h2 data-i18n="contact.title">Domluvíme se snadno a bez tlaku</h2>
+        <p data-i18n="contact.body">Ozvěte se kdykoli — ráno, večer i o víkendu. Krátký telefonát stačí, abychom probrali, co vás trápí, a domluvili návštěvu. Výjezd k vám i první diagnostika jsou vždy zdarma, abyste se rozhodovali v klidu.</p>
+        <ul class="contact__list">
+          <li><a href="tel:+420777123456">☎+420 777 123 456</a></li>
+          <li><a href="mailto:mistr@sezonni-starosti.cz">✉mistr@sezonni-starosti.cz</a></li>
+          <li><a href="https://wa.me/420777123456" target="_blank" rel="noopener"><span class="contact__icon" aria-hidden="true">💬</span>WhatsApp</a></li>
+          <li><a href="https://t.me/sezonnistarosti" target="_blank" rel="noopener"><span class="contact__icon" aria-hidden="true">✈</span>Telegram</a></li>
+        </ul>
+      </div>
+      <form class="contact__form" action="https://formsubmit.co/mistr@sezonni-starosti.cz" method="POST">
+        <label>Jméno<input type="text" name="name" required></label>
+        <label>Telefon nebo e-mail<input type="text" name="contact" required></label>
+        <label>S čím vám můžu pomoci?<textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn btn--primary">Odeslat poptávku</button>
+        <p class="form__hint" data-i18n="form.hint">Ozvu se obvykle do několika hodin.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footerinner">
+    <p>©  Sezónní starosti — výjezdní počítačový mistr</p>
+    <p class="footer__meta" data-i18n="footer.meta">Vyrobeno s láskou pro českou domácnost.</p>
+  </div>
+</footer>
+<script src="./scripts.js" defer></script>
+</body>
+</html>
