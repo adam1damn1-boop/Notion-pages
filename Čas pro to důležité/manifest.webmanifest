@@ -1,0 +1,13 @@
+{
+  "name": "Čas pro to důležité",
+  "short_name": "Čas pro to důležité",
+  "description": "Výjezdový mistr počítačových služeb. Postarám se o vaši techniku, abyste vy měli čas na to nejdůležitější.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F8F4EC",
+  "theme_color": "#C5862C",
+  "lang": "cs",
+  "icons": [
+    { "src": "./img/hero--main.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
