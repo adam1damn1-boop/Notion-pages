@@ -1,0 +1,15 @@
+Place 24 PNG files here, named exactly as listed below (slug--main / slug--hover):
+
+hero        370x790 px  (contact / hero)
+cleaning    310x310 px  (1.1)
+upgrade     320x340 px  (1.2)
+software    350x300 px  (1.3)
+repair      300x286 px  (1.4)
+webcam      220x290 px  (2.1)
+alarm       360x280 px  (2.2)
+appliances  290x290 px  (2.3)
+literacy    320x290 px  (3.1)
+tutor       370x310 px  (3.2)
+chess       330x320 px  (3.3)
+development 320x320 px  (3.4)
+design      310x310 px  (4)

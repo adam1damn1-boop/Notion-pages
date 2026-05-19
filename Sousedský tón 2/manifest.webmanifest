@@ -1,0 +1,9 @@
+{
+  "name": "Pocitacovy soused",
+  "short_name": "Soused",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7efe5",
+  "theme_color": "#c2410c",
+  "icons": []
+}
