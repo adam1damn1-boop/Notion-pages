@@ -1,0 +1,71 @@
+window.I18N = {
+  cs: {
+    meta: {
+      title: "Klidná technika — výjezdový mistr počítačových služeb",
+      description: "Výjezdový mistr počítačových služeb. Výjezd a první diagnostika zdarma."
+    },
+    brand: { name: "Klidná technika" },
+    nav: { care: "Péče", security: "Bezpečí", learning: "Výuka", design: "Design", contact: "Kontakt" },
+    hero: {
+      eyebrow: "Výjezdový mistr · Praha a okolí",
+      title: "Technika přeložená do lidské řeči.",
+      sub: "Výjezd a první diagnostika zdarma. Platíte jen za práci a náhradní díly.",
+      cta1: "Domluvit návštěvu",
+      cta2: "Co umím",
+      points: { p1: "Výjezd zdarma", p2: "První diagnostika zdarma", p3: "Bez technické vaty" }
+    },
+    main: "Technika přeloženo do lidské řeči — výjezd a první diagnostika zdarma.",
+    group: {
+      care:     { title: "Péče o počítač",  lede: "Aby váš stroj zase dýchal — bez prachu, bez čekání, bez zbytečných slov." },
+      security: { title: "Bezpečí",         lede: "Klidný spánek a chytrá domácnost, srozumitelně nastavené." },
+      learning: { title: "Výuka",           lede: "Pro dospělé i pro děti. Žádné poučování — jen klidné vysvětlení krok za krokem." },
+      design:   { title: "Design a vývoj",  lede: "Aby vaše nabídka vypadala čistě a profesionálně." }
+    },
+    services: {
+      cleaning:    { title: "Počítačový úklid" },
+      upgrade:     { title: "Modernizace" },
+      software:    { title: "Nastavení softwaru" },
+      repair:      { title: "Oprava a likvidace" },
+      webcam:      { title: "Web kamery" },
+      alarm:       { title: "Domácí siréna" },
+      appliances:  { title: "Chytrá domácnost" },
+      literacy:    { title: "Počítačová gramotnost" },
+      tutor:       { title: "Doučování informatiky" },
+      chess:       { title: "Šachy" },
+      development: { title: "Vysoké technologie a AI" },
+      design:      { title: "Grafika a weby" }
+    },
+    cleaning:    "Když počítač začne hučet jako vysavač a topit jako kamna, většinou je na vině obyčejný prach. Stačí jedna návštěva ročně a vaše technika zase dýchá. Vyčistím vnitřek, vyměním teplovodivou pastu, promažu ventilátory a klávesnici zbavím drobků. Všechno vysvětlím běžnými slovy, bez složitých zkratek. Dojezd k vám domů i první prohlídka jsou zdarma — platíte jen za samotnou práci.",
+    upgrade:     "Máte pocit, že počítač zestárl rychleji než vy? Často stačí vyměnit jednu nebo dvě součástky a stroj zase létá jako nový. Doporučím rychlý disk SSD, přidám paměť nebo vyměním baterii v notebooku. Vše vám řeknu lidsky — co k čemu slouží a proč to pomůže. Přijedu k vám zdarma a poradím, co se opravdu vyplatí, abyste neutráceli za zbytečnosti.",
+    software:    "Windows se časem zaplní jako kapsa po zimě — vším možným a hlavně nepotřebným. Když počítač padá, zamrzá nebo se samy otevírají divná okna, je čas na pořádný úklid. Pročistím systém, odstraním viry, nainstaluji programy pro práci, školu i zábavu. Pomůžu i s vyplněním úředního formuláře nebo registrací na webu, pokud si nevíte rady. Domácí návštěva a první diagnostika nic nestojí — vy se jen díváte a ptáte.",
+    repair:      "Než starý počítač odnesete do sběru, dejte mu druhou šanci. Mnohdy stačí vyměnit drobnou součástku a přístroj zase poslouží další roky. Když už opravdu dosloužil, rád si ho vezmu na náhradní díly — ušetříte si starosti s odvozem. Diagnostiku udělám u vás doma a zdarma, abyste věděli, na čem jste, ještě než cokoli rozhodnete.",
+    webcam:      "Chcete vědět, kdo zazvonil u dveří, když nejste doma, nebo zkontrolovat chatu o víkendu z pohodlí gauče? Připojím vám libovolný počet kamer dovnitř i ven — ke kabelovému internetu i k Wi‑Fi. Naučím vás, jak se na obraz dívat z mobilu, a vysvětlím všechno bez technické vaty. Přijdu na obhlídku zdarma a navrhnu, kde kamery udělají největší službu.",
+    alarm:       "Mívají sousedé volné ruce po setmění? Klidný spánek vrátí jednoduchá domovní siréna s SMS upozorněním přímo do mobilu. Namontuji ji na vstupní dveře bytu, garáže i kůlny, ovládá se na dálku jediným tlačítkem. Vysvětlím všechno krok za krokem, abyste věděli, co děláte. Posouzení i první návštěva jsou zdarma — ať vidíte, jestli to má pro vás smysl.",
+    appliances:  "Chytrá domácnost zní složitě, ve skutečnosti je to ale jen pár tlačítek v mobilu. Propojím vám světla, zásuvky, Smart TV nebo termostat do jednoho přehledného ovládání. Ukážu, jak rozsvítit pokoj jediným klepnutím a jak nastavit, aby se topení samo přizpůsobilo vašemu dni. Mluvím s vámi jako se sousedem, ne jako z návodu. První návštěvu a prohlídku domácnosti dělám zdarma.",
+    literacy:    "Bojíte se počítače víc než zlého psa? Naučím vás všechno potřebné běžnými slovy, ve vašem tempu a u vašeho stolu. Vyřídíme spolu e‑maily, nákupy přes internet, videohovory s rodinou i bezpečné placení kartou. Žádné poučování, žádné kroucení očima — jen klidné ukazování krok za krokem. První ukázková hodina je u vás doma zdarma, ať víte, do čeho jdete.",
+    tutor:       "Když dítě sedí nad informatikou jako nad rébusem, často chybí jen někdo, kdo to vysvětlí lidsky. Mám vysokoškolské vzdělání v IT a roky praxe s vysvětlováním studentům. Probereme učivo tak, aby mu rozumělo, a domácí úkoly přestaly být drama. Úvodní setkání u vás doma je zdarma — ať se s dítětem poznáme bez stresu a vy víte, že to bude fungovat.",
+    chess:       "Šachy nejsou jen hra — jsou to denní cvičení pro hlavu, trpělivost a logiku. Děti, které šachují, lépe počítají, plánují a méně podléhají chvilkovým náladám. Naučím vaše dítě hrát od prvních tahů až po pokročilé taktiky, srozumitelně a s humorem. První hodina u vás doma je zdarma — ať uvidíte, jestli si s dítětem padneme do oka.",
+    development: "Umělé inteligenci se ve škole zatím moc neučí, a přitom právě s ní bude vaše dítě v dospělosti pracovat každý den. Ukážu mu, jak se na AI ptát chytře, jak si pomáhat s úkoly a jak rozumět věcem, které spolužáci jen opíšou. Vysvětlím vše prostě, bez záplavy zkratek a cizích slov. První návštěva a krátká ukázka jsou u vás doma zdarma — ať vidíte, co to vašemu dítěti přinese.",
+    design:      "Potřebujete poutavý leták, jednoduché webové stránky nebo přehledný katalog služeb? Jsem vystudovaný vývojář s praxí a rád vám pomůžu, aby vaše nabídka vypadala čistě a profesionálně. Domluvíme se obyčejnou řečí — bez marketingových frází a tajemných pojmů. První konzultaci dělám zdarma, ať si srovnáme představy, dřív než cokoli začnu kreslit.",
+    contactBody: "Ozvěte se, kdykoli vás to napadne — odpovím přátelsky a srozumitelně, a domluvíme se, kdy se zastavím. První návštěva i prohlídka jsou zdarma.",
+    contact: { eyebrow: "Kontakt", title: "Pojďte do toho s klidem." },
+    form: { name: "Jméno", contact: "Telefon nebo e‑mail", message: "Co potřebujete?", submit: "Odeslat" },
+    footer: { line: "© 2026 Klidná technika · Praha a okolí · Výjezd zdarma" },
+    a11y: { skip: "Přejít na obsah" },
+    alt: {
+      hero: "Mistr, který přijede k vám domů",
+      cleaning: "Počítačový úklid",
+      upgrade: "Modernizace počítače",
+      software: "Nastavení softwaru",
+      repair: "Oprava počítače",
+      webcam: "Web kamery",
+      alarm: "Domácí siréna",
+      appliances: "Chytrá domácnost",
+      literacy: "Počítačová gramotnost",
+      tutor: "Doučování informatiky",
+      chess: "Šachy",
+      development: "AI a vysoké technologie",
+      design: "Grafika a weby"
+    }
+  }
+};

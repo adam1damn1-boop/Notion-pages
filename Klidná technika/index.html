@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="cs" data-lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title data-i18n="meta.title">Klidná technika — výjezdový mistr počítačových služeb</title>
+  <meta name="description" data-i18n="meta.description" content="Výjezdový mistr počítačových služeb. Výjezd a první diagnostika zdarma.">
+  <meta name="theme-color" content="#FAF6EE">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231E2530'/%3E%3Ctext x='50%25' y='66%25' font-family='Georgia,serif' font-size='22' fill='%23FAF6EE' text-anchor='middle' font-weight='700'%3EK%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip" href="#services" data-i18n="a11y.skip">Přejít na obsah</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      ⌁
+      Klidná technika
+    </a>
+    <nav class="nav" aria-label="Hlavní menu">
+      <a href="#care" data-i18n="nav.care">Péče</a>
+      <a href="#security" data-i18n="nav.security">Bezpečí</a>
+      <a href="#learning" data-i18n="nav.learning">Výuka</a>
+      <a href="#design-group" data-i18n="nav.design">Design</a>
+      <a href="#contact" class="nav-cta" data-i18n="nav.contact">Kontakt</a>
+    </nav>
+    <label class="lang-switch">
+      Jazyk
+      <select id="lang-select" aria-label="Jazyk">
+        <option value="cs">CS</option>
+      </select>
+    </label>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-copy reveal">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Výjezdový mistr · Praha a okolí</p>
+      <h1 class="hero-title" data-i18n="hero.title">Technika přeložená do lidské řeči.</h1>
+      <p class="hero-sub" data-i18n="hero.sub">Výjezd a první diagnostika zdarma. Platíte jen za práci a náhradní díly.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Domluvit návštěvu</a>
+        <a href="#services" class="btn btn-ghost" data-i18n="hero.cta2">Co umím</a>
+      </div>
+      <ul class="hero-points">
+        <li data-i18n="hero.points.p1">Výjezd zdarma</li>
+        <li data-i18n="hero.points.p2">První diagnostika zdarma</li>
+        <li data-i18n="hero.points.p3">Bez technické vaty</li>
+      </ul>
+    </div>
+    <figure class="hero-figure card-swap reveal" tabindex="0" aria-label="Mistr, který přijede k vám domů">
+      <img class="img-main" src="./img/hero--main.png" alt="" data-alt-i18n="alt.hero" loading="eager" decoding="async">
+      <img class="img-hover" src="./img/hero--hover.png" alt="" loading="lazy" decoding="async" aria-hidden="true">
+    </figure>
+  </div>
+</section>
+
+<section id="services" class="services">
+  <div class="wrap">
+
+    <article id="care" class="group reveal">
+      <header class="group-head">
+        01
+        <h2 class="group-title" data-i18n="group.care.title">Péče o počítač</h2>
+        <p class="group-lede" data-i18n="group.care.lede">Aby váš stroj zase dýchal — bez prachu, bez čekání, bez zbytečných slov.</p>
+      </header>
+      <div class="cards">
+        <article class="card" data-section="1.1">
+          <figure><img class="img-main" src="./img/cleaning--main.png" alt="" data-alt-i18n="alt.cleaning" loading="lazy"><img class="img-hover" src="./img/cleaning--hover.png" alt="" loading="lazy" aria-hidden="true"></figure>
+          <h3 data-i18n="services.cleaning.title">Počítačový úklid</h3>
+          <p data-i18n="cleaning"></p>
+        </article>
+        <article class="card" data-section="1.2">
+          <figure><img class="img-main" src="./img/upgrade--main.png" alt="" data-alt-i18n="alt.upgrade" loading="lazy"><img class="img-hover" src="./img/upgrade--hover.png" alt="" loading="lazy" aria-hidden="true"></figure>
+          <h3 data-i18n="services.upgrade.title">Modernizace</h3>
+          <p data-i18n="upgrade"></p>
+        </article>
+        <article class="card" data-section="1.3">
+          <figure><img class="img-main" src="./img/software--main.png" alt="" data-alt-i18n="alt.software" loading="lazy"><img class="img-hover" src="./img/software--hover.png" alt="" loading="lazy" aria-hidden="true"></figure>
+          <h3 data-i18n="services.software.title">Nastavení softwaru</h3>
+          <p data-i18n="software"></p>
+        </article>
+        <article class="card" data-section="1.4">
+          <figure><img class="img-main" src="./img/repair--main.png" alt="" data-alt-i18n="alt.repair" loading="lazy"><img class="img-hover" src="./img/repair--hover.png" alt="" loading="lazy" aria-hidden="true"></figure>
+          <h3 data-i18n="services.repair.title">Oprava a likvidace</h3>
+          <p data-i18n="repair"></p>
+        </article>
+      </div>
+    </article>
+
+    <div class="divider" role="presentation"></div>
+
+    <article id="security" class="group reveal">
+      <header class="group-head">
+        02
+        <h2 class="group-title" data-i18n="group.security.title">Bezpečí</h2>
+        <p class="group-lede" data-i18n="group.security.lede">Klidný spánek a chytrá domácnost, srozumitelně nastavené.</p>
+      </header>
+      <div class="cards">
+        <article class="card" data-section="2.1">
+          <figure><img class="img-main" src="./img/webcam--main.png" alt="" data-alt-i18n="alt.webcam" loading="lazy"><img class="img-hover" src="./img/webcam--hover.png" alt="" loading="lazy" aria-hidden="true"></figure>
+          <h3 data-i18n="services.webcam.title">Web kamery</h3>
+          <p data-i18n="webcam"></p>
+        </article>
+        <article class="card" data-section="2.2">
+          <figure><img class="img-main" src="./img/alarm--main.png" alt="" data-alt-i18n="alt.alarm" loading="lazy"><img class="img-hover" src="./img/alarm--hover.png" alt="" loading="lazy" aria-hidden="true"></figure>
+          <h3 data-i18n="services.alarm.title">Domácí siréna</h3>
+          <p data-i18n="alarm"></p>
+        </article>
+        <article class="card" data-section="2.3">
+          <figure><img class="img-main" src="./img/appliances--main.png" alt="" data-alt-i18n="alt.appliances" loading="lazy"><img class="img-hover" src="./img/appliances--hover.png" alt="" loading="lazy" aria-hidden="true"></figure>
+          <h3 data-i18n="services.appliances.title">Chytrá domácnost</h3>
+          <p data-i18n="appliances"></p>
+        </article>
+      </div>
+    </article>
+
+    <div class="divider" role="presentation"></div>
+
+    <article id="learning" class="group reveal">
+      <header class="group-head">
+        03
+        <h2 class="group-title" data-i18n="group.learning.title">Výuka</h2>
+        <p class="group-lede" data-i18n="group.learning.lede">Pro dospělé i pro děti. Žádné poučování — jen klidné vysvětlení krok za krokem.</p>
+      </header>
+      <div class="cards">
+        <article class="card" data-section="3.1">
+          <figure><img class="img-main" src="./img/literacy--main.png" alt="" data-alt-i18n="alt.literacy" loading="lazy"><img class="img-hover" src="./img/literacy--hover.png" alt="" loading="lazy" aria-hidden="true"></figure>
+          <h3 data-i18n="services.literacy.title">Počítačová gramotnost</h3>
+          <p data-i18n="literacy"></p>
+        </article>
+        <article class="card" data-section="3.2">
+          <figure><img class="img-main" src="./img/tutor--main.png" alt="" data-alt-i18n="alt.tutor" loading="lazy"><img class="img-hover" src="./img/tutor--hover.png" alt="" loading="lazy" aria-hidden="true"></figure>
+          <h3 data-i18n="services.tutor.title">Doučování informatiky</h3>
+          <p data-i18n="tutor"></p>
+        </article>
+        <article class="card" data-section="3.3">
+          <figure><img class="img-main" src="./img/chess--main.png" alt="" data-alt-i18n="alt.chess" loading="lazy"><img class="img-hover" src="./img/chess--hover.png" alt="" loading="lazy" aria-hidden="true"></figure>
+          <h3 data-i18n="services.chess.title">Šachy</h3>
+          <p data-i18n="chess"></p>
+        </article>
+        <article class="card" data-section="3.4">
+          <figure><img class="img-main" src="./img/development--main.png" alt="" data-alt-i18n="alt.development" loading="lazy"><img class="img-hover" src="./img/development--hover.png" alt="" loading="lazy" aria-hidden="true"></figure>
+          <h3 data-i18n="services.development.title">Vysoké technologie a AI</h3>
+          <p data-i18n="development"></p>
+        </article>
+      </div>
+    </article>
+
+    <div class="divider" role="presentation"></div>
+
+    <article id="design-group" class="group reveal">
+      <header class="group-head">
+        04
+        <h2 class="group-title" data-i18n="group.design.title">Design a vývoj</h2>
+        <p class="group-lede" data-i18n="group.design.lede">Aby vaše nabídka vypadala čistě a profesionálně.</p>
+      </header>
+      <div class="cards cards-one">
+        <article class="card" data-section="4">
+          <figure><img class="img-main" src="./img/design--main.png" alt="" data-alt-i18n="alt.design" loading="lazy"><img class="img-hover" src="./img/design--hover.png" alt="" loading="lazy" aria-hidden="true"></figure>
+          <h3 data-i18n="services.design.title">Grafika a weby</h3>
+          <p data-i18n="design"></p>
+        </article>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap contact-inner">
+    <div class="contact-copy reveal">
+      <p class="eyebrow" data-i18n="contact.eyebrow">Kontakt</p>
+      <h2 data-i18n="contact.title">Pojďte do toho s klidem.</h2>
+      <p data-i18n="contactBody"></p>
+      <ul class="contact-channels">
+        <li><a href="mailto:mistr@klidnatechnika.cz">✉ mailto:mistr@klidnatechnika.cz</a></li>
+        <li><a href="tel:+420700000000">☎ +420 700 000 000</a></li>
+        <li><a href="https://wa.me/420700000000" rel="noopener" target="_blank">💬 WhatsApp</a></li>
+        <li><a href="https://t.me/klidnatechnika" rel="noopener" target="_blank">✈ Telegram</a></li>
+      </ul>
+    </div>
+    <form class="contact-form reveal" action="https://formsubmit.co/mistr@klidnatechnika.cz" method="POST" novalidate>
+      <input type="hidden" name="_subject" value="Klidná technika — nová poptávka">
+      <input type="hidden" name="_template" value="table">
+      <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
+      <label>Jméno<input name="name" required></label>
+      <label>Telefon nebo e‑mail<input name="contact" required></label>
+      <label>Co potřebujete?<textarea name="message" rows="4" required></textarea></label>
+      <button type="submit" class="btn btn-primary" data-i18n="form.submit">Odeslat</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p data-i18n="footer.line">© 2026 Klidná technika · Praha a okolí · Výjezd zdarma</p>
+  </div>
+</footer>
+
+<script src="./i18n.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>

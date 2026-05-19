@@ -1,0 +1,10 @@
+{
+  "name": "klidna-technika",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Klidná technika — výjezdový mistr počítačových služeb (statický web)",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  }
+}

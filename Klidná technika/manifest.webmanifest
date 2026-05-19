@@ -1,0 +1,9 @@
+{
+  "name": "Klidná technika",
+  "short_name": "Klidná technika",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FAF6EE",
+  "theme_color": "#1E2530",
+  "icons": []
+}
