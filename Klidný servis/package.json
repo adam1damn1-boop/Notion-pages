@@ -1,0 +1,1 @@
+{"name":"klidny-servis-static-site","version":"1.0.0","private":true,"scripts":{"start":"npx serve .","check":"node -e \"console.log('Static site: open index.html or deploy to Vercel.')\""},"devDependencies":{"serve":"^14.2.3"}}
