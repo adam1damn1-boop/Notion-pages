@@ -1,1 +1,77 @@
-<!doctype html><html lang="cs"><head><meta charset="utf-8"><title>Domácí alarm — Adam, IT na výjezd</title><meta name="description" content="Jednoduchý alarm pro vstupní dveře, garáž nebo chatu."><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="./styles.css"></head><body><main><section class="svc-hero tall"><div class="container"><div class="meta"><span class="code">2.2</span></div><h1>Domácí alarm</h1><p class="lead">Jednoduchý alarm pro vstupní dveře, garáž nebo chatu.</p></div></section><nav class="svc-nav"><a href="./webcam.html">Předchozí Web-kamery</a><a class="next" href="./appliances.html">Další Chytrá domácnost</a></nav></main><script src="./i18n.js"></script><script src="./script.js"></script></body></html>
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Domácí alarm — Adam, IT na výjezd</title>
+<meta name="description" content="Jednoduchý alarm pro vstupní dveře, garáž nebo chatu.">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container row">
+    <a class="brand" href="./index.html">Adam — IT na výjezd</a>
+    <nav class="nav" aria-label="Hlavní">
+      <a href="./index.html" data-i18n="nav.home">Domů</a>
+      <a href="./index.html#services" class="active" data-i18n="nav.services">Služby</a>
+      <a href="./kontakt.html" data-i18n="nav.contact">Kontakt</a>
+      <div class="lang"><button type="button" data-lang="cs">CS</button><button type="button" data-lang="en" disabled>EN</button></div>
+    </nav>
+    <button class="menu-toggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+<main>
+  <section class="svc-hero tall">
+    <div class="container grid">
+      <div class="reveal">
+        <div class="meta">2.2 · ·</div>
+        <h1>Domácí alarm</h1>
+        <p class="lead">Jednoduchý alarm pro vstupní dveře, garáž nebo chatu.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="./kontakt.html" data-i18n="hero.cta1">Domluvit návštěvu</a>
+          <a class="btn btn-ghost" href="./index.html#services" data-i18n="nav.back">Zpět na služby</a>
+        </div>
+      </div>
+      <div class="svc-hero-img reveal">
+        <img src="./img/alarm--main.png" alt="alarm" loading="eager">
+      </div>
+    </div>
+  </section>
+  <section class="svc-body">
+    <div class="container grid">
+      <div class="prose reveal">
+        <p>Sklep, garáž, chata nebo vstupní dveře často dělají starosti hlavně ve chvíli, kdy jste daleko. Jednoduchý alarm se sirénou a upozorněním do telefonu může odradit nezvané hosty a dát vám pocit kontroly.</p>
+        <p>Přijedu zdarma, podívám se na místo a vysvětlím, jaké řešení bude praktické bez zbytečné složitosti. Po nastavení budete vědět, jak vše zapnout, vypnout a co dělat při poplachu.</p>
+        <div class="svc-callout">
+          <div>
+            <h3 data-i18n="cta.callout.title">Začněme prvním bezplatným výjezdem.</h3>
+            <p data-i18n="cta.callout.lead">Podíváme se na zařízení, popovídáme si a teprve potom rozhodneme, co dál.</p>
+          </div>
+          <a class="btn btn-primary" href="./kontakt.html" data-i18n="cta.callout.btn">Domluvit termín</a>
+        </div>
+      </div>
+      <aside class="svc-illu reveal">
+        <img src="./img/alarm--hover.png" alt="alarm illustration" loading="lazy">
+      </aside>
+    </div>
+    <div class="container">
+      <nav class="svc-nav">
+        <a href="./webcam.html">PředchozíWeb-kamery</a>
+        <a class="next" href="./appliances.html">DalšíChytrá domácnost</a>
+      </nav>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container row">
+    <span data-i18n="footer.copy">© 2026 Adam — Computer services s péčí o váš čas.</span>
+    Praha a okolí · pondělí–sobota
+  </div>
+</footer>
+<script src="./i18n.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>

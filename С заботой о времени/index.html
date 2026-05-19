@@ -9,9 +9,133 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./styles.css">
-</head><body>
-<header class="site-header"><div class="container row"><a class="brand" href="./index.html">Adam — IT na výjezd</a><nav class="nav" aria-label="Hlavní"><a href="./index.html" data-i18n="nav.home">Domů</a><a href="./index.html#services" data-i18n="nav.services">Služby</a><a href="./kontakt.html" data-i18n="nav.contact">Kontakt</a><div class="lang" role="group" aria-label="Jazyk"><button type="button" data-lang="cs">CS</button><button type="button" data-lang="en" disabled>EN</button></div></nav><button class="menu-toggle" aria-label="Menu">☰</button></div></header>
-<main><section class="hero"><div class="container grid"><div class="reveal"><div class="eyebrow">S péčí o váš čas</div><h1 data-i18n="hero.title" data-i18n-html>Technika má pomáhat, <em>ne brát čas a klid.</em></h1><p class="lead" data-i18n="hero.lead">Klidná domácí pomoc s počítači, chytrou technikou a digitálním učením. Bez spěchu, bez složitých slov, bez zbytečných nákladů.</p><div class="btn-row"><a class="btn btn-primary" href="./kontakt.html" data-i18n="hero.cta1">Domluvit návštěvu</a><a class="btn btn-ghost" href="#services" data-i18n="hero.cta2">Prohlédnout služby</a></div></div><div class="hero-img reveal"><img src="./img/hero--main.png" alt="Mistr na výjezd" loading="eager"><div class="hero-meta" data-i18n="hero.badge" data-i18n-html>Výjezd a první diagnostika <strong>zdarma</strong></div></div></div></section>
-<section class="section" id="services"><div class="container"><div class="section-head reveal"><h2 data-i18n="sec.services.title">Co pro vás mohu udělat</h2><p data-i18n="sec.services.lead">Dvanáct služeb, jeden princip — pomoci v klidu, srozumitelně a bez ztráty času.</p></div></div></section></main>
-<footer class="site-footer"><div class="container row"><span data-i18n="footer.copy">© 2026 Adam — Computer services s péčí o váš čas.</span><span data-i18n="footer.note">Praha a okolí · pondělí–sobota</span></div></footer>
-<script src="./i18n.js"></script><script src="./script.js"></script></body></html>
+</head>
+<body>
+<header class="site-header">
+  <div class="container row">
+    <a class="brand" href="./index.html">Adam — IT na výjezd</a>
+    <nav class="nav" aria-label="Hlavní">
+      <a href="./index.html" data-i18n="nav.home">Domů</a>
+      <a href="./index.html#services" data-i18n="nav.services">Služby</a>
+      <a href="./kontakt.html" data-i18n="nav.contact">Kontakt</a>
+      <div class="lang" role="group" aria-label="Jazyk">
+        <button type="button" data-lang="cs">CS</button>
+        <button type="button" data-lang="en" title="Připravujeme" disabled>EN</button>
+      </div>
+    </nav>
+    <button class="menu-toggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="container grid">
+      <div class="reveal">
+        S péčí o váš čas
+        <h1 data-i18n="hero.title" data-i18n-html>Technika má pomáhat, <em>ne brát čas a klid.</em></h1>
+        <p class="lead" data-i18n="hero.lead">Klidná domácí pomoc s počítači, chytrou technikou a digitálním učením. Bez spěchu, bez složitých slov, bez zbytečných nákladů.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="./kontakt.html" data-i18n="hero.cta1">Domluvit návštěvu</a>
+          <a class="btn btn-ghost" href="#services" data-i18n="hero.cta2">Prohlédnout služby</a>
+        </div>
+      </div>
+      <div class="hero-img reveal">
+        <img src="./img/hero--main.png" alt="Mistr na výjezd" loading="eager">
+        <div class="hero-meta" data-i18n="hero.badge" data-i18n-html>Výjezd a první diagnostika <strong>zdarma</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 data-i18n="sec.services.title">Co pro vás mohu udělat</h2>
+        <p data-i18n="sec.services.lead">Dvanáct služeb, jeden princip — pomoci v klidu, srozumitelně a bez ztráty času.</p>
+      </div>
+
+      <div class="group reveal">
+        <div class="group-title">01<h3 data-i18n="group.care">Péče o počítač</h3></div>
+        <div class="services">
+          <a class="card" href="./cleaning.html"><div class="card-img"><img class="main" src="./img/cleaning--main.png" alt="cleaning" loading="lazy"><img class="hover" src="./img/cleaning--hover.png" alt="" loading="lazy"></div><div class="card-body">1.1<h4>Čištění počítače</h4><p>Klidná prevence proti přehřívání a hluku.</p></div>→</a>
+          <a class="card" href="./upgrade.html"><div class="card-img"><img class="main" src="./img/upgrade--main.png" alt="upgrade" loading="lazy"><img class="hover" src="./img/upgrade--hover.png" alt="" loading="lazy"></div><div class="card-body">1.2<h4>Modernizace</h4><p>Druhý život pro pomalý počítač.</p></div>→</a>
+          <a class="card" href="./software.html"><div class="card-img"><img class="main" src="./img/software--main.png" alt="software" loading="lazy"><img class="hover" src="./img/software--hover.png" alt="" loading="lazy"></div><div class="card-body">1.3<h4>Nastavení softwaru</h4><p>Windows a online úřady v pořádku.</p></div>→</a>
+          <a class="card" href="./repair.html"><div class="card-img"><img class="main" src="./img/repair--main.png" alt="repair" loading="lazy"><img class="hover" src="./img/repair--hover.png" alt="" loading="lazy"></div><div class="card-body">1.4<h4>Oprava a likvidace</h4><p>Než to vyhodíte — podívejme se.</p></div>→</a>
+        </div>
+      </div>
+
+      <div class="group reveal">
+        <div class="group-title">02<h3 data-i18n="group.security">Bezpečí domova</h3></div>
+        <div class="services">
+          <a class="card" href="./webcam.html"><div class="card-img"><img class="main" src="./img/webcam--main.png" alt="webcam" loading="lazy"><img class="hover" src="./img/webcam--hover.png" alt="" loading="lazy"></div><div class="card-body">2.1<h4>Web-kamery</h4><p>Klid v telefonu, ne v kabelech.</p></div>→</a>
+          <a class="card" href="./alarm.html"><div class="card-img"><img class="main" src="./img/alarm--main.png" alt="alarm" loading="lazy"><img class="hover" src="./img/alarm--hover.png" alt="" loading="lazy"></div><div class="card-body">2.2<h4>Domácí alarm</h4><p>Pro dveře, garáž nebo chatu.</p></div>→</a>
+          <a class="card" href="./appliances.html"><div class="card-img"><img class="main" src="./img/appliances--main.png" alt="appliances" loading="lazy"><img class="hover" src="./img/appliances--hover.png" alt="" loading="lazy"></div><div class="card-body">2.3<h4>Chytrá domácnost</h4><p>Technika, která se nehádá.</p></div>→</a>
+        </div>
+      </div>
+
+      <section class="intermission reveal">
+        <div class="intermission-text">
+          Klidná ruka u techniky
+          <h3 data-i18n="inter.title">Přijedu, podívám se, popovídáme si.</h3>
+          <p data-i18n="inter.lead">Žádné dlouhé telefonáty, žádný spěch. Začínáme bezplatným výjezdem a první diagnostikou — teprve potom rozhodujeme, co stojí za práci.</p>
+          <a class="btn btn-ghost" href="./kontakt.html" data-i18n="inter.cta">Domluvit termín →</a>
+        </div>
+        <div class="intermission-img">
+          <img class="main" src="./img/hero--main.png" alt="master" loading="lazy">
+          <img class="hover" src="./img/hero--hover.png" alt="" loading="lazy">
+        </div>
+      </section>
+
+      <div class="group reveal">
+        <div class="group-title">03<h3 data-i18n="group.learning">Učení pro dospělé a děti</h3></div>
+        <div class="services">
+          <a class="card" href="./literacy.html"><div class="card-img"><img class="main" src="./img/literacy--main.png" alt="literacy" loading="lazy"><img class="hover" src="./img/literacy--hover.png" alt="" loading="lazy"></div><div class="card-body">3.1<h4>Počítačová gramotnost</h4><p>Pro dospělé, kteří se chtějí přestat bát.</p></div>→</a>
+          <a class="card" href="./tutor.html"><div class="card-img"><img class="main" src="./img/tutor--main.png" alt="tutor" loading="lazy"><img class="hover" src="./img/tutor--hover.png" alt="" loading="lazy"></div><div class="card-body">3.2<h4>Doučování informatiky</h4><p>V rytmu vašeho dítěte.</p></div>→</a>
+          <a class="card" href="./chess.html"><div class="card-img"><img class="main" src="./img/chess--main.png" alt="chess" loading="lazy"><img class="hover" src="./img/chess--hover.png" alt="" loading="lazy"></div><div class="card-body">3.3<h4>Šachy</h4><p>Trpělivost a logika přes šachovnici.</p></div>→</a>
+          <a class="card" href="./development.html"><div class="card-img"><img class="main" src="./img/development--main.png" alt="development" loading="lazy"><img class="hover" src="./img/development--hover.png" alt="" loading="lazy"></div><div class="card-body">3.4<h4>Vysoké technologie</h4><p>Umělá inteligence jako kamarád.</p></div>→</a>
+        </div>
+      </div>
+
+      <div class="group reveal">
+        <div class="group-title">04<h3 data-i18n="group.design">Design a tvorba</h3></div>
+        <div class="services single">
+          <a class="card wide" href="./design.html"><div class="card-img"><img class="main" src="./img/design--main.png" alt="design" loading="lazy"><img class="hover" src="./img/design--hover.png" alt="" loading="lazy"></div><div class="card-body">4<h4>Design a grafika</h4><p>Letáky, stránky a katalogy s lidským vzhledem.</p></div>→</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-card reveal">
+        <div>
+          <h2 data-i18n="contact.title">Napište, zavolejte, ozvěte se kdykoli.</h2>
+          <p data-i18n="contact.lead">Začít můžeme bezplatným výjezdem a první diagnostikou. Vyberte si způsob, který je vám blízký.</p>
+          <ul class="contact-list">
+            <li><a href="mailto:adam@itnaklid.cz">@<strong data-i18n="contact.email">mailto:adam@itnaklid.cz</strong>
+<small data-i18n="contact.email.note">Odpovídám obvykle do několika hodin.</small></a></li>
+            <li><a href="tel:+420777123456">☎<strong data-i18n="contact.phone">+420 777 123 456</strong>
+<small data-i18n="contact.phone.note">Po–So · 8:00–20:00</small></a></li>
+            <li><a href="https://wa.me/420777123456" target="_blank" rel="noopener">W<strong data-i18n="contact.wa">WhatsApp</strong>
+<small data-i18n="contact.wa.note">Pošlete fotku problému, odpovím obratem.</small></a></li>
+            <li><a href="https://t.me/adam_it" target="_blank" rel="noopener">T<strong data-i18n="contact.tg">Telegram</strong>
+<small data-i18n="contact.tg.note">@adam_it</small></a></li>
+          </ul>
+        </div>
+        <aside class="contact-aside">
+          <p class="free" data-i18n="contact.aside.title">Výjezd a první diagnostika — zdarma.</p>
+          <small data-i18n="contact.aside.note">Platíte pouze za práci a případné náhradní díly. Bez skrytých poplatků.</small>
+          <a class="btn btn-primary" href="./kontakt.html" data-i18n="contact.aside.btn">Zobrazit všechny kontakty</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container row">
+    <span data-i18n="footer.copy">© 2026 Adam — Computer services s péčí o váš čas.</span>
+    Praha a okolí · pondělí–sobota
+  </div>
+</footer>
+<script src="./i18n.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>

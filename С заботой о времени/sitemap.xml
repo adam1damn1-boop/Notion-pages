@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>/index.html</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/index.html</loc></url>
+  <url><loc>/kontakt.html</loc></url>
+  <url><loc>/cleaning.html</loc></url>
+  <url><loc>/upgrade.html</loc></url>
+  <url><loc>/software.html</loc></url>
+  <url><loc>/repair.html</loc></url>
+  <url><loc>/webcam.html</loc></url>
+  <url><loc>/alarm.html</loc></url>
+  <url><loc>/appliances.html</loc></url>
+  <url><loc>/literacy.html</loc></url>
+  <url><loc>/tutor.html</loc></url>
+  <url><loc>/chess.html</loc></url>
+  <url><loc>/development.html</loc></url>
+  <url><loc>/design.html</loc></url>
+</urlset>

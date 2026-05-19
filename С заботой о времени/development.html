@@ -1,1 +1,77 @@
-<!doctype html><html lang="cs"><head><meta charset="utf-8"><title>Vysoké technologie — Adam, IT na výjezd</title><meta name="description" content="Umělá inteligence jako kamarád, ne jako kouzelná odpověď."><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="./styles.css"></head><body><main><section class="svc-hero "><div class="container"><div class="meta"><span class="code">3.4</span></div><h1>Vysoké technologie</h1><p class="lead">Umělá inteligence jako kamarád, ne jako kouzelná odpověď.</p></div></section><nav class="svc-nav"><a href="./chess.html">Předchozí Šachy</a><a class="next" href="./design.html">Další Design a grafika</a></nav></main><script src="./i18n.js"></script><script src="./script.js"></script></body></html>
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Vysoké technologie — Adam, IT na výjezd</title>
+<meta name="description" content="Umělá inteligence jako kamarád, ne jako kouzelná odpověď.">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container row">
+    <a class="brand" href="./index.html">Adam — IT na výjezd</a>
+    <nav class="nav" aria-label="Hlavní">
+      <a href="./index.html" data-i18n="nav.home">Domů</a>
+      <a href="./index.html#services" class="active" data-i18n="nav.services">Služby</a>
+      <a href="./kontakt.html" data-i18n="nav.contact">Kontakt</a>
+      <div class="lang"><button type="button" data-lang="cs">CS</button><button type="button" data-lang="en" disabled>EN</button></div>
+    </nav>
+    <button class="menu-toggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+<main>
+  <section class="svc-hero {tallClass}">
+    <div class="container grid">
+      <div class="reveal">
+        <div class="meta">3.4 · ·</div>
+        <h1>Vysoké technologie</h1>
+        <p class="lead">Umělá inteligence jako kamarád, ne jako kouzelná odpověď.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="./kontakt.html" data-i18n="hero.cta1">Domluvit návštěvu</a>
+          <a class="btn btn-ghost" href="./index.html#services" data-i18n="nav.back">Zpět na služby</a>
+        </div>
+      </div>
+      <div class="svc-hero-img reveal">
+        <img src="./img/development--main.png" alt="development" loading="eager">
+      </div>
+    </div>
+  </section>
+  <section class="svc-body">
+    <div class="container grid">
+      <div class="prose reveal">
+        <p>Umělá inteligence už je tady: pomáhá s učením, hledáním nápadů, vysvětlováním složitých témat i přípravou na budoucí povolání. Ukážu dítěti, jak tyto nástroje používat rozumně: nejen dostat hotovou odpověď, ale také chápat, ověřovat a přemýšlet vlastní hlavou.</p>
+        <p>Lekce mohou být užitečným koníčkem i podporou ke školním předmětům. Je to způsob, jak rozšířit obzor a dát dítěti jistotu ve světě, kde se technologie mění rychleji než učebnice.</p>
+        <div class="svc-callout">
+          <div>
+            <h3 data-i18n="cta.callout.title">Začněme prvním bezplatným výjezdem.</h3>
+            <p data-i18n="cta.callout.lead">Podíváme se na zařízení, popovídáme si a teprve potom rozhodneme, co dál.</p>
+          </div>
+          <a class="btn btn-primary" href="./kontakt.html" data-i18n="cta.callout.btn">Domluvit termín</a>
+        </div>
+      </div>
+      <aside class="svc-illu reveal">
+        <img src="./img/development--hover.png" alt="development illustration" loading="lazy">
+      </aside>
+    </div>
+    <div class="container">
+      <nav class="svc-nav">
+        <a href="./chess.html">PředchozíŠachy</a>
+        <a class="next" href="./design.html">DalšíDesign a grafika</a>
+      </nav>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container row">
+    <span data-i18n="footer.copy">© 2026 Adam — Computer services s péčí o váš čas.</span>
+    Praha a okolí · pondělí–sobota
+  </div>
+</footer>
+<script src="./i18n.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
