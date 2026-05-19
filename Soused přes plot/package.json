@@ -1,0 +1,10 @@
+{
+	"name": "mistr-od-souseda",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Statický web výjezdního počítačového mistra. Hostováno na Vercelu nebo libovolném statickém hostingu.",
+	"scripts": {
+		"start": "npx --yes serve .",
+		"build": "echo 'Static site — nothing to build.'"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Mistr od souseda",
+	"short_name": "Mistr",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#fbf5ec",
+	"theme_color": "#c2532a",
+	"icons": []
+}
