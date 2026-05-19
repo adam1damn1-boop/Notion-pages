@@ -1,0 +1,13 @@
+{
+	"name": "Šálek čaje — výjezdní mistr počítačových služeb",
+	"short_name": "Šálek čaje",
+	"description": "Profesionální počítačové služby u vás doma. Šálek čaje, klidný domov a počítač jako nový.",
+	"lang": "cs",
+	"start_url": "./",
+	"display": "standalone",
+	"background_color": "#FBF7F0",
+	"theme_color": "#B8763A",
+	"icons": [
+		{ "src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+	]
+}

@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="cs">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+	<meta name="theme-color" content="#B8763A" />
+	<meta name="description" content="Výjezdní mistr počítačových služeb. Šálek čaje, klidný domov a počítač jako nový. Výjezd a první diagnostika zdarma." />
+	<title data-i18n="meta_title">Šálek čaje — výjezdní mistr počítačových služeb</title>
+	<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+	<link rel="manifest" href="./manifest.webmanifest" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap" />
+	<link rel="stylesheet" href="./styles/main.css" />
+</head>
+<body>
+	<a class="skip-link" href="#main" data-i18n="skip_link">Přeskočit na obsah</a>
+
+	<header class="site-header" id="top">
+		<div class="container header-inner">
+			<a class="brand" href="#top" aria-label="Šálek čaje — domů">
+				<span class="brand-mark" aria-hidden="true">🍵</span>
+				<span class="brand-text">
+					<span class="brand-name">Šálek čaje</span>
+					<span class="brand-tag" data-i18n="brand_tag">výjezdní mistr počítačů</span>
+				</span>
+			</a>
+			<nav class="primary-nav" aria-label="primary">
+				<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+					<span class="nav-toggle-bar" aria-hidden="true"></span>
+					<span class="nav-toggle-bar" aria-hidden="true"></span>
+					<span class="nav-toggle-bar" aria-hidden="true"></span>
+					<span class="sr-only" data-i18n="menu">Menu</span>
+				</button>
+				<ul id="nav-list" class="nav-list">
+					<li><a href="#care" data-i18n="cat_care">Péče</a></li>
+					<li><a href="#security" data-i18n="cat_security">Bezpečnost</a></li>
+					<li><a href="#learning" data-i18n="cat_learning">Vzdělávání</a></li>
+					<li><a href="#design" data-i18n="cat_design">Design</a></li>
+					<li><a class="nav-cta" href="#contact" data-i18n="cta_short">Kontakt</a></li>
+				</ul>
+			</nav>
+			<label class="lang-switch" aria-label="Jazyk / Language">
+				🌐
+				<select id="lang-switch">
+					<option value="cs">CS</option>
+				</select>
+			</label>
+		</div>
+	</header>
+
+	<main id="main">
+		<section class="hero" aria-labelledby="hero-title">
+			<div class="container hero-inner">
+				<div class="hero-text">
+					<p class="eyebrow" data-i18n="hero_eyebrow">Výjezd a první diagnostika zdarma</p>
+					<h1 id="hero-title" data-i18n="hero_title">Šálek čaje, klidný domov a počítač jako nový.</h1>
+					<p class="hero-lede" data-i18n="hero_lede">Profesionální počítačové služby u vás doma: péče o techniku, bezpečnost, doučování i design. Postavte konvici — o zbytek se postarám.</p>
+					<div class="hero-actions">
+						<a class="btn btn-primary" href="#contact" data-i18n="cta_book">Domluvit návštěvu</a>
+						<a class="btn btn-ghost" href="#care" data-i18n="cta_services">Prohlédnout služby</a>
+					</div>
+					<ul class="hero-badges" aria-label="výhody">
+						<li>☕U vás doma</li>
+						<li>🛠️Diagnostika zdarma</li>
+						<li>💬Srozumitelně a v klidu</li>
+					</ul>
+				</div>
+				<figure class="hero-figure">
+					<div class="hero-photo">
+						<img class="img-main" src="./img/hero--main.png" alt="Mistr s notebookem a šálkem čaje" width="370" height="790" />
+						<img class="img-hover" src="./img/hero--hover.png" alt="" aria-hidden="true" width="370" height="790" />
+					</div>
+					<figcaption class="hero-caption" data-i18n="hero_caption">Petr — váš výjezdní mistr</figcaption>
+				</figure>
+			</div>
+			<div class="hero-wave" aria-hidden="true"></div>
+		</section>
+
+		<section class="category" id="care" aria-labelledby="care-title">
+			<div class="container">
+				<header class="category-head">
+					<span class="category-num">01</span>
+					<h2 id="care-title" data-i18n="care_title">Péče o počítač</h2>
+					<p class="category-sub" data-i18n="care_sub">Aby vaše technika fungovala tiše, rychle a spolehlivě.</p>
+				</header>
+				<div class="cards">
+					<article class="card" data-section="1.1" data-reveal>
+						<div class="card-photo">
+							<img class="img-main" src="./img/cleaning--main.png" alt="" loading="lazy" width="310" height="310" />
+							<img class="img-hover" src="./img/cleaning--hover.png" alt="" aria-hidden="true" loading="lazy" width="310" height="310" />
+						</div>
+						<div class="card-body">
+							<h3 data-i18n="cleaning_title">Čištění počítače</h3>
+							<p data-i18n="cleaning_text"></p>
+						</div>
+					</article>
+					<article class="card" data-section="1.2" data-reveal>
+						<div class="card-photo">
+							<img class="img-main" src="./img/upgrade--main.png" alt="" loading="lazy" width="320" height="340" />
+							<img class="img-hover" src="./img/upgrade--hover.png" alt="" aria-hidden="true" loading="lazy" width="320" height="340" />
+						</div>
+						<div class="card-body">
+							<h3 data-i18n="upgrade_title">Modernizace</h3>
+							<p data-i18n="upgrade_text"></p>
+						</div>
+					</article>
+					<article class="card" data-section="1.3" data-reveal>
+						<div class="card-photo">
+							<img class="img-main" src="./img/software--main.png" alt="" loading="lazy" width="350" height="300" />
+							<img class="img-hover" src="./img/software--hover.png" alt="" aria-hidden="true" loading="lazy" width="350" height="300" />
+						</div>
+						<div class="card-body">
+							<h3 data-i18n="software_title">Nastavení softwaru</h3>
+							<p data-i18n="software_text"></p>
+						</div>
+					</article>
+					<article class="card" data-section="1.4" data-reveal>
+						<div class="card-photo">
+							<img class="img-main" src="./img/repair--main.png" alt="" loading="lazy" width="300" height="286" />
+							<img class="img-hover" src="./img/repair--hover.png" alt="" aria-hidden="true" loading="lazy" width="300" height="286" />
+						</div>
+						<div class="card-body">
+							<h3 data-i18n="repair_title">Oprava a likvidace</h3>
+							<p data-i18n="repair_text"></p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="category alt" id="security" aria-labelledby="security-title">
+			<div class="container">
+				<header class="category-head">
+					<span class="category-num">02</span>
+					<h2 id="security-title" data-i18n="security_title">Bezpečnost domova</h2>
+					<p class="category-sub" data-i18n="security_sub">Klidný spánek díky chytrým a spolehlivým řešením.</p>
+				</header>
+				<div class="cards">
+					<article class="card" data-section="2.1" data-reveal>
+						<div class="card-photo">
+							<img class="img-main" src="./img/webcam--main.png" alt="" loading="lazy" width="220" height="290" />
+							<img class="img-hover" src="./img/webcam--hover.png" alt="" aria-hidden="true" loading="lazy" width="220" height="290" />
+						</div>
+						<div class="card-body">
+							<h3 data-i18n="webcam_title">Webkamery</h3>
+							<p data-i18n="webcam_text"></p>
+						</div>
+					</article>
+					<article class="card" data-section="2.2" data-reveal>
+						<div class="card-photo">
+							<img class="img-main" src="./img/alarm--main.png" alt="" loading="lazy" width="360" height="280" />
+							<img class="img-hover" src="./img/alarm--hover.png" alt="" aria-hidden="true" loading="lazy" width="360" height="280" />
+						</div>
+						<div class="card-body">
+							<h3 data-i18n="alarm_title">Domácí alarm</h3>
+							<p data-i18n="alarm_text"></p>
+						</div>
+					</article>
+					<article class="card" data-section="2.3" data-reveal>
+						<div class="card-photo">
+							<img class="img-main" src="./img/appliances--main.png" alt="" loading="lazy" width="290" height="290" />
+							<img class="img-hover" src="./img/appliances--hover.png" alt="" aria-hidden="true" loading="lazy" width="290" height="290" />
+						</div>
+						<div class="card-body">
+							<h3 data-i18n="appliances_title">Chytrá domácnost</h3>
+							<p data-i18n="appliances_text"></p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="category" id="learning" aria-labelledby="learning-title">
+			<div class="container">
+				<header class="category-head">
+					<span class="category-num">03</span>
+					<h2 id="learning-title" data-i18n="learning_title">Vzdělávání a doučování</h2>
+					<p class="category-sub" data-i18n="learning_sub">Pro dospělé i pro děti — v bezpečí domova.</p>
+				</header>
+				<div class="cards">
+					<article class="card" data-section="3.1" data-reveal>
+						<div class="card-photo">
+							<img class="img-main" src="./img/literacy--main.png" alt="" loading="lazy" width="320" height="290" />
+							<img class="img-hover" src="./img/literacy--hover.png" alt="" aria-hidden="true" loading="lazy" width="320" height="290" />
+						</div>
+						<div class="card-body">
+							<span class="tag" data-i18n="tag_adults">Pro dospělé</span>
+							<h3 data-i18n="literacy_title">Počítačová gramotnost</h3>
+							<p data-i18n="literacy_text"></p>
+						</div>
+					</article>
+					<article class="card" data-section="3.2" data-reveal>
+						<div class="card-photo">
+							<img class="img-main" src="./img/tutor--main.png" alt="" loading="lazy" width="370" height="310" />
+							<img class="img-hover" src="./img/tutor--hover.png" alt="" aria-hidden="true" loading="lazy" width="370" height="310" />
+						</div>
+						<div class="card-body">
+							<span class="tag" data-i18n="tag_kids">Pro děti</span>
+							<h3 data-i18n="tutor_title">Doučování informatiky</h3>
+							<p data-i18n="tutor_text"></p>
+						</div>
+					</article>
+					<article class="card" data-section="3.3" data-reveal>
+						<div class="card-photo">
+							<img class="img-main" src="./img/chess--main.png" alt="" loading="lazy" width="330" height="320" />
+							<img class="img-hover" src="./img/chess--hover.png" alt="" aria-hidden="true" loading="lazy" width="330" height="320" />
+						</div>
+						<div class="card-body">
+							<span class="tag" data-i18n="tag_kids">Pro děti</span>
+							<h3 data-i18n="chess_title">Šachy</h3>
+							<p data-i18n="chess_text"></p>
+						</div>
+					</article>
+					<article class="card" data-section="3.4" data-reveal>
+						<div class="card-photo">
+							<img class="img-main" src="./img/development--main.png" alt="" loading="lazy" width="320" height="320" />
+							<img class="img-hover" src="./img/development--hover.png" alt="" aria-hidden="true" loading="lazy" width="320" height="320" />
+						</div>
+						<div class="card-body">
+							<span class="tag" data-i18n="tag_kids">Pro děti</span>
+							<h3 data-i18n="development_title">AI a vysoké technologie</h3>
+							<p data-i18n="development_text"></p>
+						</div>
+					</article>
+				</div>
+				<aside class="callout" data-reveal>
+					<div class="callout-icon" aria-hidden="true">⭐</div>
+					<div>
+						<h3 data-i18n="secret_title">Tajemství úspěchu ve třídě</h3>
+						<p data-i18n="secret_text">Aby vaše děti zůstaly konkurenceschopné, měly by s umělou inteligencí začít už dnes. Ve škole tomu nenaučí — naučte je doma být o krok napřed.</p>
+					</div>
+				</aside>
+			</div>
+		</section>
+
+		<section class="category alt" id="design" aria-labelledby="design-title">
+			<div class="container">
+				<header class="category-head">
+					<span class="category-num">04</span>
+					<h2 id="design-title" data-i18n="design_title">Design a vývoj</h2>
+					<p class="category-sub" data-i18n="design_sub">Profesionální vzhled pro vaše podnikání.</p>
+				</header>
+				<div class="cards single">
+					<article class="card wide" data-section="4" data-reveal>
+						<div class="card-photo">
+							<img class="img-main" src="./img/design--main.png" alt="" loading="lazy" width="310" height="310" />
+							<img class="img-hover" src="./img/design--hover.png" alt="" aria-hidden="true" loading="lazy" width="310" height="310" />
+						</div>
+						<div class="card-body">
+							<h3 data-i18n="design_card_title">Letáky, plakáty, weby, katalogy</h3>
+							<p data-i18n="design_text"></p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact" id="contact" aria-labelledby="contact-title">
+			<div class="container contact-inner">
+				<div class="contact-text">
+					<p class="eyebrow" data-i18n="contact_eyebrow">Spojte se se mnou</p>
+					<h2 id="contact-title" data-i18n="contact_title">Pojďme si dát čaj a popovídat</h2>
+					<p data-i18n="contact_text"></p>
+					<ul class="contact-channels">
+						<li><a href="mailto:petr@salekcaje.cz">✉️ mailto:petr@salekcaje.cz</a></li>
+						<li><a href="tel:+420777123456">📞 +420 777 123 456</a></li>
+						<li><a href="https://wa.me/420777123456" target="_blank" rel="noopener">💬 WhatsApp</a></li>
+						<li><a href="https://t.me/salekcaje" target="_blank" rel="noopener">✈️ Telegram</a></li>
+					</ul>
+				</div>
+				<form class="contact-form" id="contact-form" novalidate>
+					<label>
+						Jak vám můžu říkat?
+						<input type="text" name="name" required autocomplete="name" />
+					</label>
+					<label>
+						Telefon nebo e-mail
+						<input type="text" name="contact" required autocomplete="email" />
+					</label>
+					<label>
+						S čím vám můžu pomoci?
+						<textarea name="message" rows="4" required></textarea>
+					</label>
+					<button class="btn btn-primary" type="submit" data-i18n="form_submit">Odeslat</button>
+					<p class="form-note" data-i18n="form_note">Odesláním otevřete váš e-mailový klient s předvyplněnou zprávou.</p>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<p class="footer-brand">🍵 <strong>Šálek čaje</strong> — výjezdní mistr počítačových služeb</p>
+			<p class="footer-meta">©  Petr · <a href="#top" data-i18n="footer_top">Nahoru</a></p>
+		</div>
+	</footer>
+
+	<script src="./scripts/i18n.js"></script>
+	<script src="./scripts/main.js"></script>
+</body>
+</html>
