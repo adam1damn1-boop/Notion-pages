@@ -1,0 +1,9 @@
+{
+  "name": "Jakub servis",
+  "short_name": "Jakub servis",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff9ec",
+  "theme_color": "#f3c969",
+  "icons": []
+}

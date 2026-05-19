@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rodinný technický servis</title>
+  <meta name="description" content="Výjezdový mistr počítačových služeb. Výjezd a první diagnostika zdarma.">
+  <meta name="theme-color" content="#f3b33d">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#services">Přeskočit na služby</a>
+  <header class="site-header" data-elevate>
+    <a class="brand" href="#top" aria-label="Domů">
+      <span class="brand-mark">J</span>
+      <span><strong>Jakub servis</strong><small>technika s lidským přístupem</small></span>
+    </a>
+    <nav class="nav" aria-label="Hlavní navigace">
+      <a href="#services">Služby</a>
+      <a href="#how">Jak pracuji</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="lang" aria-label="Volba jazyka">
+      <button class="lang-button is-active" type="button" data-lang="cs" aria-pressed="true">CS</button>
+      <button class="lang-button" type="button" data-lang="placeholder" aria-pressed="false" title="Další jazyky lze doplnit ve slovníku">+</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" data-i18n="hero.kicker">Výjezd a první diagnostika zdarma</p>
+        <h1 id="hero-title" data-i18n="hero.title">Počítačové starosti? Postarám se o ně jako o vlastní rodinu.</h1>
+        <p class="hero-lead" data-i18n="hero.lead">Pomáhám domácnostem i malým podnikům s počítači, chytrou domácností, výukou a designem.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="mailto:jakub@example.com?subject=Pot%C5%99ebuji%20pomoc%20s%20technikou" data-i18n="hero.ctaPrimary">Napsat e-mail</a>
+          <a class="button button-ghost" href="#services" data-i18n="hero.ctaSecondary">Prohlédnout služby</a>
+        </div>
+        <ul class="trust-list">
+          <li data-i18n="hero.trust.0">Doma, v klidu a bez žargonu</li>
+          <li data-i18n="hero.trust.1">Platíte až za domluvenou práci</li>
+          <li data-i18n="hero.trust.2">Výjezd a první diagnostika zdarma</li>
+        </ul>
+      </div>
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="hero-card">
+          <img class="hero-img hero-img-main" src="./img/hero--main.png" width="370" height="790" alt="">
+          <img class="hero-img hero-img-hover" src="./img/hero--hover.png" width="370" height="790" alt="">
+          <b class="bubble bubble-top">diagnostika zdarma</b>
+          <b class="bubble bubble-bottom">rodinný servis</b>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats reveal" aria-label="Shrnutí">
+      <div><strong>12</strong><span data-i18n="stats.services">služeb pro domov i práci</span></div>
+      <div><strong>0 Kč</strong><span data-i18n="stats.visit">výjezd a první kontrola</span></div>
+      <div><strong>CS</strong><span data-i18n="stats.language">hlavní jazyk, připravené i18n</span></div>
+    </section>
+
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="services.kicker">Služby</p>
+        <h2 id="services-title" data-i18n="services.title">Technika, bezpečí, učení i nápady pod jednou střechou</h2>
+        <p data-i18n="services.lead">Každá karta má vlastní ilustraci, jemný hover efekt a krátký rodinný příběh.</p>
+      </div>
+      <div class="service-grid" data-services></div>
+    </section>
+
+    <section class="section process" id="how" aria-labelledby="how-title">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="process.kicker">Jak pracuji</p>
+        <h2 id="how-title" data-i18n="process.title">Jednoduše, přehledně a bez překvapení</h2>
+      </div>
+      <ol class="steps reveal">
+        <li><span>01</span><strong data-i18n="process.steps.0.title">Ozvete se</strong><p data-i18n="process.steps.0.text">Popíšete problém e-mailem, telefonicky nebo zprávou.</p></li>
+        <li><span>02</span><strong data-i18n="process.steps.1.title">Přijedu zdarma</strong><p data-i18n="process.steps.1.text">Podívám se na zařízení nebo prostor a navrhnu řešení.</p></li>
+        <li><span>03</span><strong data-i18n="process.steps.2.title">Domluvíme cenu</strong><p data-i18n="process.steps.2.text">Platíte jen za odsouhlasenou práci a náhradní díly.</p></li>
+      </ol>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-panel reveal">
+        <div>
+          <p class="eyebrow" data-i18n="contact.kicker">Kontakt</p>
+          <h2 id="contact-title" data-i18n="contact.title">Technika doma zlobí? Začněme první zprávou.</h2>
+          <p data-i18n="contact.text">Napište mi nebo zavolejte, kdykoliv vám doma něco s technikou „dělá naschvál“.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:jakub@example.com?subject=Pot%C5%99ebuji%20pomoc%20s%20technikou">jakub@example.com</a>
+          <a class="button button-ghost" href="tel:+420000000000">+420 000 000 000</a>
+          <a class="button button-ghost" href="https://wa.me/420000000000" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <time data-year></time> Jakub servis. <span data-i18n="footer">Statický web připravený pro Vercel, Netlify a GitHub Pages.</span></p>
+  </footer>
+
+  <script src="./js/i18n.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
