@@ -1,0 +1,9 @@
+{
+  "name": "Mistr výhody",
+  "short_name": "Mistr výhody",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF7F0",
+  "theme_color": "#1F6F4A",
+  "icons": []
+}

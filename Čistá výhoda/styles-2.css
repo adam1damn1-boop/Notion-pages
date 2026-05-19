@@ -1,0 +1,26 @@
+/* Дополнительные стили: контакты, форма, футер. Подключается после styles.css. */
+.contact-list{list-style:none;padding:0;margin:0}
+.contact-list li{padding:14px 0;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:14px}
+.contact-list li:last-child{border-bottom:0}
+.contact-list .ico{width:42px;height:42px;border-radius:50%;background:var(--primary);color:#fff;display:grid;place-items:center;flex:0 0 42px;font-weight:600;font-family:"Fraunces",serif}
+.contact-list .label{display:block;font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px}
+.contact-list .value{display:block;color:var(--ink);font-weight:600;font-size:1.02rem}
+.form{display:grid;gap:14px}
+.form label{display:grid;gap:6px;font-size:.86rem;font-weight:600;color:var(--muted);letter-spacing:.02em}
+.form input,.form textarea{font:inherit;background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:12px 14px;color:var(--ink);width:100%;font-weight:400}
+.form input:focus,.form textarea:focus{outline:2px solid var(--primary);outline-offset:1px;border-color:var(--primary)}
+.form textarea{min-height:130px;resize:vertical;font-family:inherit}
+.form .btn{justify-self:start}
+.note{background:var(--bg-alt);border-left:3px solid var(--accent);padding:14px 16px;border-radius:0 10px 10px 0;font-size:.92rem;color:var(--muted);margin:0}
+.site-footer{padding:56px 0 28px;background:var(--ink);color:#D9D2BD;margin-top:48px}
+.site-footer a{color:#F0EAD9}
+.site-footer a:hover{color:#fff}
+.footer-grid{display:grid;grid-template-columns:1fr;gap:28px;margin-bottom:28px}
+@media (min-width:700px){.footer-grid{grid-template-columns:1.4fr 1fr 1fr}}
+.footer-title{font-family:"Fraunces",serif;font-size:1.1rem;color:#fff;margin:0 0 12px}
+.footer-links{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.footer-links li{color:#9aa19c;font-size:.95rem}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;font-size:.86rem;color:#9aa19c;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+.svc-hero .svc-hero-text .btn{margin-top:8px}
+.contact-card h3{margin-bottom:18px}
+@media (max-width:899px){.svc-body .aside{position:relative;top:auto}}

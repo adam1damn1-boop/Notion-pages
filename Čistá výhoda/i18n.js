@@ -1,0 +1,133 @@
+window.I18N = {
+  cs: {
+    nav: { home: "Úvod", services: "Služby", contact: "Kontakt" },
+    common: {
+      brand: "Mistr výhody",
+      tagline: "Počítačový mistr s výjezdem domů. Výjezd a první diagnostika vždy zdarma.",
+      free: "Výjezd a první diagnostika zdarma",
+      cta_contact: "Napsat zprávu",
+      cta_services: "Prohlédnout služby",
+      back_index: "← Zpět na všechny služby",
+      related: "Další služby, které se hodí",
+      free_call: "+420 777 123 456",
+      free_email: "mailto:mistr@vyhody.cz",
+      address: "Praha a okolí",
+      copyright: "Mistr výhody. Všechna práva vyhrazena."
+    },
+    home: {
+      eyebrow: "Počítačový mistr s výjezdem k vám domů",
+      h1: "Šetřete čas, peníze i nervy každý den",
+      lead: "Dvanáct konkrétních služeb pod jednou střechou. Přijedu k vám domů, prohlédnu situaci a poradím, co opravdu stojí za to. Bez závazku, bez paušálů a bez skrytých nákladů.",
+      benefit_1_num: "0 Kč",
+      benefit_1_txt: "Výjezd a první diagnostika u vás doma",
+      benefit_2_num: "+5 let",
+      benefit_2_txt: "Dáme staré technice druhý život",
+      benefit_3_num: "12",
+      benefit_3_txt: "Konkrétních služeb na jednom místě",
+      benefit_4_num: "1×",
+      benefit_4_txt: "Jeden mistr pro celou domácnost",
+      services_eyebrow: "Co všechno pro vás udělám",
+      services_h2: "Dvanáct způsobů, jak vám ušetřit",
+      services_lead: "Každá služba je řešení konkrétního problému. Najeďte myší na obrázek a podívejte se, co se za ní skrývá.",
+      contact_eyebrow: "Bez závazku",
+      contact_h2: "Stačí jeden vzkaz a domluvíme se",
+      contact_lead: "Napište mi pár slov o tom, co potřebujete. Výjezd a první diagnostika u vás doma jsou zdarma — neriskujete vůbec nic."
+    },
+    services: {
+      cleaning:{num:"01 · 1.1",title:"Čištění počítače",tag:"Tichý a chladný počítač",subtitle:"Když notebook hučí jako letadlo a sám se vypíná"},
+      upgrade:{num:"02 · 1.2",title:"Modernizace",tag:"Rychlost za zlomek ceny nového stroje",subtitle:"Stačí pár klíčových dílů, ne nový počítač"},
+      software:{num:"03 · 1.3",title:"Software a Windows",tag:"Čistý systém bez reklam a chyb",subtitle:"Bezpečný počítač pro práci, školu i hry"},
+      repair:{num:"04 · 1.4",title:"Oprava a likvidace",tag:"Druhá šance staré technice",subtitle:"Než ji vyhodíte, dejte ji do mých rukou"},
+      webcam:{num:"05 · 2.1",title:"Web-kamery",tag:"Dohlédnete domů odkudkoli",subtitle:"Bezpečí domova i chaty bez paušálů"},
+      alarm:{num:"06 · 2.2",title:"Domácí alarm",tag:"Klid v hlavě bez paušálu",subtitle:"Dálkově ovládaný alarm na vstupní dveře"},
+      appliances:{num:"07 · 2.3",title:"Chytrá domácnost",tag:"Komfort, který už máte zaplacený",subtitle:"Chytré spotřebiče propojené v jedné aplikaci"},
+      literacy:{num:"08 · 3.1",title:"Počítačová gramotnost",tag:"Digitální svět bez stresu",subtitle:"Krok za krokem, v klidu a v tempu, které vám sedí"},
+      tutor:{num:"09 · 3.2",title:"Doučování informatiky",tag:"Známky i sebevědomí",subtitle:"Informatika srozumitelně a bez stresu"},
+      chess:{num:"10 · 3.3",title:"Šachy",tag:"Logika a soustředění pro celý život",subtitle:"Koníček, který se pozná ve škole i doma"},
+      development:{num:"11 · 3.4",title:"Vysoké technologie",tag:"AI jako tajná zbraň úspěšných dětí",subtitle:"Náskok v učení i v životě"},
+      design:{num:"12 · 4",title:"Design a grafika",tag:"Profesionální vzhled za zlomek ceny",subtitle:"Od letáku až po kompletní aplikaci"}
+    },
+    body: {
+      cleaning: "Notebook hučí jako letadlo a sám se vypíná uprostřed práce? Nejčastěji za to může prach, zaschlá teplovodivá pasta a unavené ventilátory. Vyčistím počítač do posledního koutku, vyměním pastu a promažu ventilátory — technika zase pracuje tiše a v chladu. Tím si prodloužíte život svého stroje klidně o několik let a ušetříte za pořízení nového. Výjezd k vám domů i první diagnostika jsou zdarma.",
+      upgrade: "Počítač není pomalý proto, že je starý, ale proto, že mu chybí pár klíčových dílů. Stačí přidat rychlý SSD disk, více paměti, vyměnit procesor nebo baterii do notebooku — a stroj jede jako z obchodu. Místo investice do drahého nového kusu zaplatíte zlomek a rychlost máte plnou. Poctivě poradím, co se opravdu vyplatí a co je zbytečné. Výjezd a diagnostika u vás doma jsou zcela zdarma.",
+      software: "Windows se zasekává, prohlížeč otevírá podivné reklamy a nic už nefunguje jako dřív? Provedu kompletní úklid systému nebo nainstaluji čistou aktuální verzi Windows i všechny programy, které potřebujete — pro práci, školu, zábavu i hry. Pomůžu s nestabilním internetem, registracemi na úřadech online i s vyplňováním formulářů. Ušetříte hodiny nervů a peníze za zbytečné placené služby. Výjezd a první diagnostika u vás doma jsou zdarma.",
+      repair: "Než starý notebook nebo počítač hodíte do koše, dejte mu druhou šanci. Často stačí vyměnit jedinou součástku a stroj znovu ožije — a to za zlomek ceny nového zařízení. Pokud už oprava nedává smysl, alespoň techniku ekologicky odeberu na náhradní díly. Tak nevyhodíte ani peníze, ani planetu. Diagnostika u vás doma je zdarma a zcela bez závazku.",
+      webcam: "Chcete vidět, co se děje doma, když jste v práci nebo na dovolené? Nebo se ujistit, že je vaše chata v pořádku? Připojím libovolný počet vnitřních i venkovních kamer k Wi-Fi či kabelu — vše pohodlně ovladatelné přímo z mobilu. Můžete dokonce mluvit s návštěvou na dálku. Bezpečí domova bez měsíčních poplatků hlídacím agenturám. Výjezd k vám domů a první diagnostika jsou zdarma.",
+      alarm: "Bojíte se nezvaných hostů v bytě, garáži nebo na chatě? Nainstaluju přímo na vstupní dveře dálkově ovládaný alarm s hlasitou sirénou a SMS upozorněním rovnou do vašeho mobilu. Bez složité montáže, bez kabelů a bez měsíčních paušálů. Získáte klid v hlavě za zlomek ceny profesionální ostrahy. Výjezd k vám domů a první diagnostika nestojí ani korunu.",
+      appliances: "Chytrá zásuvka, žárovka, termostat nebo Smart TV — moderní spotřebiče vám umí ušetřit energii i čas, jen je potřeba je správně propojit. Nastavím aplikaci v mobilu, přidám všechna zařízení do jednoho systému a naučím vás je pohodlně ovládat. Místo přemýšlení nad návody si konečně užijete pohodlí, za které jste si zaplatili. Výjezd a první diagnostika u vás doma jsou zdarma.",
+      literacy: "Cítíte se v dnešním digitálním světě trochu ztracení? Naučím vás krok za krokem ovládat počítač, mobil, internet i umělou inteligenci — přesně tak rychle, jak vám to vyhovuje. Získáte samostatnost, přestanete se spoléhat na druhé a ušetříte spoustu času i peněz, které byste jinak utratili za drobné služby. Výuka probíhá v klidu u vás doma. První návštěva a domluva jsou zdarma.",
+      tutor: "Vystudoval jsem informatiku až po doktorský program a vedl jsem cvičení pro vysokoškolské studenty. Vašemu dítěti pomohu zvládnout školní informatiku tak, aby získalo jistotu, dobré známky a hlavně chuť učit se dál. Vysvětluji srozumitelně a trpělivě, bez stresu a zbytečné teorie. Pro vás je to investice, která se vrátí na vysvědčení i ve schopnostech do budoucna. První lekce u vás doma je nezávazná a zdarma.",
+      chess: "Hraji šachy na velmi dobré úrovni a vím, jak silně tahle hra rozvíjí logické myšlení, trpělivost a soustředění. Naučím vaše dítě hrát od úplných základů až po pokročilé strategie — zábavnou formou, která ho bude bavit. Místo další hodiny u obrazovky získá koníček na celý život a lepší soustředění ve škole. Tahle výhoda se pozná na známkách i na chování. První setkání u vás doma je zdarma.",
+      development: "Umělá inteligence je tajná zbraň dnešních úspěšných dětí. Naučím vaše dítě používat AI chytře — pro učení, projekty, kreativní nápady i přípravu na budoucí povolání. Zatímco spolužáci s ní teprve nesměle experimentují, vaše dítě bude o krok napřed — ve škole i v životě. Můžeme se učit hravou formou nebo přímo nad domácími úkoly. První setkání u vás doma je zdarma.",
+      design: "Potřebujete leták, plakát, webové stránky nebo katalog služeb pro svůj malý podnik? Jsem diplomovaný vývojář s praxí a vytvořím vám profesionální vzhled za zlomek ceny reklamní agentury. Od jednoduchého letáku až po kompletní aplikaci — vše šité přímo na vaši značku. Získáte konkurenční výhodu bez velkých investic. První konzultace u vás doma i prvotní nápad jsou zdarma."
+    },
+    checks: {
+      cleaning:["Tichý chod a nižší teploty","Výměna teplovodivé pasty","Promazání ventilátorů a kontrola chlazení"],
+      upgrade:["SSD disk pro rychlý start systému","Více paměti pro plynulý chod","Výměna baterie nebo procesoru"],
+      software:["Čistá instalace Windows a programů","Odstranění reklam a virů","Pomoc s úřady online a formuláři"],
+      repair:["Diagnostika u vás doma","Výměna jediné součástky místo nákupu","Ekologická likvidace staré techniky"],
+      webcam:["Vnitřní i venkovní kamery","Ovládání přímo z mobilu","Bez měsíčních paušálů"],
+      alarm:["Hlasitá siréna na vstupní dveře","SMS upozornění do mobilu","Bez kabelů a bez paušálu"],
+      appliances:["Propojení spotřebičů v jedné aplikaci","Nastavení rutin a scén","Vysvětlení ovládání krok za krokem"],
+      literacy:["Počítač, mobil i internet bez stresu","Bezpečné nakupování a úřady online","AI nástroje pro každodenní úlevu"],
+      tutor:["Vysokoškolské zkušenosti s výukou","Klidné vysvětlení bez stresu","Domácí úkoly i příprava na zkoušky"],
+      chess:["Od úplných základů po strategie","Hravou formou bez tlaku","Rozvoj logiky a soustředění"],
+      development:["Praktické používání AI nástrojů","Projekty, učení i kreativní nápady","Hravé hodiny nebo příprava do školy"],
+      design:["Letáky, plakáty a vizitky","Webové stránky a katalogy","Aplikace na míru vaší značce"]
+    },
+    contact: {
+      h1: "Pojďme se nezávazně domluvit",
+      lead: "Napište mi pár slov o tom, co potřebujete — domluvíme se v klidu a bez závazku. Výjezd k vám domů a první diagnostika jsou zdarma, takže neriskujete vůbec nic.",
+      form_name: "Vaše jméno",
+      form_email: "Váš e-mail",
+      form_msg: "Co potřebujete vyřešit?",
+      form_send: "Otevřít e-mail",
+      form_note: "Tlačítko otevře vašeho e-mailového klienta s předvyplněnou zprávou. Žádná data se neukládají na server.",
+      ways: "Jiné způsoby spojení",
+      phone: "Telefon",
+      email: "E-mail",
+      whatsapp: "WhatsApp",
+      area: "Oblast působnosti"
+    }
+  },
+  en: {
+    nav: { home:"Home", services:"Services", contact:"Contact" },
+    common: {
+      brand:"Mistr výhody",
+      tagline:"Computer master who comes to your home. First call-out and diagnosis always free.",
+      free:"Call-out and first diagnosis free of charge",
+      cta_contact:"Send a message",
+      cta_services:"Browse services",
+      back_index:"← Back to all services",
+      related:"Other services that may help",
+      free_call:"+420 777 123 456",
+      free_email:"mailto:mistr@vyhody.cz",
+      address:"Prague and surroundings",
+      copyright:"Mistr výhody. All rights reserved."
+    },
+    home: {
+      eyebrow:"Home-visit computer master",
+      h1:"Save time, money and nerves every day",
+      lead:"Twelve concrete services under one roof. I come to your home, take a look and tell you what really pays off. No commitments, no subscriptions, no hidden costs.",
+      benefit_1_num:"0 CZK", benefit_1_txt:"Call-out and first diagnosis at your home",
+      benefit_2_num:"+5 yrs", benefit_2_txt:"We give old hardware a second life",
+      benefit_3_num:"12", benefit_3_txt:"Concrete services in one place",
+      benefit_4_num:"1×", benefit_4_txt:"One master for the whole household",
+      services_eyebrow:"What I can do for you",
+      services_h2:"Twelve ways to save",
+      services_lead:"Each service solves a concrete problem. Hover the image to see another side of it.",
+      contact_eyebrow:"No commitment",
+      contact_h2:"One message is enough",
+      contact_lead:"Tell me in a few words what you need. The first visit and diagnosis at your home are free — you risk nothing."
+    },
+    services: {}, body: {}, checks: {},
+    contact: {
+      h1:"Let's talk without commitment",
+      lead:"Tell me in a few words what you need. The call-out and first diagnosis are free, so you risk nothing.",
+      form_name:"Your name", form_email:"Your email", form_msg:"What do you need to solve?",
+      form_send:"Open email",
+      form_note:"The button opens your email client with a pre-filled message. No data is stored on a server.",
+      ways:"Other ways to reach me", phone:"Phone", email:"E-mail", whatsapp:"WhatsApp", area:"Service area"
+    }
+  }
+};
