@@ -1,0 +1,9 @@
+{
+  "name": "mistr-male-vyhry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pojizdny pocitacovy mistr — staticky web ve filozofii male vyhry.",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}

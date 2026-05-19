@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#2E7D6B" />
+<title data-i18n="meta.title">Pojízdný počítačový mistr — Malé výhry každý den</title>
+<meta name="description" data-i18n="meta.description" data-i18n-attr="content" content="Profesionální IT služby u vás doma: úklid PC, modernizace, instalace software, opravy, kamery, alarm, chytrá domácnost, doučování i design. Výjezd a první diagnostika zdarma." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232E7D6B'/%3E%3Ctext x='50%25' y='58%25' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%23fff' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#services" data-i18n="a11y.skip">Přeskočit na obsah</a>
+<header class="site-header">
+  <div class="container nav">
+    <a href="#top" class="brand" aria-label="Domů">
+      M
+      Mistr · Malé výhry
+    </a>
+    <nav class="nav-links" id="nav-links" aria-label="Hlavní navigace">
+      <a href="#services" data-i18n="nav.services">Služby</a>
+      <a href="#philosophy" data-i18n="nav.about">Filozofie</a>
+      <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+      <div class="lang-switch" role="group" aria-label="Jazyk / Language">
+        <button type="button" data-lang="cs" class="active" aria-pressed="true">CS</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Otevřít menu" aria-expanded="false" aria-controls="nav-links">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        Výjezd zdarma · platíte jen za práci
+        <h1 data-i18n="hero.title">Každý den jedna malá výhra</h1>
+        <p class="lede" data-i18n="hero.lede">Váš pojízdný počítačový mistr. Přijedu k vám domů, srozumitelně vysvětlím a vyřeším – první diagnostika zdarma.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#contact" data-i18n="hero.cta.primary">Domluvit bezplatnou návštěvu</a>
+          <a class="btn ghost" href="#services" data-i18n="hero.cta.secondary">Zobrazit služby</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>12</strong>služeb na míru</div>
+          <div><strong>0 Kč</strong>první diagnostika</div>
+          <div><strong>~30 min</strong>obvykle odpovím</div>
+        </div>
+      </div>
+      <div class="hero-image reveal" aria-hidden="true">
+        <div class="swap">
+          <img class="main" src="./img/hero--main.png" alt="" loading="eager" />
+          <img class="hover" src="./img/hero--hover.png" alt="" loading="lazy" />
+        </div>
+        Váš mistr
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <header class="section-head reveal">
+        Co umím
+        <h2 data-i18n="section.services.title">Dvanáct způsobů, jak vyhrát s technikou</h2>
+        <p class="sub" data-i18n="section.services.sub">Každá služba je malý krok k tomu, aby vám doma bylo klidněji, rychleji a bezpečněji. Výjezd a diagnostika jsou zdarma – platíte jen za skutečnou práci a díly.</p>
+      </header>
+
+      <div class="group">
+        <div class="group-label reveal">1<h3 data-i18n="group.care">Péče o počítač</h3></div>
+        <div class="cards" id="cards-care"></div>
+      </div>
+      <div class="group">
+        <div class="group-label reveal">2<h3 data-i18n="group.security">Bezpečnost</h3></div>
+        <div class="cards" id="cards-security"></div>
+      </div>
+      <div class="group">
+        <div class="group-label reveal">3<h3 data-i18n="group.learning">Učení</h3></div>
+        <div class="cards" id="cards-learning"></div>
+      </div>
+      <div class="group">
+        <div class="group-label reveal">4<h3 data-i18n="group.design">Design</h3></div>
+        <div class="cards" id="cards-design"></div>
+      </div>
+
+      <div class="banner-cta reveal">
+        <div>
+          <h3 data-i18n="banner.title">První malá výhra je na cestě.</h3>
+          <p data-i18n="banner.text">Stačí krátká zpráva – domluvíme bezplatnou návštěvu u vás doma.</p>
+        </div>
+        <a class="btn accent" href="#contact" data-i18n="banner.cta">Napsat zprávu</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="philosophy">
+    <div class="container philosophy-grid">
+      <div class="reveal">
+        Filozofie
+        <h2 data-i18n="philosophy.title">Velké úkoly skládám z malých výher</h2>
+        <p data-i18n="philosophy.p1">Technika nemusí být boj. Když ji rozdělíme na malé, srozumitelné krůčky, každý z nich dokážete zvládnout – a každý je drobné vítězství.</p>
+        <p data-i18n="philosophy.p2">Pracuji u vás doma, mluvím lidskou řečí a nikdy nepřemlouvám k tomu, co nepotřebujete. Cílem je, abyste si po mé návštěvě sedli k technice s úlevou, ne se strachem.</p>
+      </div>
+      <ul class="checklist reveal">
+        <li data-i18n="philosophy.l1">První návštěva a diagnostika jsou zdarma.</li>
+        <li data-i18n="philosophy.l2">Žádné cizí slovo bez vysvětlení.</li>
+        <li data-i18n="philosophy.l3">Práce u vás doma, ve vašem tempu.</li>
+        <li data-i18n="philosophy.l4">Účtuji jen skutečně odvedenou práci.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="container contact-grid">
+      <div class="reveal">
+        Kontakt
+        <h2 data-i18n="contact.title">Pojďme se domluvit</h2>
+        <p class="sub" data-i18n="contact.sub">Napište nebo zavolejte – v klidu si popovídáme o tom, co vás trápí, a domluvíme bezplatnou návštěvu. Žádný stres, žádné závazky, jen přátelský rozhovor a první malá výhra na cestě.</p>
+        <div class="hero-cta" style="margin-top:18px">
+          <a class="btn" href="mailto:mistr@example.cz?subject=Mal%C3%A1%20v%C3%BDhra%20-%20pomoc%20s%20po%C4%8D%C3%ADta%C4%8Dem" data-i18n="contact.cta.email">Napsat e-mail</a>
+          <a class="btn ghost" href="tel:+420777123456" data-i18n="contact.cta.phone">Zavolat</a>
+        </div>
+      </div>
+      <div class="contact-card reveal">
+        <ul class="contact-list">
+          <li>✉️<div><small data-i18n="contact.email">E-mail</small>
+<a href="mailto:mistr@example.cz">mistr@example.cz</a></div></li>
+          <li>📞<div><small data-i18n="contact.phone">Telefon</small>
+<a href="tel:+420777123456">+420 777 123 456</a></div></li>
+          <li>💬<div><small data-i18n="contact.whatsapp">WhatsApp</small>
+<a href="https://wa.me/420777123456" target="_blank" rel="noopener">+420 777 123 456</a></div></li>
+          <li>✈️<div><small data-i18n="contact.telegram">Telegram</small>
+<a href="https://t.me/mistr" target="_blank" rel="noopener">@mistr</a></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    © 2026 Pojízdný počítačový mistr · Malé výhry každý den
+    Praha a okolí · IČO doplňte
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="./i18n.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
