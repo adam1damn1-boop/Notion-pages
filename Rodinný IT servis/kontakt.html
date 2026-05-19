@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt | Rodinný IT servis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body data-page="contact">
+<header class="site-header">
+  <a class="brand" href="./index.html">⌂Rodinný IT servis</a>
+  <nav class="nav"><a href="./index.html" data-i18n="nav.services">Služby</a><a href="./kontakt.html" data-i18n="nav.contact">Kontakt</a></nav>
+  <label class="lang">Jazyk<select data-language><option value="cs">CS</option></select></label>
+</header>
+<main>
+  <section class="hero contact-hero">
+    <div class="hero__text reveal">
+      <p class="eyebrow" data-i18n="contact.eyebrow">Ozvěte se</p>
+      <h1 data-i18n="contact.title">Když technika doma dělá naschvál</h1>
+      <p class="lead" data-i18n="contact.text">Napište mi nebo zavolejte, první konzultace a výjezd jsou zdarma.</p>
+      <div class="contact-methods" aria-label="Kontaktní možnosti">
+        <a href="tel:+420000000000">+420 000 000 000</a>
+        <a href="mailto:servis@example.cz">servis@example.cz</a>
+        <a href="https://wa.me/420000000000">WhatsApp</a>
+      </div>
+    </div>
+    <figure class="hero-card reveal">
+      <img src="./img/hero--hover.png" alt="Mistr připravený pomoci" width="370" height="790" loading="eager">
+      <figcaption data-i18n="contact.caption">Stačí krátká zpráva: co se stalo, kde jste a kdy se vám hodí návštěva.</figcaption>
+    </figure>
+  </section>
+  <section class="section form-card reveal">
+    <h2 data-i18n="contact.formTitle">Rychlá zpráva</h2>
+    <form action="mailto:servis@example.cz" method="post" enctype="text/plain">
+      <label>Jméno<input name="jmeno" autocomplete="name"></label>
+      <label>Telefon nebo e-mail<input name="kontakt" autocomplete="email"></label>
+      <label>Co potřebujete?<textarea name="zprava" rows="5"></textarea></label>
+      <button class="button" type="submit" data-i18n="contact.send">Odeslat zprávu</button>
+    </form>
+  </section>
+</main>
+<footer class="site-footer">
+  © Rodinný IT servis
+  <a href="./index.html" data-i18n="footer.back">Zpět na služby</a>
+</footer>
+<script src="./i18n.js"></script>
+</body>
+</html>
+Other: 
